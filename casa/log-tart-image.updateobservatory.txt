@@ -1,0 +1,12 @@
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: ### validated inputs
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: cab from:
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO:   ms = msdir/ke-kitui.ms
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-python-astro:cc0.2.1.simg exists
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: binding /tmp/tmpxhw6wjwk to /tmp as rw
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+### preparing python code invocation with arguments:
+###     ms='msdir/ke-kitui.ms'
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: ---INVOKING---
+2026-11-06 14:07:25 STIMELA.tart-image.updateobservatory INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /tmp/tmpxhw6wjwk:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-python-astro:cc0.2.1.simg python3 -u -c ...
+
+2026-11-06 14:07:29 STIMELA.tart-image.updateobservatory INFO: [python] returns exit code 0 after 0:00:04

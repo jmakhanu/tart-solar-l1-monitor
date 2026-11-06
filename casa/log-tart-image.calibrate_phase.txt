@@ -1,0 +1,86 @@
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: ### validated inputs
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: cab casatasks:
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   selectdata = True
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   docallib = False
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   gaintable = ['caltables/tart.G0a']
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   solint = 10s
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   refant = 0
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   minsnr = 1e-10
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   gaintype = G
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   calmode = p
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   caltable = caltables/tart.G0p
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO:   ms = msdir/ke-kitui.ms
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmpd_zrv5sw
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: binding /dev/shm/tmpd_zrv5sw to /home/vscode/.casa as rw
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: binding /tmp/tmprz31nsau to /tmp as rw
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+### preparing function call:
+###     casatasks.gaincal(
+###         vis='msdir/ke-kitui.ms',
+###         selectdata=True,
+###         docallib=False,
+###         gaintable=['caltables/tart.G0a'],
+###         solint='10s',
+###         refant='0',
+###         minsnr=1e-10,
+###         gaintype='G',
+###         calmode='p',
+###         caltable='caltables/tart.G0p')
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: ---INVOKING---
+2026-11-06 14:09:30 STIMELA.tart-image.calibrate_phase INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmpd_zrv5sw:/home/vscode/.casa:rw --bind /tmp/tmprz31nsau:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
+
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::::casa	##########################################
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::::casa	##### Begin Task: gaincal            #####
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::::casa	gaincal( vis='msdir/ke-kitui.ms', caltable='caltables/tart.G0p', field='', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', solint='10s', combine='', preavg=-1.0, refant='0', refantmode='flex', minblperant=4, minsnr=1e-10, solnorm=False, normtype='mean', gaintype='G', smodel=[], calmode='p', solmode='', rmsthresh=[], corrdepflags=False, append=False, splinetime=3600.0, npointaver=3, phasewrap=180.0, docallib=False, callib='', gaintable=['caltables/tart.G0a'], gainfield=[], interp=[], spwmap=[], parang=False )
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::[bold][/bold]calibrater::open	****Using NEW VI2-driven calibrater tool****
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::[bold][/bold]calibrater::open	Opening MS: msdir/ke-kitui.ms for calibration.
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::[bold][/bold]Calibrater::	Initializing nominal selection to the whole MS.
+# 2026-11-06 14:[bold][/bold]09:37	INFO	gaincal::::casa	NB: gaincal automatically excludes auto-correlations.
+# 2026-11-06 14:[bold][/bold]09:37	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+# 2026-11-06 14:[bold][/bold]09:37	INFO	calibrater::reset	Reseting solve/apply state
+# 2026-11-06 14:[bold][/bold]09:37	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+# 2026-11-06 14:[bold][/bold]09:37	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+# 2026-11-06 14:[bold][/bold]09:37	INFO	Calibrater::selectvis	Selection did not drop any rows
+# 2026-11-06 14:[bold][/bold]09:37	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+# 2026-11-06 14:[bold][/bold]09:37	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+# 2026-11-06 14:[bold][/bold]09:37	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+# 2026-11-06 14:[bold][/bold]09:37	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-06 14:[bold][/bold]09:38	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::setsolve	Arranging to SOLVE:
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::setsolve	.   G Jones: table=caltables/tart.G0p append=false solint=10s refantmode='flex' refant='ANTENNA-0' minsnr=1e-10 apmode=P solnorm=false
+# 2026-11-06 14:[bold][/bold]09:38	INFO	calibrater::solve	Beginning solve-----------------------------
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::solve	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::solve	.   G Jones: table=caltables/tart.G0p append=false solint=10s refantmode='flex' refant='ANTENNA-0' minsnr=1e-10 apmode=P solnorm=false
+# 2026-11-06 14:[bold][/bold]09:38	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1]
+# 2026-11-06 14:[bold][/bold]09:38	INFO	FreqMetaData::calcFreqMeta	Derived frequency meta-info for solutions:
+# 2026-11-06 14:[bold][/bold]09:38	INFO	FreqMetaData::calcFreqMeta	 Selected spw=0 (nchan=1) has centroid freq = 1575420000
+# 2026-11-06 14:[bold][/bold]09:38	INFO	Calibrater::solve	For solint = 10s, found 62 solution intervals.
+# 2026-11-06 14:[bold][/bold]09:38	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)	Leap second table TAI_UTC seems out-of-date.
+# 2026-11-06 14:[bold][/bold]09:38	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	Until the table is updated (see the CASA documentation or your system admin),
+# 2026-11-06 14:[bold][/bold]09:38	SEVERE	MeasTable::dUTC(Double) (file /source/casa6/casatools/casacore/measures/Measures/MeasTable.cc, line 4290)+	times and coordinates derived from UTC could be wrong by 1s or more.
+# 2026-11-06 14:[bold][/bold]09:38	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 61350.6 is outside the range of the IERS (Earth axis data) table.
+# 2026-11-06 14:[bold][/bold]09:38	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
+# 2026-11-06 14:[bold][/bold]09:41	INFO	Calibrater::solve	  Found good G Jones solutions in 62 solution intervals.
+# 2026-11-06 14:[bold][/bold]09:41	INFO		Applying refant: ANTENNA-0 refantmode = flex (hold alternate refants' phase constant) when refant flagged
+# 2026-11-06 14:[bold][/bold]09:41	INFO		Enforcing apmode on solutions.
+# 2026-11-06 14:[bold][/bold]09:42	INFO		Writing solutions to table: caltables/tart.G0p
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	----- PER ANTENNA INFO -----
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	       ANT: 0    ANT: 1    ANT: 2    ANT: 3    ANT: 4    ANT: 5    ANT: 6    ANT: 7    ANT: 8    ANT: 9    ANT: 10    ANT: 11    ANT: 12    ANT: 13    ANT: 14    ANT: 15    ANT: 16    ANT: 17    ANT: 18    ANT: 19    ANT: 20    ANT: 21    ANT: 22    ANT: 23
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	SPW: 0 [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]  [62, 0]
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	----- PER SPW INFO -----
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	       expected  data_unflagged  above_minblperant  above_minsnr
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	SPW: 0 [62, 62]  [62, 62]        [62, 62]            [62, 62]
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	----- GLOBAL INFO -----
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	expected  data_unflagged  above_minblperant  above_minsnr
+# 2026-11-06 14:[bold][/bold]09:42	INFO	Calibrater::solve	[62, 62]  [62, 62]        [62, 62]            [62, 62]
+# 2026-11-06 14:[bold][/bold]09:42	INFO	calibrater::solve	Finished solving.
+# 2026-11-06 14:[bold][/bold]09:42	INFO	gaincal::::casa	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+# 2026-11-06 14:[bold][/bold]09:42	INFO	gaincal::::casa	  Spw 0: 62/62/62
+# 2026-11-06 14:[bold][/bold]09:42	INFO	gaincal::::casa	Task gaincal complete. Start time: 2026-11-06 14:[bold][/bold]09:37.153238 End time: 2026-11-06 14:[bold][/bold]09:42.064087
+# 2026-11-06 14:[bold][/bold]09:42	INFO	gaincal::::casa	##### End Task: gaincal              #####
+# 2026-11-06 14:[bold][/bold]09:42	INFO	gaincal::::casa	##########################################
+2026-11-06 14:09:42 STIMELA.tart-image.calibrate_phase INFO: gaincal returns exit code 0 after 0:00:12

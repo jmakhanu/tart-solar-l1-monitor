@@ -1,0 +1,6 @@
+2026-11-06 14:14:08 STIMELA INFO: saving config dependencies to ./stimela.config.deps
+2026-11-06 14:14:08 STIMELA INFO: will load recipe/config file(s) tart_cal_casa.yml
+2026-11-06 14:14:14 STIMELA INFO: found single recipe 'tart-image', selecting it implicitly
+2026-11-06 14:14:16 STIMELA INFO: pre-validating the recipe
+2026-11-06 14:14:16 STIMELA INFO: recipe logs will be saved under .
+2026-11-06 14:14:16 STIMELA INFO: saved recipe dependencies to ./stimela.recipe.deps

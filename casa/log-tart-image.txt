@@ -1,0 +1,27 @@
+2026-11-06 14:14:16 STIMELA.tart-image INFO: selecting recipe steps for (sub)recipe: [bold green]tart-image[/bold green]
+2026-11-06 14:14:16 STIMELA.tart-image INFO: the following recipe steps have been enabled:
+2026-11-06 14:14:16 STIMELA.tart-image INFO:     [bold green]snapshotimage[/bold green]
+2026-11-06 14:14:16 STIMELA.tart-image INFO: the following recipe steps have been disabled:
+2026-11-06 14:14:16 STIMELA.tart-image INFO:     [bold grey50]download-hdf create-ms updateobservatory flagsave plotuv plotants lister calibrate_amplitude plotcaltable_amp calibrate_phase plotcaltable_phase applycal disko-image disko-draw[/bold grey50]
+2026-11-06 14:14:16 STIMELA.tart-image INFO: the following recipe steps have been unskipped:
+2026-11-06 14:14:16 STIMELA.tart-image INFO:     [bold cyan]snapshotimage[/bold cyan]
+2026-11-06 14:14:16 STIMELA.tart-image INFO: ### validated inputs
+2026-11-06 14:14:16 STIMELA.tart-image INFO: recipe 'tart-image':
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   tart = ke-kitui
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   raw_data_nfile = 10
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   plotuv.showgui = False
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   plotants.showgui = False
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   plotcaltable_amp.showgui = False
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   plotcaltable_phase.showgui = False
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   imgdir = img
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   h5dir = rawdata
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   cal_table_dir = caltables
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   msdir = msdir
+2026-11-06 14:14:16 STIMELA.tart-image INFO:   ms = msdir/ke-kitui.ms
+2026-11-06 14:14:16 STIMELA.tart-image INFO: running recipe 'tart-image'
+2026-11-06 14:14:17 STIMELA.tart-image INFO: processing step 'snapshotimage'
+2026-11-06 14:16:24 STIMELA.tart-image INFO: recipe 'tart-image' executed successfully
+2026-11-06 14:16:24 STIMELA.tart-image INFO: run successful after 0:02:08
+2026-11-06 14:16:24 STIMELA.tart-image INFO: saved full profiling stats to ./stimela.stats.full
+2026-11-06 14:16:24 STIMELA.tart-image INFO: saved summary to ./stimela.stats.summary.txt
+2026-11-06 14:16:24 STIMELA.tart-image INFO: last log directory was [bold green].[/bold green]

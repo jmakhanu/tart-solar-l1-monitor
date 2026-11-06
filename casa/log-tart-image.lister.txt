@@ -1,0 +1,51 @@
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: ### validated inputs
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: cab casatasks:
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO:   verbose = False
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO:   ms = msdir/ke-kitui.ms
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmpzosd8nsm
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: binding /dev/shm/tmpzosd8nsm to /home/vscode/.casa as rw
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: binding /tmp/tmp7pemgjgo to /tmp as rw
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+### preparing function call:
+###     casatasks.listobs(
+###         vis='msdir/ke-kitui.ms',
+###         verbose=False)
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: ---INVOKING---
+2026-11-06 14:08:41 STIMELA.tart-image.lister INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmpzosd8nsm:/home/vscode/.casa:rw --bind /tmp/tmp7pemgjgo:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
+
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::::casa	##########################################
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::::casa	##### Begin Task: listobs            #####
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::::casa	listobs( vis='msdir/ke-kitui.ms', selectdata=True, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='', intent='', feed='', array='', observation='', verbose=False, listfile='', listunfl=False, cachesize=50.0, overwrite=False )
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]ms::summary	================================================================================
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]ms::summary+	           MeasurementSet Name:  /workspaces/tart-solar-l1-monitor/casa/msdir/ke-kitui.ms      MS Version 2
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]ms::summary+	================================================================================
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]ms::summary+	   Observer: Tim     Project:
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]ms::summary+	Observation: MeerKAT(24 antennas)
+# 2026-11-06 14:[bold][/bold]08:48	INFO	listobs::[bold][/bold]MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary	Data records: 165600       Total elapsed time = 614.994 seconds
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   Observed from   06-Nov-2026/13:[bold][/bold]54:13.2   to   06-Nov-2026/14:[bold][/bold]04:28.2 (UTC)
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary	Fields: 1
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	  ID   Code Name                RA               Decl           Epoch   SrcId      nRows
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	  0         J193229-012517      19:[bold][/bold]32:28.529930 -01.25.16.96749 J2000   0         165600
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary	Spectral Windows:  (1 unique spectral windows and 1 unique polarization setups)
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	  SpwID  Name   #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz)  Corrs
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	  0      IF0        1   TOPO    1575.420      2500.000      2500.0   1575.4200   RR
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary	Antennas: 24 'name'='station'
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID=   0-1: 'ANTENNA-0'='KSA/Kitui - Kenya', 'ANTENNA-1'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID=   2-3: 'ANTENNA-2'='KSA/Kitui - Kenya', 'ANTENNA-3'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID=   4-5: 'ANTENNA-4'='KSA/Kitui - Kenya', 'ANTENNA-5'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID=   6-7: 'ANTENNA-6'='KSA/Kitui - Kenya', 'ANTENNA-7'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID=   8-9: 'ANTENNA-8'='KSA/Kitui - Kenya', 'ANTENNA-9'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 10-11: 'ANTENNA-10'='KSA/Kitui - Kenya', 'ANTENNA-11'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 12-13: 'ANTENNA-12'='KSA/Kitui - Kenya', 'ANTENNA-13'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 14-15: 'ANTENNA-14'='KSA/Kitui - Kenya', 'ANTENNA-15'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 16-17: 'ANTENNA-16'='KSA/Kitui - Kenya', 'ANTENNA-17'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 18-19: 'ANTENNA-18'='KSA/Kitui - Kenya', 'ANTENNA-19'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 20-21: 'ANTENNA-20'='KSA/Kitui - Kenya', 'ANTENNA-21'='KSA/Kitui - Kenya',
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::[bold][/bold]ms::summary+	   ID= 22-23: 'ANTENNA-22'='KSA/Kitui - Kenya', 'ANTENNA-23'='KSA/Kitui - Kenya'
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::::casa	Task listobs complete. Start time: 2026-11-06 14:[bold][/bold]08:48.346736 End time: 2026-11-06 14:[bold][/bold]08:48.696040
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::::casa	##### End Task: listobs              #####
+# 2026-11-06 14:[bold][/bold]08:49	INFO	listobs::::casa	##########################################
+2026-11-06 14:08:49 STIMELA.tart-image.lister INFO: listobs returns exit code 0 after 0:00:07

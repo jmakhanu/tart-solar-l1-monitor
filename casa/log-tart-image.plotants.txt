@@ -1,0 +1,27 @@
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: ### validated inputs
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: cab casatasks:
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO:   figfile = msdir/antconfig.png
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO:   showgui = False
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO:   ms = msdir/ke-kitui.ms
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmpeevfad92
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: binding /dev/shm/tmpeevfad92 to /home/vscode/.casa as rw
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: binding /tmp/tmp66hmrbrt to /tmp as rw
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+### preparing function call:
+###     casatasks.plotants(
+###         vis='msdir/ke-kitui.ms',
+###         figfile='msdir/antconfig.png',
+###         showgui=False)
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: ---INVOKING---
+2026-11-06 14:08:23 STIMELA.tart-image.plotants INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmpeevfad92:/home/vscode/.casa:rw --bind /tmp/tmp66hmrbrt:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
+
+# 2026-11-06 14:[bold][/bold]08:31	INFO	plotants::::casa	##########################################
+# 2026-11-06 14:[bold][/bold]08:31	INFO	plotants::::casa	##### Begin Task: plotants           #####
+# 2026-11-06 14:[bold][/bold]08:31	INFO	plotants::::casa	plotants( vis='msdir/ke-kitui.ms', figfile='msdir/antconfig.png', antindex=False, logpos=False, exclude='', checkbaselines=False, title='', showgui=False )
+# 2026-11-06 14:[bold][/bold]08:31	INFO	msmetadata_cmpt.cc::open	Performing internal consistency checks on msdir/ke-kitui.ms...
+# 2026-11-06 14:[bold][/bold]08:32	INFO	plotants::::casa	Number of points being plotted: 24
+# 2026-11-06 14:[bold][/bold]08:32	INFO	plotants::::casa	Task plotants complete. Start time: 2026-11-06 14:[bold][/bold]08:31.422049 End time: 2026-11-06 14:[bold][/bold]08:31.858440
+# 2026-11-06 14:[bold][/bold]08:32	INFO	plotants::::casa	##### End Task: plotants             #####
+# 2026-11-06 14:[bold][/bold]08:32	INFO	plotants::::casa	##########################################
+2026-11-06 14:08:32 STIMELA.tart-image.plotants INFO: plotants returns exit code 0 after 0:00:08
