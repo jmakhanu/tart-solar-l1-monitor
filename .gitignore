@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.sif
+*.img
+*.hdf
+*.ms/
+*.flagversions/
+*.G0*
+*.fits
+.stimela*
+stimela*
+*.last
+*.log
