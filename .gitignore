@@ -13,3 +13,9 @@ __pycache__/
 stimela*
 *.last
 *.log
+casa/msdir/
+casa/img/
+casa/img_unpeeled/
+casa/rawdata/
+casa/*.csv
+casa/*.png
