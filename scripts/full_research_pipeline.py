@@ -313,9 +313,20 @@ def main():
     df_unpeeled = measure_fits_folder(os.path.join(CASA_DIR, "img_unpeeled"), node, site_loc)
 
     # 4. Peel GNSS Satellites (uvsub) & Re-Image
-    print("[PEEL] Subtracting GNSS MODEL_DATA from CORRECTED_DATA...")
+    print("[PEEL] Projecting & subtracting GNSS MODEL_DATA from CORRECTED_DATA...")
     t = table(ms_path, readonly=False)
-    t.putcol("CORRECTED_DATA", t.getcol("CORRECTED_DATA") - t.getcol("MODEL_DATA"))
+    corr = t.getcol("CORRECTED_DATA")
+    mod = t.getcol("MODEL_DATA")
+    # Least-squares complex visibility projection per polarization to match flux scales
+    peeled = corr.copy()
+    for pol in range(corr.shape[-1]):
+        c_p = corr[:, :, pol]
+        m_p = mod[:, :, pol]
+        denom = np.sum(np.abs(m_p)**2)
+        if denom > 0:
+            alpha = np.sum(c_p * np.conj(m_p)) / denom
+            peeled[:, :, pol] = c_p - alpha * m_p
+    t.putcol("CORRECTED_DATA", peeled)
     t.close()
 
     for f in glob.glob(os.path.join(CASA_DIR, "img", "*.fits")):
