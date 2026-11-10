@@ -210,7 +210,8 @@ def fetch_goes_xray_flux():
     url = "https://services.swpc.noaa.gov/json/goes/primary/xrays-1-day.json"
     try:
         req = urllib.request.urlopen(url, timeout=8)
-        data = json.loads(req.read().decode())
+        raw_txt = req.read().decode("utf-8", errors="ignore").strip()
+        data, _ = json.JSONDecoder().raw_decode(raw_txt)
         df_g = pd.DataFrame(data)
         df_g = df_g[df_g["energy"] == "0.1-0.8nm"].copy()
         df_g["dt"] = pd.to_datetime(df_g["time_tag"], utc=True)
