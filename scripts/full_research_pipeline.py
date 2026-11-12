@@ -446,7 +446,7 @@ def main():
     clean_workspace()
     run_cmd("git add results/ scripts/", cwd=BASE_DIR)
     run_cmd(f'git commit -m "Sequential campaign update {run_id} ({node}): appended to master archive" || true', cwd=BASE_DIR)
-    run_cmd("git pull --rebase -X theirs origin main || true", cwd=BASE_DIR)
+    run_cmd("git pull --rebase --autostash -X theirs origin main || true", cwd=BASE_DIR)
     run_cmd("git push origin main", cwd=BASE_DIR)
     print(f"=== RUN {run_id} COMPLETE & ARCHIVED IN SEQUENCE ON GITHUB! ===")
 

@@ -19,3 +19,6 @@ casa/img_unpeeled/
 casa/rawdata/
 casa/*.csv
 casa/*.png
+casa/stimela*
+casa/*.log
+casa/*.last
