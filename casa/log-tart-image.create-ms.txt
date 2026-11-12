@@ -1,732 +1,742 @@
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO: ### validated inputs
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO: cab tart2ms:
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   hdf = ['rawdata/vis_2026-11-06_13_55_14.149574.hdf', 'rawdata/vis_2026-11-06_13_56_15.648158.hdf', 'rawdata/vis_2026-11-06_13_57_17.146845.hdf', 'rawdata/vis_2026-11-06_13_58_18.657884.hdf', 'rawdata/vis_2026-11-06_13_59_20.154070.hdf', 'rawdata/vis_2026-11-06_14_00_21.645029.hdf', 'rawdata/vis_2026-11-06_14_01_23.147533.hdf', 'rawdata/vis_2026-11-06_14_02_24.650623.hdf', 'rawdata/vis_2026-11-06_14_03_26.147071.hdf', 'rawdata/vis_2026-11-06_14_04_27.647289.hdf']
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   single-field = True
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   rephase = obs-midpoint
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   clobber = True
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   debug = False
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   uncalibrated = False
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   add-model = True
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   write-model-catalog = True
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   skip-online-source-catalog = False
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   skip-celestial-source-catalog = True
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   no-cache = False
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   model-catalog-name-prefix = msdir/model_sources_
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO:   ms = msdir/ke-kitui.ms
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO: ---INVOKING---
-2026-11-06 14:06:10 STIMELA.tart-image.create-ms INFO: tart2ms --hdf rawdata/vis_2026-11-06_13_55_14.149574.hdf rawdata/vis_2026-11-06_13_56_15.648158.hdf rawdata/vis_2026-11-06_13_57_17.146845.hdf rawdata/vis_2026-11-06_13_58_18.657884.hdf rawdata/vis_2026-11-06_13_59_20.154070.hdf rawdata/vis_2026-11-06_14_00_21.645029.hdf rawdata/vis_2026-11-06_14_01_23.147533.hdf rawdata/vis_2026-11-06_14_02_24.650623.hdf rawdata/vis_2026-11-06_14_03_26.147071.hdf rawdata/vis_2026-11-06_14_04_27.647289.hdf --single-field --rephase obs-midpoint --clobber --ms msdir/ke-kitui.ms --add-model --write-model-catalog --skip-celestial-source-catalog --model-catalog-name-prefix msdir/model_sources_
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO: ### validated inputs
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO: cab tart2ms:
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   hdf = ['rawdata/vis_2026-11-12_10_36_10.525169.hdf', 'rawdata/vis_2026-11-12_10_37_12.024187.hdf', 'rawdata/vis_2026-11-12_10_38_13.528918.hdf', 'rawdata/vis_2026-11-12_10_39_15.024934.hdf', 'rawdata/vis_2026-11-12_10_40_16.528229.hdf', 'rawdata/vis_2026-11-12_10_41_18.026551.hdf', 'rawdata/vis_2026-11-12_10_42_19.528289.hdf', 'rawdata/vis_2026-11-12_10_43_21.033456.hdf', 'rawdata/vis_2026-11-12_10_44_22.529314.hdf', 'rawdata/vis_2026-11-12_10_45_24.025977.hdf']
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   single-field = True
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   rephase = obs-midpoint
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   clobber = True
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   debug = False
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   uncalibrated = False
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   add-model = True
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   write-model-catalog = True
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   skip-online-source-catalog = False
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   skip-celestial-source-catalog = True
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   no-cache = False
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   model-catalog-name-prefix = msdir/model_sources_
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO:   ms = msdir/za-rhodes.ms
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO: ---INVOKING---
+2026-11-12 10:46:21 STIMELA.tart-image.create-ms INFO: tart2ms --hdf rawdata/vis_2026-11-12_10_36_10.525169.hdf rawdata/vis_2026-11-12_10_37_12.024187.hdf rawdata/vis_2026-11-12_10_38_13.528918.hdf rawdata/vis_2026-11-12_10_39_15.024934.hdf rawdata/vis_2026-11-12_10_40_16.528229.hdf rawdata/vis_2026-11-12_10_41_18.026551.hdf rawdata/vis_2026-11-12_10_42_19.528289.hdf rawdata/vis_2026-11-12_10_43_21.033456.hdf rawdata/vis_2026-11-12_10_44_22.529314.hdf rawdata/vis_2026-11-12_10_45_24.025977.hdf --single-field --rephase obs-midpoint --clobber --ms msdir/za-rhodes.ms --add-model --write-model-catalog --skip-celestial-source-catalog --model-catalog-name-prefix msdir/model_sources_
 
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - TART2MS parameters:
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	json                : None
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	hdf                 : ['rawdata/vis_2026-11-06_13_55_14.149574.hdf', 'rawdata/vis_2026-11-06_13_56_15.648158.hdf', 'rawdata/vis_2026-11-06_13_57_17.146845.hdf', 'rawdata/vis_2026-11-06_13_58_18.657884.hdf', 'rawdata/vis_2026-11-06_13_59_20.154070.hdf', 'rawdata/vis_2026-11-06_14_00_21.645029.hdf', 'rawdata/vis_2026-11-06_14_01_23.147533.hdf', 'rawdata/vis_2026-11-06_14_02_24.650623.hdf', 'rawdata/vis_2026-11-06_14_03_26.147071.hdf', 'rawdata/vis_2026-11-06_14_04_27.647289.hdf']
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	archive_search      : None
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	ms                  : msdir/ke-kitui.ms
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	api                 : https://api.elec.ac.nz/tart/mu-udm/
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	catalog             : https://tart.elec.ac.nz/catalog
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	vis                 : None
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	pol2                : False
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	clobber             : True
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	rephase             : obs-midpoint
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	debug               : False
-# 2026-11-06 14:[bold][/bold]06:37,006 - tart2ms - INFO - 	single_field        : True
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	override_telescope_name: TART
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	uncalibrated        : False
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	addmodel            : True
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	writemodelcatalog   : True
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	no_fetch_sources    : False
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	no_celestial_sources: True
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	sources_recache     : False
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	timerange_start_utc : None
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	timerange_end_utc   : None
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	chunks              : 100000
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	override_ant_pos    : None
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	model_catalog_name_prefix: msdir/model_sources_
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - Getting Data from file: ['rawdata/vis_2026-11-06_13_55_14.149574.hdf', 'rawdata/vis_2026-11-06_13_56_15.648158.hdf', 'rawdata/vis_2026-11-06_13_57_17.146845.hdf', 'rawdata/vis_2026-11-06_13_58_18.657884.hdf', 'rawdata/vis_2026-11-06_13_59_20.154070.hdf', 'rawdata/vis_2026-11-06_14_00_21.645029.hdf', 'rawdata/vis_2026-11-06_14_01_23.147533.hdf', 'rawdata/vis_2026-11-06_14_02_24.650623.hdf', 'rawdata/vis_2026-11-06_14_03_26.147071.hdf', 'rawdata/vis_2026-11-06_14_04_27.647289.hdf']
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - Writing measurement set 'msdir/ke-kitui.ms'...
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - Will process HDF5 file:
-# 2026-11-06 14:[bold][/bold]06:37,007 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_13_55_14.149574.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_13_56_15.648158.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_13_57_17.146845.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_13_58_18.657884.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_13_59_20.154070.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_14_00_21.645029.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_14_01_23.147533.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_14_02_24.650623.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_14_03_26.147071.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,008 - tart2ms - INFO - 	 'rawdata/vis_2026-11-06_14_04_27.647289.hdf'
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - Observatory parameters:
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	L0_frequency             : 1571328000.0
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	bandwidth                : 2500000.0
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	baseband_frequency       : 4092000.0
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	operating_frequency      : 1575420000.0
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	name                     : KSA/Kitui - Kenya
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	num_antenna              : 24
-# 2026-11-06 14:[bold][/bold]06:37,013 - tart2ms - INFO - 	sampling_frequency       : 16368000.0
-# Fetching ephemerides for 2026-11-06T13:[bold][/bold]00:00+00:00
-# 2026-11-06 14:[bold][/bold]06:39,734 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:39,734 - tart2ms - INFO - 	 Processing HDF database progress: 0%
-# 2026-11-06 14:[bold][/bold]06:39,916 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:39,917 - tart2ms - INFO - 	 Processing HDF database progress: 10%
-# 2026-11-06 14:[bold][/bold]06:40,096 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,097 - tart2ms - INFO - 	 Processing HDF database progress: 20%
-# 2026-11-06 14:[bold][/bold]06:40,241 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,242 - tart2ms - INFO - 	 Processing HDF database progress: 30%
-# 2026-11-06 14:[bold][/bold]06:40,450 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,452 - tart2ms - INFO - 	 Processing HDF database progress: 40%
-# 2026-11-06 14:[bold][/bold]06:40,608 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,609 - tart2ms - INFO - 	 Processing HDF database progress: 50%
-# 2026-11-06 14:[bold][/bold]06:40,757 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,757 - tart2ms - INFO - 	 Processing HDF database progress: 60%
-# 2026-11-06 14:[bold][/bold]06:40,940 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:40,941 - tart2ms - INFO - 	 Processing HDF database progress: 70%
-# 2026-11-06 14:[bold][/bold]06:41,098 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:41,099 - tart2ms - INFO - 	 Processing HDF database progress: 80%
-# 2026-11-06 14:[bold][/bold]06:41,292 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
-# 2026-11-06 14:[bold][/bold]06:41,293 - tart2ms - INFO - 	 Processing HDF database progress: 90%
-# 2026-11-06 14:[bold][/bold]06:41,375 - tart2ms - INFO - Telescope position (WGS84):
-# 2026-11-06 14:[bold][/bold]06:41,375 - tart2ms - INFO - 	Lat -1.362367
-# 2026-11-06 14:[bold][/bold]06:41,375 - tart2ms - INFO - 	Lon 37.825736
-# 2026-11-06 14:[bold][/bold]06:41,375 - tart2ms - INFO - 	Alt 1135.0
-# 2026-11-06 14:[bold][/bold]06:41,415 - tart2ms - INFO - Min time: 2026-11-06 13:[bold][/bold]54:13.675774+00:00 -- 5300690053.675775
-# 2026-11-06 14:[bold][/bold]06:41,416 - tart2ms - INFO - Max time: 2026-11-06 14:[bold][/bold]04:27.647289+00:00 -- 5300690667.647289
-# 2026-11-06 14:[bold][/bold]06:41,575 - tart2ms - INFO - Pol Feeds ['RR']
-# 2026-11-06 14:[bold][/bold]06:41,618 - tart2ms - INFO - Setting phase center per rephase-obs-midpoint
-# 2026-11-06 14:[bold][/bold]06:41,620 - tart2ms - INFO -     shapshot direction [5.09346772], [-0.02475317] J192720-012506
-# 2026-11-06 14:[bold][/bold]06:41,622 - tart2ms - INFO -     shapshot direction [5.09354255], [-0.02475335] J192721-012506
-# 2026-11-06 14:[bold][/bold]06:41,624 - tart2ms - INFO -     shapshot direction [5.09361706], [-0.02475353] J192722-012506
-# 2026-11-06 14:[bold][/bold]06:41,625 - tart2ms - INFO -     shapshot direction [5.09369222], [-0.02475371] J192723-012506
-# 2026-11-06 14:[bold][/bold]06:41,627 - tart2ms - INFO -     shapshot direction [5.09376662], [-0.0247539] J192724-012506
-# 2026-11-06 14:[bold][/bold]06:41,628 - tart2ms - INFO -     shapshot direction [5.09384184], [-0.02475408] J192725-012506
-# 2026-11-06 14:[bold][/bold]06:41,630 - tart2ms - INFO -     shapshot direction [5.0939165], [-0.02475426] J192726-012506
-# 2026-11-06 14:[bold][/bold]06:41,632 - tart2ms - INFO -     shapshot direction [5.09399108], [-0.02475445] J192727-012506
-# 2026-11-06 14:[bold][/bold]06:41,633 - tart2ms - INFO -     shapshot direction [5.09406552], [-0.02475463] J192728-012506
-# 2026-11-06 14:[bold][/bold]06:41,635 - tart2ms - INFO -     shapshot direction [5.09414068], [-0.02475481] J192729-012506
-# 2026-11-06 14:[bold][/bold]06:41,636 - tart2ms - INFO -     shapshot direction [5.09421516], [-0.02475499] J192730-012506
-# 2026-11-06 14:[bold][/bold]06:41,638 - tart2ms - INFO -     shapshot direction [5.09428976], [-0.02475518] J192732-012506
-# 2026-11-06 14:[bold][/bold]06:41,640 - tart2ms - INFO -     shapshot direction [5.09436428], [-0.02475536] J192733-012506
-# 2026-11-06 14:[bold][/bold]06:41,642 - tart2ms - INFO -     shapshot direction [5.09443945], [-0.02475554] J192734-012506
-# 2026-11-06 14:[bold][/bold]06:41,643 - tart2ms - INFO -     shapshot direction [5.09451396], [-0.02475572] J192735-012506
-# 2026-11-06 14:[bold][/bold]06:41,645 - tart2ms - INFO -     shapshot direction [5.09458918], [-0.02475591] J192736-012506
-# 2026-11-06 14:[bold][/bold]06:41,646 - tart2ms - INFO -     shapshot direction [5.09466382], [-0.02475609] J192737-012506
-# 2026-11-06 14:[bold][/bold]06:41,648 - tart2ms - INFO -     shapshot direction [5.09473831], [-0.02475627] J192738-012506
-# 2026-11-06 14:[bold][/bold]06:41,649 - tart2ms - INFO -     shapshot direction [5.09481349], [-0.02475646] J192739-012506
-# 2026-11-06 14:[bold][/bold]06:41,651 - tart2ms - INFO -     shapshot direction [5.09488799], [-0.02475664] J192740-012506
-# 2026-11-06 14:[bold][/bold]06:41,652 - tart2ms - INFO -     shapshot direction [5.09496241], [-0.02475682] J192741-012506
-# 2026-11-06 14:[bold][/bold]06:41,654 - tart2ms - INFO -     shapshot direction [5.09503707], [-0.024757] J192742-012506
-# 2026-11-06 14:[bold][/bold]06:41,656 - tart2ms - INFO -     shapshot direction [5.09511233], [-0.02475719] J192743-012507
-# 2026-11-06 14:[bold][/bold]06:41,657 - tart2ms - INFO -     shapshot direction [5.09518678], [-0.02475737] J192744-012507
-# 2026-11-06 14:[bold][/bold]06:41,659 - tart2ms - INFO -     shapshot direction [5.09526121], [-0.02475755] J192745-012507
-# 2026-11-06 14:[bold][/bold]06:41,660 - tart2ms - INFO -     shapshot direction [5.09533637], [-0.02475773] J192746-012507
-# 2026-11-06 14:[bold][/bold]06:41,662 - tart2ms - INFO -     shapshot direction [5.09541116], [-0.02475792] J192747-012507
-# 2026-11-06 14:[bold][/bold]06:41,663 - tart2ms - INFO -     shapshot direction [5.09548572], [-0.0247581] J192748-012507
-# 2026-11-06 14:[bold][/bold]06:41,665 - tart2ms - INFO -     shapshot direction [5.09556095], [-0.02475828] J192749-012507
-# 2026-11-06 14:[bold][/bold]06:41,667 - tart2ms - INFO -     shapshot direction [5.0956354], [-0.02475846] J192750-012507
-# 2026-11-06 14:[bold][/bold]06:41,669 - tart2ms - INFO -     shapshot direction [5.09570987], [-0.02475865] J192751-012507
-# 2026-11-06 14:[bold][/bold]06:41,670 - tart2ms - INFO -     shapshot direction [5.09578458], [-0.02475883] J192752-012507
-# 2026-11-06 14:[bold][/bold]06:41,672 - tart2ms - INFO -     shapshot direction [5.0958591], [-0.02475901] J192753-012507
-# 2026-11-06 14:[bold][/bold]06:41,673 - tart2ms - INFO -     shapshot direction [5.09593432], [-0.0247592] J192754-012507
-# 2026-11-06 14:[bold][/bold]06:41,675 - tart2ms - INFO -     shapshot direction [5.0960088], [-0.02475938] J192755-012507
-# 2026-11-06 14:[bold][/bold]06:41,677 - tart2ms - INFO -     shapshot direction [5.09608326], [-0.02475956] J192756-012507
-# 2026-11-06 14:[bold][/bold]06:41,678 - tart2ms - INFO -     shapshot direction [5.09615866], [-0.02475974] J192757-012507
-# 2026-11-06 14:[bold][/bold]06:41,680 - tart2ms - INFO -     shapshot direction [5.09623319], [-0.02475993] J192758-012507
-# 2026-11-06 14:[bold][/bold]06:41,681 - tart2ms - INFO -     shapshot direction [5.09630767], [-0.02476011] J192759-012507
-# 2026-11-06 14:[bold][/bold]06:41,683 - tart2ms - INFO -     shapshot direction [5.09638289], [-0.02476029] J192800-012507
-# 2026-11-06 14:[bold][/bold]06:41,685 - tart2ms - INFO -     shapshot direction [5.09645739], [-0.02476047] J192801-012507
-# 2026-11-06 14:[bold][/bold]06:41,686 - tart2ms - INFO -     shapshot direction [5.09653208], [-0.02476066] J192802-012507
-# 2026-11-06 14:[bold][/bold]06:41,688 - tart2ms - INFO -     shapshot direction [5.09660664], [-0.02476084] J192803-012507
-# 2026-11-06 14:[bold][/bold]06:41,690 - tart2ms - INFO -     shapshot direction [5.09668184], [-0.02476102] J192804-012507
-# 2026-11-06 14:[bold][/bold]06:41,692 - tart2ms - INFO -     shapshot direction [5.0967563], [-0.0247612] J192805-012507
-# 2026-11-06 14:[bold][/bold]06:41,694 - tart2ms - INFO -     shapshot direction [5.09683079], [-0.02476139] J192806-012507
-# 2026-11-06 14:[bold][/bold]06:41,695 - tart2ms - INFO -     shapshot direction [5.09690544], [-0.02476157] J192807-012507
-# 2026-11-06 14:[bold][/bold]06:41,697 - tart2ms - INFO -     shapshot direction [5.09698074], [-0.02476175] J192809-012507
-# 2026-11-06 14:[bold][/bold]06:41,698 - tart2ms - INFO -     shapshot direction [5.09705522], [-0.02476193] J192810-012508
-# 2026-11-06 14:[bold][/bold]06:41,700 - tart2ms - INFO -     shapshot direction [5.09713042], [-0.02476212] J192811-012508
-# 2026-11-06 14:[bold][/bold]06:41,702 - tart2ms - INFO -     shapshot direction [5.09720487], [-0.0247623] J192812-012508
-# 2026-11-06 14:[bold][/bold]06:41,703 - tart2ms - INFO -     shapshot direction [5.09727955], [-0.02476248] J192813-012508
-# 2026-11-06 14:[bold][/bold]06:41,705 - tart2ms - INFO -     shapshot direction [5.09735405], [-0.02476266] J192814-012508
-# 2026-11-06 14:[bold][/bold]06:41,706 - tart2ms - INFO -     shapshot direction [5.09742927], [-0.02476285] J192815-012508
-# 2026-11-06 14:[bold][/bold]06:41,708 - tart2ms - INFO -     shapshot direction [5.09750376], [-0.02476303] J192816-012508
-# 2026-11-06 14:[bold][/bold]06:41,710 - tart2ms - INFO -     shapshot direction [5.09757829], [-0.02476321] J192817-012508
-# 2026-11-06 14:[bold][/bold]06:41,711 - tart2ms - INFO -     shapshot direction [5.09765306], [-0.02476339] J192818-012508
-# 2026-11-06 14:[bold][/bold]06:41,713 - tart2ms - INFO -     shapshot direction [5.09772763], [-0.02476358] J192819-012508
-# 2026-11-06 14:[bold][/bold]06:41,714 - tart2ms - INFO -     shapshot direction [5.09780279], [-0.02476376] J192820-012508
-# 2026-11-06 14:[bold][/bold]06:41,716 - tart2ms - INFO -     shapshot direction [5.09787724], [-0.02476394] J192821-012508
-# 2026-11-06 14:[bold][/bold]06:41,718 - tart2ms - INFO -     shapshot direction [5.09795242], [-0.02476412] J192822-012508
-# 2026-11-06 14:[bold][/bold]06:41,719 - tart2ms - INFO -     shapshot direction [5.09802641], [-0.0247643] J192823-012508
-# 2026-11-06 14:[bold][/bold]06:41,721 - tart2ms - INFO -     shapshot direction [5.09810158], [-0.02476449] J192824-012508
-# 2026-11-06 14:[bold][/bold]06:41,722 - tart2ms - INFO -     shapshot direction [5.098176], [-0.02476467] J192825-012508
-# 2026-11-06 14:[bold][/bold]06:41,724 - tart2ms - INFO -     shapshot direction [5.09825122], [-0.02476485] J192826-012508
-# 2026-11-06 14:[bold][/bold]06:41,725 - tart2ms - INFO -     shapshot direction [5.09832568], [-0.02476504] J192827-012508
-# 2026-11-06 14:[bold][/bold]06:41,727 - tart2ms - INFO -     shapshot direction [5.09840035], [-0.02476522] J192828-012508
-# 2026-11-06 14:[bold][/bold]06:41,729 - tart2ms - INFO -     shapshot direction [5.09847555], [-0.0247654] J192829-012508
-# 2026-11-06 14:[bold][/bold]06:41,730 - tart2ms - INFO -     shapshot direction [5.09854998], [-0.02476558] J192830-012508
-# 2026-11-06 14:[bold][/bold]06:41,732 - tart2ms - INFO -     shapshot direction [5.09862446], [-0.02476576] J192831-012508
-# 2026-11-06 14:[bold][/bold]06:41,733 - tart2ms - INFO -     shapshot direction [5.09869975], [-0.02476595] J192832-012508
-# 2026-11-06 14:[bold][/bold]06:41,735 - tart2ms - INFO -     shapshot direction [5.09877379], [-0.02476613] J192833-012508
-# 2026-11-06 14:[bold][/bold]06:41,736 - tart2ms - INFO -     shapshot direction [5.09884893], [-0.02476631] J192834-012508
-# 2026-11-06 14:[bold][/bold]06:41,738 - tart2ms - INFO -     shapshot direction [5.09892417], [-0.0247665] J192835-012508
-# 2026-11-06 14:[bold][/bold]06:41,740 - tart2ms - INFO -     shapshot direction [5.09899857], [-0.02476668] J192836-012508
-# 2026-11-06 14:[bold][/bold]06:41,741 - tart2ms - INFO -     shapshot direction [5.09907304], [-0.02476686] J192837-012509
-# 2026-11-06 14:[bold][/bold]06:41,743 - tart2ms - INFO -     shapshot direction [5.09914773], [-0.02476704] J192838-012509
-# 2026-11-06 14:[bold][/bold]06:41,744 - tart2ms - INFO -     shapshot direction [5.09922218], [-0.02476722] J192839-012509
-# 2026-11-06 14:[bold][/bold]06:41,746 - tart2ms - INFO -     shapshot direction [5.09929738], [-0.02476741] J192840-012509
-# 2026-11-06 14:[bold][/bold]06:41,747 - tart2ms - INFO -     shapshot direction [5.0993718], [-0.02476759] J192841-012509
-# 2026-11-06 14:[bold][/bold]06:41,750 - tart2ms - INFO -     shapshot direction [5.09944702], [-0.02476777] J192842-012509
-# 2026-11-06 14:[bold][/bold]06:41,751 - tart2ms - INFO -     shapshot direction [5.09952174], [-0.02476795] J192843-012509
-# 2026-11-06 14:[bold][/bold]06:41,753 - tart2ms - INFO -     shapshot direction [5.09959621], [-0.02476814] J192844-012509
-# 2026-11-06 14:[bold][/bold]06:41,755 - tart2ms - INFO -     shapshot direction [5.09967143], [-0.02476832] J192846-012509
-# 2026-11-06 14:[bold][/bold]06:41,756 - tart2ms - INFO -     shapshot direction [5.09974589], [-0.0247685] J192847-012509
-# 2026-11-06 14:[bold][/bold]06:41,758 - tart2ms - INFO -     shapshot direction [5.09982042], [-0.02476868] J192848-012509
-# 2026-11-06 14:[bold][/bold]06:41,759 - tart2ms - INFO -     shapshot direction [5.09989523], [-0.02476887] J192849-012509
-# 2026-11-06 14:[bold][/bold]06:41,761 - tart2ms - INFO -     shapshot direction [5.09997014], [-0.02476905] J192850-012509
-# 2026-11-06 14:[bold][/bold]06:41,762 - tart2ms - INFO -     shapshot direction [5.10004457], [-0.02476923] J192851-012509
-# 2026-11-06 14:[bold][/bold]06:41,764 - tart2ms - INFO -     shapshot direction [5.10011978], [-0.02476941] J192852-012509
-# 2026-11-06 14:[bold][/bold]06:41,765 - tart2ms - INFO -     shapshot direction [5.10019425], [-0.02476959] J192853-012509
-# 2026-11-06 14:[bold][/bold]06:41,767 - tart2ms - INFO -     shapshot direction [5.10026913], [-0.02476978] J192854-012509
-# 2026-11-06 14:[bold][/bold]06:41,769 - tart2ms - INFO -     shapshot direction [5.10034367], [-0.02476996] J192855-012509
-# 2026-11-06 14:[bold][/bold]06:41,770 - tart2ms - INFO -     shapshot direction [5.10041884], [-0.02477014] J192856-012509
-# 2026-11-06 14:[bold][/bold]06:41,772 - tart2ms - INFO -     shapshot direction [5.10049328], [-0.02477032] J192857-012509
-# 2026-11-06 14:[bold][/bold]06:41,774 - tart2ms - INFO -     shapshot direction [5.10056775], [-0.02477051] J192858-012509
-# 2026-11-06 14:[bold][/bold]06:41,775 - tart2ms - INFO -     shapshot direction [5.10064249], [-0.02477069] J192859-012509
-# 2026-11-06 14:[bold][/bold]06:41,777 - tart2ms - INFO -     shapshot direction [5.10071765], [-0.02477087] J192860-012509
-# 2026-11-06 14:[bold][/bold]06:41,778 - tart2ms - INFO -     shapshot direction [5.10079213], [-0.02477105] J192901-012509
-# 2026-11-06 14:[bold][/bold]06:41,784 - tart2ms - INFO -     shapshot direction [5.10086739], [-0.02477124] J192902-012509
-# 2026-11-06 14:[bold][/bold]06:41,788 - tart2ms - INFO -     shapshot direction [5.10094188], [-0.02477142] J192903-012509
-# 2026-11-06 14:[bold][/bold]06:41,792 - tart2ms - INFO -     shapshot direction [5.10101643], [-0.0247716] J192904-012510
-# 2026-11-06 14:[bold][/bold]06:41,795 - tart2ms - INFO -     shapshot direction [5.1010913], [-0.02477178] J192905-012510
-# 2026-11-06 14:[bold][/bold]06:41,796 - tart2ms - INFO -     shapshot direction [5.10116573], [-0.02477196] J192906-012510
-# 2026-11-06 14:[bold][/bold]06:41,798 - tart2ms - INFO -     shapshot direction [5.10124019], [-0.02477215] J192907-012510
-# 2026-11-06 14:[bold][/bold]06:41,800 - tart2ms - INFO -     shapshot direction [5.10131534], [-0.02477233] J192908-012510
-# 2026-11-06 14:[bold][/bold]06:41,801 - tart2ms - INFO -     shapshot direction [5.10138984], [-0.02477251] J192909-012510
-# 2026-11-06 14:[bold][/bold]06:41,803 - tart2ms - INFO -     shapshot direction [5.10146522], [-0.02477269] J192910-012510
-# 2026-11-06 14:[bold][/bold]06:41,804 - tart2ms - INFO -     shapshot direction [5.10153972], [-0.02477288] J192911-012510
-# 2026-11-06 14:[bold][/bold]06:41,806 - tart2ms - INFO -     shapshot direction [5.10161416], [-0.02477306] J192912-012510
-# 2026-11-06 14:[bold][/bold]06:41,807 - tart2ms - INFO -     shapshot direction [5.10168863], [-0.02477324] J192913-012510
-# 2026-11-06 14:[bold][/bold]06:41,809 - tart2ms - INFO -     shapshot direction [5.1017639], [-0.02477342] J192914-012510
-# 2026-11-06 14:[bold][/bold]06:41,810 - tart2ms - INFO -     shapshot direction [5.10183862], [-0.0247736] J192915-012510
-# 2026-11-06 14:[bold][/bold]06:41,813 - tart2ms - INFO -     shapshot direction [5.10191311], [-0.02477379] J192916-012510
-# 2026-11-06 14:[bold][/bold]06:41,815 - tart2ms - INFO -     shapshot direction [5.10198826], [-0.02477397] J192917-012510
-# 2026-11-06 14:[bold][/bold]06:41,816 - tart2ms - INFO -     shapshot direction [5.10206268], [-0.02477415] J192918-012510
-# 2026-11-06 14:[bold][/bold]06:41,818 - tart2ms - INFO -     shapshot direction [5.10213798], [-0.02477433] J192919-012510
-# 2026-11-06 14:[bold][/bold]06:41,820 - tart2ms - INFO -     shapshot direction [5.1022119], [-0.02477451] J192920-012510
-# 2026-11-06 14:[bold][/bold]06:41,822 - tart2ms - INFO -     shapshot direction [5.10228708], [-0.0247747] J192921-012510
-# 2026-11-06 14:[bold][/bold]06:41,824 - tart2ms - INFO -     shapshot direction [5.10236149], [-0.02477488] J192923-012510
-# 2026-11-06 14:[bold][/bold]06:41,826 - tart2ms - INFO -     shapshot direction [5.10243669], [-0.02477506] J192924-012510
-# 2026-11-06 14:[bold][/bold]06:41,828 - tart2ms - INFO -     shapshot direction [5.10251122], [-0.02477524] J192925-012510
-# 2026-11-06 14:[bold][/bold]06:41,830 - tart2ms - INFO -     shapshot direction [5.10258591], [-0.02477543] J192926-012510
-# 2026-11-06 14:[bold][/bold]06:41,832 - tart2ms - INFO -     shapshot direction [5.10266108], [-0.02477561] J192927-012510
-# 2026-11-06 14:[bold][/bold]06:41,835 - tart2ms - INFO -     shapshot direction [5.10273549], [-0.02477579] J192928-012510
-# 2026-11-06 14:[bold][/bold]06:41,843 - tart2ms - INFO -     shapshot direction [5.10280993], [-0.02477597] J192929-012510
-# 2026-11-06 14:[bold][/bold]06:41,853 - tart2ms - INFO -     shapshot direction [5.10288521], [-0.02477615] J192930-012510
-# 2026-11-06 14:[bold][/bold]06:41,860 - tart2ms - INFO -     shapshot direction [5.1029599], [-0.02477634] J192931-012510
-# 2026-11-06 14:[bold][/bold]06:41,862 - tart2ms - INFO -     shapshot direction [5.10303438], [-0.02477652] J192932-012511
-# 2026-11-06 14:[bold][/bold]06:41,865 - tart2ms - INFO -     shapshot direction [5.1031088], [-0.0247767] J192933-012511
-# 2026-11-06 14:[bold][/bold]06:41,870 - tart2ms - INFO -     shapshot direction [5.103184], [-0.02477688] J192934-012511
-# 2026-11-06 14:[bold][/bold]06:41,872 - tart2ms - INFO -     shapshot direction [5.10325852], [-0.02477706] J192935-012511
-# 2026-11-06 14:[bold][/bold]06:41,876 - tart2ms - INFO -     shapshot direction [5.10333322], [-0.02477725] J192936-012511
-# 2026-11-06 14:[bold][/bold]06:41,880 - tart2ms - INFO -     shapshot direction [5.10340848], [-0.02477743] J192937-012511
-# 2026-11-06 14:[bold][/bold]06:41,882 - tart2ms - INFO -     shapshot direction [5.10348288], [-0.02477761] J192938-012511
-# 2026-11-06 14:[bold][/bold]06:41,888 - tart2ms - INFO -     shapshot direction [5.10355729], [-0.02477779] J192939-012511
-# 2026-11-06 14:[bold][/bold]06:41,891 - tart2ms - INFO -     shapshot direction [5.10363181], [-0.02477797] J192940-012511
-# 2026-11-06 14:[bold][/bold]06:41,895 - tart2ms - INFO -     shapshot direction [5.10370721], [-0.02477816] J192941-012511
-# 2026-11-06 14:[bold][/bold]06:41,898 - tart2ms - INFO -     shapshot direction [5.10378168], [-0.02477834] J192942-012511
-# 2026-11-06 14:[bold][/bold]06:41,899 - tart2ms - INFO -     shapshot direction [5.10385613], [-0.02477852] J192943-012511
-# 2026-11-06 14:[bold][/bold]06:41,902 - tart2ms - INFO -     shapshot direction [5.10393139], [-0.0247787] J192944-012511
-# 2026-11-06 14:[bold][/bold]06:41,904 - tart2ms - INFO -     shapshot direction [5.104006], [-0.02477889] J192945-012511
-# 2026-11-06 14:[bold][/bold]06:41,905 - tart2ms - INFO -     shapshot direction [5.10408087], [-0.02477907] J192946-012511
-# 2026-11-06 14:[bold][/bold]06:41,907 - tart2ms - INFO -     shapshot direction [5.10415529], [-0.02477925] J192947-012511
-# 2026-11-06 14:[bold][/bold]06:41,908 - tart2ms - INFO -     shapshot direction [5.10423043], [-0.02477943] J192948-012511
-# 2026-11-06 14:[bold][/bold]06:41,913 - tart2ms - INFO -     shapshot direction [5.1043051], [-0.02477961] J192949-012511
-# 2026-11-06 14:[bold][/bold]06:41,917 - tart2ms - INFO -     shapshot direction [5.10437961], [-0.0247798] J192950-012511
-# 2026-11-06 14:[bold][/bold]06:41,923 - tart2ms - INFO -     shapshot direction [5.10445427], [-0.02477998] J192951-012511
-# 2026-11-06 14:[bold][/bold]06:41,925 - tart2ms - INFO -     shapshot direction [5.10452944], [-0.02478016] J192952-012511
-# 2026-11-06 14:[bold][/bold]06:41,927 - tart2ms - INFO -     shapshot direction [5.10460388], [-0.02478034] J192953-012511
-# 2026-11-06 14:[bold][/bold]06:41,929 - tart2ms - INFO -     shapshot direction [5.10467876], [-0.02478052] J192954-012511
-# 2026-11-06 14:[bold][/bold]06:41,930 - tart2ms - INFO -     shapshot direction [5.10475318], [-0.0247807] J192955-012511
-# 2026-11-06 14:[bold][/bold]06:41,932 - tart2ms - INFO -     shapshot direction [5.10482783], [-0.02478089] J192956-012511
-# 2026-11-06 14:[bold][/bold]06:41,933 - tart2ms - INFO -     shapshot direction [5.10490306], [-0.02478107] J192957-012511
-# 2026-11-06 14:[bold][/bold]06:41,935 - tart2ms - INFO -     shapshot direction [5.10497753], [-0.02478125] J192958-012511
-# 2026-11-06 14:[bold][/bold]06:41,937 - tart2ms - INFO -     shapshot direction [5.10505208], [-0.02478143] J192960-012512
-# 2026-11-06 14:[bold][/bold]06:41,938 - tart2ms - INFO -     shapshot direction [5.10512725], [-0.02478162] J193001-012512
-# 2026-11-06 14:[bold][/bold]06:41,941 - tart2ms - INFO -     shapshot direction [5.10520189], [-0.0247818] J193002-012512
-# 2026-11-06 14:[bold][/bold]06:41,943 - tart2ms - INFO -     shapshot direction [5.10527635], [-0.02478198] J193003-012512
-# 2026-11-06 14:[bold][/bold]06:41,945 - tart2ms - INFO -     shapshot direction [5.10535152], [-0.02478216] J193004-012512
-# 2026-11-06 14:[bold][/bold]06:41,947 - tart2ms - INFO -     shapshot direction [5.10542608], [-0.02478234] J193005-012512
-# 2026-11-06 14:[bold][/bold]06:41,953 - tart2ms - INFO -     shapshot direction [5.10550057], [-0.02478252] J193006-012512
-# 2026-11-06 14:[bold][/bold]06:41,955 - tart2ms - INFO -     shapshot direction [5.10557525], [-0.02478271] J193007-012512
-# 2026-11-06 14:[bold][/bold]06:41,956 - tart2ms - INFO -     shapshot direction [5.10565045], [-0.02478289] J193008-012512
-# 2026-11-06 14:[bold][/bold]06:41,960 - tart2ms - INFO -     shapshot direction [5.10572497], [-0.02478307] J193009-012512
-# 2026-11-06 14:[bold][/bold]06:41,962 - tart2ms - INFO -     shapshot direction [5.10579951], [-0.02478325] J193010-012512
-# 2026-11-06 14:[bold][/bold]06:41,964 - tart2ms - INFO -     shapshot direction [5.10587469], [-0.02478343] J193011-012512
-# 2026-11-06 14:[bold][/bold]06:41,966 - tart2ms - INFO -     shapshot direction [5.10594935], [-0.02478362] J193012-012512
-# 2026-11-06 14:[bold][/bold]06:41,967 - tart2ms - INFO -     shapshot direction [5.10602386], [-0.0247838] J193013-012512
-# 2026-11-06 14:[bold][/bold]06:41,972 - tart2ms - INFO -     shapshot direction [5.10609831], [-0.02478398] J193014-012512
-# 2026-11-06 14:[bold][/bold]06:41,976 - tart2ms - INFO -     shapshot direction [5.10617373], [-0.02478416] J193015-012512
-# 2026-11-06 14:[bold][/bold]06:41,978 - tart2ms - INFO -     shapshot direction [5.10624817], [-0.02478434] J193016-012512
-# 2026-11-06 14:[bold][/bold]06:41,979 - tart2ms - INFO -     shapshot direction [5.10632286], [-0.02478453] J193017-012512
-# 2026-11-06 14:[bold][/bold]06:41,983 - tart2ms - INFO -     shapshot direction [5.10639733], [-0.02478471] J193018-012512
-# 2026-11-06 14:[bold][/bold]06:41,984 - tart2ms - INFO -     shapshot direction [5.10647255], [-0.02478489] J193019-012512
-# 2026-11-06 14:[bold][/bold]06:41,986 - tart2ms - INFO -     shapshot direction [5.10654713], [-0.02478507] J193020-012512
-# 2026-11-06 14:[bold][/bold]06:41,988 - tart2ms - INFO -     shapshot direction [5.10662153], [-0.02478525] J193021-012512
-# 2026-11-06 14:[bold][/bold]06:41,989 - tart2ms - INFO -     shapshot direction [5.1066966], [-0.02478543] J193022-012512
-# 2026-11-06 14:[bold][/bold]06:41,991 - tart2ms - INFO -     shapshot direction [5.1067713], [-0.02478562] J193023-012512
-# 2026-11-06 14:[bold][/bold]06:41,992 - tart2ms - INFO -     shapshot direction [5.10684575], [-0.0247858] J193024-012512
-# 2026-11-06 14:[bold][/bold]06:41,994 - tart2ms - INFO -     shapshot direction [5.10692103], [-0.02478598] J193025-012512
-# 2026-11-06 14:[bold][/bold]06:41,996 - tart2ms - INFO -     shapshot direction [5.10699543], [-0.02478616] J193026-012513
-# 2026-11-06 14:[bold][/bold]06:41,997 - tart2ms - INFO -     shapshot direction [5.10707014], [-0.02478634] J193027-012513
-# 2026-11-06 14:[bold][/bold]06:41,999 - tart2ms - INFO -     shapshot direction [5.1071446], [-0.02478652] J193028-012513
-# 2026-11-06 14:[bold][/bold]06:42,000 - tart2ms - INFO -     shapshot direction [5.10721984], [-0.02478671] J193029-012513
-# 2026-11-06 14:[bold][/bold]06:42,002 - tart2ms - INFO -     shapshot direction [5.10729436], [-0.02478689] J193030-012513
-# 2026-11-06 14:[bold][/bold]06:42,003 - tart2ms - INFO -     shapshot direction [5.1073688], [-0.02478707] J193031-012513
-# 2026-11-06 14:[bold][/bold]06:42,005 - tart2ms - INFO -     shapshot direction [5.10744411], [-0.02478725] J193032-012513
-# 2026-11-06 14:[bold][/bold]06:42,006 - tart2ms - INFO -     shapshot direction [5.1075185], [-0.02478743] J193033-012513
-# 2026-11-06 14:[bold][/bold]06:42,008 - tart2ms - INFO -     shapshot direction [5.10759295], [-0.02478762] J193034-012513
-# 2026-11-06 14:[bold][/bold]06:42,010 - tart2ms - INFO -     shapshot direction [5.10766819], [-0.0247878] J193035-012513
-# 2026-11-06 14:[bold][/bold]06:42,011 - tart2ms - INFO -     shapshot direction [5.10774264], [-0.02478798] J193037-012513
-# 2026-11-06 14:[bold][/bold]06:42,013 - tart2ms - INFO -     shapshot direction [5.10781785], [-0.02478816] J193038-012513
-# 2026-11-06 14:[bold][/bold]06:42,014 - tart2ms - INFO -     shapshot direction [5.10789244], [-0.02478834] J193039-012513
-# 2026-11-06 14:[bold][/bold]06:42,016 - tart2ms - INFO -     shapshot direction [5.1079669], [-0.02478852] J193040-012513
-# 2026-11-06 14:[bold][/bold]06:42,018 - tart2ms - INFO -     shapshot direction [5.10804144], [-0.02478871] J193041-012513
-# 2026-11-06 14:[bold][/bold]06:42,019 - tart2ms - INFO -     shapshot direction [5.10811659], [-0.02478889] J193042-012513
-# 2026-11-06 14:[bold][/bold]06:42,021 - tart2ms - INFO -     shapshot direction [5.10819183], [-0.02478907] J193043-012513
-# 2026-11-06 14:[bold][/bold]06:42,022 - tart2ms - INFO -     shapshot direction [5.10826591], [-0.02478925] J193044-012513
-# 2026-11-06 14:[bold][/bold]06:42,024 - tart2ms - INFO -     shapshot direction [5.10834041], [-0.02478943] J193045-012513
-# 2026-11-06 14:[bold][/bold]06:42,025 - tart2ms - INFO -     shapshot direction [5.10841567], [-0.02478962] J193046-012513
-# 2026-11-06 14:[bold][/bold]06:42,027 - tart2ms - INFO -     shapshot direction [5.10849011], [-0.0247898] J193047-012513
-# 2026-11-06 14:[bold][/bold]06:42,029 - tart2ms - INFO -     shapshot direction [5.10856524], [-0.02478998] J193048-012513
-# 2026-11-06 14:[bold][/bold]06:42,031 - tart2ms - INFO -     shapshot direction [5.10863987], [-0.02479016] J193049-012513
-# 2026-11-06 14:[bold][/bold]06:42,032 - tart2ms - INFO -     shapshot direction [5.1087143], [-0.02479034] J193050-012513
-# 2026-11-06 14:[bold][/bold]06:42,034 - tart2ms - INFO -     shapshot direction [5.10878954], [-0.02479052] J193051-012513
-# 2026-11-06 14:[bold][/bold]06:42,035 - tart2ms - INFO -     shapshot direction [5.10886393], [-0.02479071] J193052-012513
-# 2026-11-06 14:[bold][/bold]06:42,038 - tart2ms - INFO -     shapshot direction [5.10893844], [-0.02479089] J193053-012513
-# 2026-11-06 14:[bold][/bold]06:42,040 - tart2ms - INFO -     shapshot direction [5.10901314], [-0.02479107] J193054-012514
-# 2026-11-06 14:[bold][/bold]06:42,041 - tart2ms - INFO -     shapshot direction [5.10908817], [-0.02479125] J193055-012514
-# 2026-11-06 14:[bold][/bold]06:42,043 - tart2ms - INFO -     shapshot direction [5.10916278], [-0.02479143] J193056-012514
-# 2026-11-06 14:[bold][/bold]06:42,045 - tart2ms - INFO -     shapshot direction [5.1092372], [-0.02479161] J193057-012514
-# 2026-11-06 14:[bold][/bold]06:42,046 - tart2ms - INFO -     shapshot direction [5.10931236], [-0.0247918] J193058-012514
-# 2026-11-06 14:[bold][/bold]06:42,048 - tart2ms - INFO -     shapshot direction [5.10938702], [-0.02479198] J193059-012514
-# 2026-11-06 14:[bold][/bold]06:42,049 - tart2ms - INFO -     shapshot direction [5.10946158], [-0.02479216] J193100-012514
-# 2026-11-06 14:[bold][/bold]06:42,051 - tart2ms - INFO -     shapshot direction [5.10953689], [-0.02479234] J193101-012514
-# 2026-11-06 14:[bold][/bold]06:42,053 - tart2ms - INFO -     shapshot direction [5.10961137], [-0.02479252] J193102-012514
-# 2026-11-06 14:[bold][/bold]06:42,054 - tart2ms - INFO -     shapshot direction [5.10968582], [-0.0247927] J193103-012514
-# 2026-11-06 14:[bold][/bold]06:42,056 - tart2ms - INFO -     shapshot direction [5.10976045], [-0.02479288] J193104-012514
-# 2026-11-06 14:[bold][/bold]06:42,058 - tart2ms - INFO -     shapshot direction [5.10983567], [-0.02479307] J193105-012514
-# 2026-11-06 14:[bold][/bold]06:42,061 - tart2ms - INFO -     shapshot direction [5.10991019], [-0.02479325] J193106-012514
-# 2026-11-06 14:[bold][/bold]06:42,062 - tart2ms - INFO -     shapshot direction [5.1099854], [-0.02479343] J193107-012514
-# 2026-11-06 14:[bold][/bold]06:42,064 - tart2ms - INFO -     shapshot direction [5.11005987], [-0.02479361] J193108-012514
-# 2026-11-06 14:[bold][/bold]06:42,066 - tart2ms - INFO -     shapshot direction [5.11013448], [-0.02479379] J193109-012514
-# 2026-11-06 14:[bold][/bold]06:42,068 - tart2ms - INFO -     shapshot direction [5.11020894], [-0.02479397] J193110-012514
-# 2026-11-06 14:[bold][/bold]06:42,069 - tart2ms - INFO -     shapshot direction [5.11028433], [-0.02479416] J193111-012514
-# 2026-11-06 14:[bold][/bold]06:42,071 - tart2ms - INFO -     shapshot direction [5.11035881], [-0.02479434] J193112-012514
-# 2026-11-06 14:[bold][/bold]06:42,074 - tart2ms - INFO -     shapshot direction [5.11043334], [-0.02479452] J193114-012514
-# 2026-11-06 14:[bold][/bold]06:42,077 - tart2ms - INFO -     shapshot direction [5.11050809], [-0.0247947] J193115-012514
-# 2026-11-06 14:[bold][/bold]06:42,079 - tart2ms - INFO -     shapshot direction [5.11058264], [-0.02479488] J193116-012514
-# 2026-11-06 14:[bold][/bold]06:42,081 - tart2ms - INFO -     shapshot direction [5.11065787], [-0.02479506] J193117-012514
-# 2026-11-06 14:[bold][/bold]06:42,083 - tart2ms - INFO -     shapshot direction [5.11073229], [-0.02479525] J193118-012514
-# 2026-11-06 14:[bold][/bold]06:42,084 - tart2ms - INFO -     shapshot direction [5.11080677], [-0.02479543] J193119-012514
-# 2026-11-06 14:[bold][/bold]06:42,086 - tart2ms - INFO -     shapshot direction [5.11088215], [-0.02479561] J193120-012514
-# 2026-11-06 14:[bold][/bold]06:42,088 - tart2ms - INFO -     shapshot direction [5.11095662], [-0.02479579] J193121-012514
-# 2026-11-06 14:[bold][/bold]06:42,089 - tart2ms - INFO -     shapshot direction [5.11103124], [-0.02479597] J193122-012515
-# 2026-11-06 14:[bold][/bold]06:42,091 - tart2ms - INFO -     shapshot direction [5.11110578], [-0.02479615] J193123-012515
-# 2026-11-06 14:[bold][/bold]06:42,092 - tart2ms - INFO -     shapshot direction [5.11118104], [-0.02479634] J193124-012515
-# 2026-11-06 14:[bold][/bold]06:42,094 - tart2ms - INFO -     shapshot direction [5.11125568], [-0.02479652] J193125-012515
-# 2026-11-06 14:[bold][/bold]06:42,095 - tart2ms - INFO -     shapshot direction [5.1113309], [-0.0247967] J193126-012515
-# 2026-11-06 14:[bold][/bold]06:42,097 - tart2ms - INFO -     shapshot direction [5.11140471], [-0.02479688] J193127-012515
-# 2026-11-06 14:[bold][/bold]06:42,099 - tart2ms - INFO -     shapshot direction [5.11147993], [-0.02479706] J193128-012515
-# 2026-11-06 14:[bold][/bold]06:42,103 - tart2ms - INFO -     shapshot direction [5.1115544], [-0.02479724] J193129-012515
-# 2026-11-06 14:[bold][/bold]06:42,105 - tart2ms - INFO -     shapshot direction [5.1116291], [-0.02479742] J193130-012515
-# 2026-11-06 14:[bold][/bold]06:42,107 - tart2ms - INFO -     shapshot direction [5.11170436], [-0.02479761] J193131-012515
-# 2026-11-06 14:[bold][/bold]06:42,109 - tart2ms - INFO -     shapshot direction [5.11177884], [-0.02479779] J193132-012515
-# 2026-11-06 14:[bold][/bold]06:42,111 - tart2ms - INFO -     shapshot direction [5.1118533], [-0.02479797] J193133-012515
-# 2026-11-06 14:[bold][/bold]06:42,112 - tart2ms - INFO -     shapshot direction [5.11192774], [-0.02479815] J193134-012515
-# 2026-11-06 14:[bold][/bold]06:42,114 - tart2ms - INFO -     shapshot direction [5.11200307], [-0.02479833] J193135-012515
-# 2026-11-06 14:[bold][/bold]06:42,116 - tart2ms - INFO -     shapshot direction [5.11207762], [-0.02479851] J193136-012515
-# 2026-11-06 14:[bold][/bold]06:42,118 - tart2ms - INFO -     shapshot direction [5.11215211], [-0.02479869] J193137-012515
-# 2026-11-06 14:[bold][/bold]06:42,120 - tart2ms - INFO -     shapshot direction [5.11222734], [-0.02479888] J193138-012515
-# 2026-11-06 14:[bold][/bold]06:42,121 - tart2ms - INFO -     shapshot direction [5.11230182], [-0.02479906] J193139-012515
-# 2026-11-06 14:[bold][/bold]06:42,123 - tart2ms - INFO -     shapshot direction [5.11237657], [-0.02479924] J193140-012515
-# 2026-11-06 14:[bold][/bold]06:42,125 - tart2ms - INFO -     shapshot direction [5.11245109], [-0.02479942] J193141-012515
-# 2026-11-06 14:[bold][/bold]06:42,126 - tart2ms - INFO -     shapshot direction [5.11252628], [-0.0247996] J193142-012515
-# 2026-11-06 14:[bold][/bold]06:42,128 - tart2ms - INFO -     shapshot direction [5.11260076], [-0.02479978] J193143-012515
-# 2026-11-06 14:[bold][/bold]06:42,129 - tart2ms - INFO -     shapshot direction [5.11267597], [-0.02479996] J193144-012515
-# 2026-11-06 14:[bold][/bold]06:42,132 - tart2ms - INFO -     shapshot direction [5.11275063], [-0.02480015] J193145-012515
-# 2026-11-06 14:[bold][/bold]06:42,134 - tart2ms - INFO -     shapshot direction [5.11282529], [-0.02480033] J193146-012515
-# 2026-11-06 14:[bold][/bold]06:42,136 - tart2ms - INFO -     shapshot direction [5.11289975], [-0.02480051] J193147-012515
-# 2026-11-06 14:[bold][/bold]06:42,137 - tart2ms - INFO -     shapshot direction [5.1129742], [-0.02480069] J193148-012516
-# 2026-11-06 14:[bold][/bold]06:42,139 - tart2ms - INFO -     shapshot direction [5.11304941], [-0.02480087] J193149-012516
-# 2026-11-06 14:[bold][/bold]06:42,140 - tart2ms - INFO -     shapshot direction [5.11312409], [-0.02480105] J193151-012516
-# 2026-11-06 14:[bold][/bold]06:42,142 - tart2ms - INFO -     shapshot direction [5.11319861], [-0.02480123] J193152-012516
-# 2026-11-06 14:[bold][/bold]06:42,144 - tart2ms - INFO -     shapshot direction [5.11327375], [-0.02480142] J193153-012516
-# 2026-11-06 14:[bold][/bold]06:42,147 - tart2ms - INFO -     shapshot direction [5.11334827], [-0.0248016] J193154-012516
-# 2026-11-06 14:[bold][/bold]06:42,149 - tart2ms - INFO -     shapshot direction [5.11342285], [-0.02480178] J193155-012516
-# 2026-11-06 14:[bold][/bold]06:42,150 - tart2ms - INFO -     shapshot direction [5.11349817], [-0.02480196] J193156-012516
-# 2026-11-06 14:[bold][/bold]06:42,152 - tart2ms - INFO -     shapshot direction [5.11357272], [-0.02480214] J193157-012516
-# 2026-11-06 14:[bold][/bold]06:42,154 - tart2ms - INFO -     shapshot direction [5.11364719], [-0.02480232] J193158-012516
-# 2026-11-06 14:[bold][/bold]06:42,156 - tart2ms - INFO -     shapshot direction [5.11372168], [-0.0248025] J193159-012516
-# 2026-11-06 14:[bold][/bold]06:42,158 - tart2ms - INFO -     shapshot direction [5.11379688], [-0.02480268] J193160-012516
-# 2026-11-06 14:[bold][/bold]06:42,159 - tart2ms - INFO -     shapshot direction [5.11387176], [-0.02480287] J193201-012516
-# 2026-11-06 14:[bold][/bold]06:42,161 - tart2ms - INFO -     shapshot direction [5.11394635], [-0.02480305] J193202-012516
-# 2026-11-06 14:[bold][/bold]06:42,162 - tart2ms - INFO -     shapshot direction [5.11402076], [-0.02480323] J193203-012516
-# 2026-11-06 14:[bold][/bold]06:42,164 - tart2ms - INFO -     shapshot direction [5.11409518], [-0.02480341] J193204-012516
-# 2026-11-06 14:[bold][/bold]06:42,166 - tart2ms - INFO -     shapshot direction [5.11417033], [-0.02480359] J193205-012516
-# 2026-11-06 14:[bold][/bold]06:42,167 - tart2ms - INFO -     shapshot direction [5.11424496], [-0.02480377] J193206-012516
-# 2026-11-06 14:[bold][/bold]06:42,169 - tart2ms - INFO -     shapshot direction [5.11431949], [-0.02480395] J193207-012516
-# 2026-11-06 14:[bold][/bold]06:42,170 - tart2ms - INFO -     shapshot direction [5.11439466], [-0.02480413] J193208-012516
-# 2026-11-06 14:[bold][/bold]06:42,172 - tart2ms - INFO -     shapshot direction [5.1144691], [-0.02480431] J193209-012516
-# 2026-11-06 14:[bold][/bold]06:42,174 - tart2ms - INFO -     shapshot direction [5.11454429], [-0.0248045] J193210-012516
-# 2026-11-06 14:[bold][/bold]06:42,175 - tart2ms - INFO -     shapshot direction [5.11461893], [-0.02480468] J193211-012516
-# 2026-11-06 14:[bold][/bold]06:42,177 - tart2ms - INFO -     shapshot direction [5.11469346], [-0.02480486] J193212-012516
-# 2026-11-06 14:[bold][/bold]06:42,179 - tart2ms - INFO -     shapshot direction [5.1147679], [-0.02480504] J193213-012516
-# 2026-11-06 14:[bold][/bold]06:42,180 - tart2ms - INFO -     shapshot direction [5.11484316], [-0.02480522] J193214-012516
-# 2026-11-06 14:[bold][/bold]06:42,183 - tart2ms - INFO -     shapshot direction [5.1149176], [-0.0248054] J193215-012516
-# 2026-11-06 14:[bold][/bold]06:42,185 - tart2ms - INFO -     shapshot direction [5.11499227], [-0.02480558] J193216-012517
-# 2026-11-06 14:[bold][/bold]06:42,187 - tart2ms - INFO -     shapshot direction [5.11506752], [-0.02480577] J193217-012517
-# 2026-11-06 14:[bold][/bold]06:42,188 - tart2ms - INFO -     shapshot direction [5.115142], [-0.02480595] J193218-012517
-# 2026-11-06 14:[bold][/bold]06:42,190 - tart2ms - INFO -     shapshot direction [5.11521648], [-0.02480613] J193219-012517
-# 2026-11-06 14:[bold][/bold]06:42,192 - tart2ms - INFO -     shapshot direction [5.1152917], [-0.02480631] J193220-012517
-# 2026-11-06 14:[bold][/bold]06:42,194 - tart2ms - INFO -     shapshot direction [5.11536629], [-0.02480649] J193221-012517
-# 2026-11-06 14:[bold][/bold]06:42,195 - tart2ms - INFO -     shapshot direction [5.11544088], [-0.02480667] J193222-012517
-# 2026-11-06 14:[bold][/bold]06:42,197 - tart2ms - INFO -     shapshot direction [5.11551531], [-0.02480685] J193223-012517
-# 2026-11-06 14:[bold][/bold]06:42,198 - tart2ms - INFO -     shapshot direction [5.11559051], [-0.02480703] J193224-012517
-# 2026-11-06 14:[bold][/bold]06:42,200 - tart2ms - INFO -     shapshot direction [5.11566494], [-0.02480721] J193225-012517
-# 2026-11-06 14:[bold][/bold]06:42,202 - tart2ms - INFO -     shapshot direction [5.11573961], [-0.0248074] J193226-012517
-# 2026-11-06 14:[bold][/bold]06:42,203 - tart2ms - INFO -     shapshot direction [5.11581498], [-0.02480758] J193228-012517
-# 2026-11-06 14:[bold][/bold]06:42,205 - tart2ms - INFO -     shapshot direction [5.11588946], [-0.02480776] J193229-012517
-# 2026-11-06 14:[bold][/bold]06:42,206 - tart2ms - INFO -     shapshot direction [5.11596397], [-0.02480794] J193230-012517
-# 2026-11-06 14:[bold][/bold]06:42,208 - tart2ms - INFO -     shapshot direction [5.11603842], [-0.02480812] J193231-012517
-# 2026-11-06 14:[bold][/bold]06:42,209 - tart2ms - INFO -     shapshot direction [5.11611375], [-0.0248083] J193232-012517
-# 2026-11-06 14:[bold][/bold]06:42,211 - tart2ms - INFO -     shapshot direction [5.11618818], [-0.02480848] J193233-012517
-# 2026-11-06 14:[bold][/bold]06:42,213 - tart2ms - INFO -     shapshot direction [5.11626336], [-0.02480866] J193234-012517
-# 2026-11-06 14:[bold][/bold]06:42,216 - tart2ms - INFO -     shapshot direction [5.11633776], [-0.02480884] J193235-012517
-# 2026-11-06 14:[bold][/bold]06:42,217 - tart2ms - INFO -     shapshot direction [5.11641291], [-0.02480903] J193236-012517
-# 2026-11-06 14:[bold][/bold]06:42,219 - tart2ms - INFO -     shapshot direction [5.11648746], [-0.02480921] J193237-012517
-# 2026-11-06 14:[bold][/bold]06:42,221 - tart2ms - INFO -     shapshot direction [5.11656195], [-0.02480939] J193238-012517
-# 2026-11-06 14:[bold][/bold]06:42,223 - tart2ms - INFO -     shapshot direction [5.11663641], [-0.02480957] J193239-012517
-# 2026-11-06 14:[bold][/bold]06:42,224 - tart2ms - INFO -     shapshot direction [5.11671161], [-0.02480975] J193240-012517
-# 2026-11-06 14:[bold][/bold]06:42,227 - tart2ms - INFO -     shapshot direction [5.11678609], [-0.02480993] J193241-012517
-# 2026-11-06 14:[bold][/bold]06:42,228 - tart2ms - INFO -     shapshot direction [5.11686143], [-0.02481011] J193242-012517
-# 2026-11-06 14:[bold][/bold]06:42,230 - tart2ms - INFO -     shapshot direction [5.11693566], [-0.02481029] J193243-012517
-# 2026-11-06 14:[bold][/bold]06:42,232 - tart2ms - INFO -     shapshot direction [5.1170101], [-0.02481047] J193244-012518
-# 2026-11-06 14:[bold][/bold]06:42,233 - tart2ms - INFO -     shapshot direction [5.11708536], [-0.02481066] J193245-012518
-# 2026-11-06 14:[bold][/bold]06:42,235 - tart2ms - INFO -     shapshot direction [5.11715993], [-0.02481084] J193246-012518
-# 2026-11-06 14:[bold][/bold]06:42,236 - tart2ms - INFO -     shapshot direction [5.1172352], [-0.02481102] J193247-012518
-# 2026-11-06 14:[bold][/bold]06:42,238 - tart2ms - INFO -     shapshot direction [5.11730993], [-0.0248112] J193248-012518
-# 2026-11-06 14:[bold][/bold]06:42,239 - tart2ms - INFO -     shapshot direction [5.11738439], [-0.02481138] J193249-012518
-# 2026-11-06 14:[bold][/bold]06:42,241 - tart2ms - INFO -     shapshot direction [5.11745889], [-0.02481156] J193250-012518
-# 2026-11-06 14:[bold][/bold]06:42,243 - tart2ms - INFO -     shapshot direction [5.11753334], [-0.02481174] J193251-012518
-# 2026-11-06 14:[bold][/bold]06:42,244 - tart2ms - INFO -     shapshot direction [5.11760856], [-0.02481192] J193252-012518
-# 2026-11-06 14:[bold][/bold]06:42,246 - tart2ms - INFO -     shapshot direction [5.11768342], [-0.02481211] J193253-012518
-# 2026-11-06 14:[bold][/bold]06:42,248 - tart2ms - INFO -     shapshot direction [5.11775791], [-0.02481229] J193254-012518
-# 2026-11-06 14:[bold][/bold]06:42,249 - tart2ms - INFO -     shapshot direction [5.11783242], [-0.02481247] J193255-012518
-# 2026-11-06 14:[bold][/bold]06:42,252 - tart2ms - INFO -     shapshot direction [5.11790696], [-0.02481265] J193256-012518
-# 2026-11-06 14:[bold][/bold]06:42,254 - tart2ms - INFO -     shapshot direction [5.11798216], [-0.02481283] J193257-012518
-# 2026-11-06 14:[bold][/bold]06:42,256 - tart2ms - INFO -     shapshot direction [5.11805725], [-0.02481301] J193258-012518
-# 2026-11-06 14:[bold][/bold]06:42,257 - tart2ms - INFO -     shapshot direction [5.11813167], [-0.02481319] J193259-012518
-# 2026-11-06 14:[bold][/bold]06:42,259 - tart2ms - INFO -     shapshot direction [5.11820617], [-0.02481337] J193300-012518
-# 2026-11-06 14:[bold][/bold]06:42,260 - tart2ms - INFO -     shapshot direction [5.11828061], [-0.02481355] J193301-012518
-# 2026-11-06 14:[bold][/bold]06:42,262 - tart2ms - INFO -     shapshot direction [5.11835581], [-0.02481373] J193302-012518
-# 2026-11-06 14:[bold][/bold]06:42,264 - tart2ms - INFO -     shapshot direction [5.1184307], [-0.02481391] J193303-012518
-# 2026-11-06 14:[bold][/bold]06:42,266 - tart2ms - INFO -     shapshot direction [5.11850512], [-0.02481409] J193304-012518
-# 2026-11-06 14:[bold][/bold]06:42,268 - tart2ms - INFO -     shapshot direction [5.11857959], [-0.02481428] J193306-012518
-# 2026-11-06 14:[bold][/bold]06:42,269 - tart2ms - INFO -     shapshot direction [5.11865473], [-0.02481446] J193307-012518
-# 2026-11-06 14:[bold][/bold]06:42,271 - tart2ms - INFO -     shapshot direction [5.11872924], [-0.02481464] J193308-012518
-# 2026-11-06 14:[bold][/bold]06:42,272 - tart2ms - INFO -     shapshot direction [5.11880432], [-0.02481482] J193309-012518
-# 2026-11-06 14:[bold][/bold]06:42,274 - tart2ms - INFO -     shapshot direction [5.1188788], [-0.024815] J193310-012518
-# 2026-11-06 14:[bold][/bold]06:42,275 - tart2ms - INFO -     shapshot direction [5.11895402], [-0.02481518] J193311-012518
-# 2026-11-06 14:[bold][/bold]06:42,277 - tart2ms - INFO -     shapshot direction [5.11902852], [-0.02481536] J193312-012519
-# 2026-11-06 14:[bold][/bold]06:42,279 - tart2ms - INFO -     shapshot direction [5.11910297], [-0.02481554] J193313-012519
-# 2026-11-06 14:[bold][/bold]06:42,280 - tart2ms - INFO -     shapshot direction [5.11917796], [-0.02481572] J193314-012519
-# 2026-11-06 14:[bold][/bold]06:42,282 - tart2ms - INFO -     shapshot direction [5.11925243], [-0.0248159] J193315-012519
-# 2026-11-06 14:[bold][/bold]06:42,284 - tart2ms - INFO -     shapshot direction [5.11932766], [-0.02481609] J193316-012519
-# 2026-11-06 14:[bold][/bold]06:42,286 - tart2ms - INFO -     shapshot direction [5.11940213], [-0.02481627] J193317-012519
-# 2026-11-06 14:[bold][/bold]06:42,288 - tart2ms - INFO -     shapshot direction [5.11947656], [-0.02481645] J193318-012519
-# 2026-11-06 14:[bold][/bold]06:42,289 - tart2ms - INFO -     shapshot direction [5.11955156], [-0.02481663] J193319-012519
-# 2026-11-06 14:[bold][/bold]06:42,291 - tart2ms - INFO -     shapshot direction [5.1196268], [-0.02481681] J193320-012519
-# 2026-11-06 14:[bold][/bold]06:42,292 - tart2ms - INFO -     shapshot direction [5.11970128], [-0.02481699] J193321-012519
-# 2026-11-06 14:[bold][/bold]06:42,294 - tart2ms - INFO -     shapshot direction [5.1197757], [-0.02481717] J193322-012519
-# 2026-11-06 14:[bold][/bold]06:42,296 - tart2ms - INFO -     shapshot direction [5.11985018], [-0.02481735] J193323-012519
-# 2026-11-06 14:[bold][/bold]06:42,297 - tart2ms - INFO -     shapshot direction [5.11992514], [-0.02481753] J193324-012519
-# 2026-11-06 14:[bold][/bold]06:42,299 - tart2ms - INFO -     shapshot direction [5.12000038], [-0.02481771] J193325-012519
-# 2026-11-06 14:[bold][/bold]06:42,300 - tart2ms - INFO -     shapshot direction [5.12007492], [-0.02481789] J193326-012519
-# 2026-11-06 14:[bold][/bold]06:42,302 - tart2ms - INFO -     shapshot direction [5.12014943], [-0.02481807] J193327-012519
-# 2026-11-06 14:[bold][/bold]06:42,303 - tart2ms - INFO -     shapshot direction [5.1202239], [-0.02481825] J193328-012519
-# 2026-11-06 14:[bold][/bold]06:42,305 - tart2ms - INFO -     shapshot direction [5.12029868], [-0.02481844] J193329-012519
-# 2026-11-06 14:[bold][/bold]06:42,307 - tart2ms - INFO -     shapshot direction [5.12037392], [-0.02481862] J193330-012519
-# 2026-11-06 14:[bold][/bold]06:42,309 - tart2ms - INFO -     shapshot direction [5.12044842], [-0.0248188] J193331-012519
-# 2026-11-06 14:[bold][/bold]06:42,311 - tart2ms - INFO -     shapshot direction [5.12052358], [-0.02481898] J193332-012519
-# 2026-11-06 14:[bold][/bold]06:42,313 - tart2ms - INFO -     shapshot direction [5.12059806], [-0.02481916] J193333-012519
-# 2026-11-06 14:[bold][/bold]06:42,314 - tart2ms - INFO -     shapshot direction [5.12067275], [-0.02481934] J193334-012519
-# 2026-11-06 14:[bold][/bold]06:42,316 - tart2ms - INFO -     shapshot direction [5.12074729], [-0.02481952] J193335-012519
-# 2026-11-06 14:[bold][/bold]06:42,318 - tart2ms - INFO -     shapshot direction [5.12082178], [-0.0248197] J193336-012519
-# 2026-11-06 14:[bold][/bold]06:42,320 - tart2ms - INFO -     shapshot direction [5.12089695], [-0.02481988] J193337-012519
-# 2026-11-06 14:[bold][/bold]06:42,321 - tart2ms - INFO -     shapshot direction [5.1209714], [-0.02482006] J193338-012520
-# 2026-11-06 14:[bold][/bold]06:42,323 - tart2ms - INFO -     shapshot direction [5.12104607], [-0.02482024] J193339-012520
-# 2026-11-06 14:[bold][/bold]06:42,324 - tart2ms - INFO -     shapshot direction [5.12112128], [-0.02482043] J193340-012520
-# 2026-11-06 14:[bold][/bold]06:42,326 - tart2ms - INFO -     shapshot direction [5.12119578], [-0.02482061] J193341-012520
-# 2026-11-06 14:[bold][/bold]06:42,328 - tart2ms - INFO -     shapshot direction [5.12127102], [-0.02482079] J193343-012520
-# 2026-11-06 14:[bold][/bold]06:42,330 - tart2ms - INFO -     shapshot direction [5.12134548], [-0.02482097] J193344-012520
-# 2026-11-06 14:[bold][/bold]06:42,332 - tart2ms - INFO -     shapshot direction [5.12142025], [-0.02482115] J193345-012520
-# 2026-11-06 14:[bold][/bold]06:42,334 - tart2ms - INFO -     shapshot direction [5.12149467], [-0.02482133] J193346-012520
-# 2026-11-06 14:[bold][/bold]06:42,336 - tart2ms - INFO -     shapshot direction [5.12156983], [-0.02482151] J193347-012520
-# 2026-11-06 14:[bold][/bold]06:42,338 - tart2ms - INFO -     shapshot direction [5.12164428], [-0.02482169] J193348-012520
-# 2026-11-06 14:[bold][/bold]06:42,339 - tart2ms - INFO -     shapshot direction [5.12171944], [-0.02482187] J193349-012520
-# 2026-11-06 14:[bold][/bold]06:42,341 - tart2ms - INFO -     shapshot direction [5.12179366], [-0.02482205] J193350-012520
-# 2026-11-06 14:[bold][/bold]06:42,344 - tart2ms - INFO -     shapshot direction [5.1218689], [-0.02482223] J193351-012520
-# 2026-11-06 14:[bold][/bold]06:42,346 - tart2ms - INFO -     shapshot direction [5.12194338], [-0.02482241] J193352-012520
-# 2026-11-06 14:[bold][/bold]06:42,347 - tart2ms - INFO -     shapshot direction [5.12201781], [-0.02482259] J193353-012520
-# 2026-11-06 14:[bold][/bold]06:42,349 - tart2ms - INFO -     shapshot direction [5.12209228], [-0.02482277] J193354-012520
-# 2026-11-06 14:[bold][/bold]06:42,350 - tart2ms - INFO -     shapshot direction [5.12216728], [-0.02482295] J193355-012520
-# 2026-11-06 14:[bold][/bold]06:42,352 - tart2ms - INFO -     shapshot direction [5.12224173], [-0.02482313] J193356-012520
-# 2026-11-06 14:[bold][/bold]06:42,354 - tart2ms - INFO -     shapshot direction [5.12231695], [-0.02482332] J193357-012520
-# 2026-11-06 14:[bold][/bold]06:42,355 - tart2ms - INFO -     shapshot direction [5.1223914], [-0.0248235] J193358-012520
-# 2026-11-06 14:[bold][/bold]06:42,357 - tart2ms - INFO -     shapshot direction [5.12246595], [-0.02482368] J193359-012520
-# 2026-11-06 14:[bold][/bold]06:42,358 - tart2ms - INFO -     shapshot direction [5.12254073], [-0.02482386] J193360-012520
-# 2026-11-06 14:[bold][/bold]06:42,360 - tart2ms - INFO -     shapshot direction [5.12261589], [-0.02482404] J193401-012520
-# 2026-11-06 14:[bold][/bold]06:42,364 - tart2ms - INFO -     shapshot direction [5.12269033], [-0.02482422] J193402-012520
-# 2026-11-06 14:[bold][/bold]06:42,365 - tart2ms - INFO -     shapshot direction [5.12276547], [-0.0248244] J193403-012520
-# 2026-11-06 14:[bold][/bold]06:42,367 - tart2ms - INFO -     shapshot direction [5.12283987], [-0.02482458] J193404-012520
-# 2026-11-06 14:[bold][/bold]06:42,369 - tart2ms - INFO -     shapshot direction [5.12291453], [-0.02482476] J193405-012520
-# 2026-11-06 14:[bold][/bold]06:42,370 - tart2ms - INFO -     shapshot direction [5.12298978], [-0.02482494] J193406-012521
-# 2026-11-06 14:[bold][/bold]06:42,372 - tart2ms - INFO -     shapshot direction [5.12306424], [-0.02482512] J193407-012521
-# 2026-11-06 14:[bold][/bold]06:42,374 - tart2ms - INFO -     shapshot direction [5.12313942], [-0.0248253] J193408-012521
-# 2026-11-06 14:[bold][/bold]06:42,376 - tart2ms - INFO -     shapshot direction [5.12321382], [-0.02482548] J193409-012521
-# 2026-11-06 14:[bold][/bold]06:42,377 - tart2ms - INFO -     shapshot direction [5.12328854], [-0.02482566] J193410-012521
-# 2026-11-06 14:[bold][/bold]06:42,379 - tart2ms - INFO -     shapshot direction [5.123363], [-0.02482584] J193411-012521
-# 2026-11-06 14:[bold][/bold]06:42,381 - tart2ms - INFO -     shapshot direction [5.12343819], [-0.02482603] J193412-012521
-# 2026-11-06 14:[bold][/bold]06:42,382 - tart2ms - INFO -     shapshot direction [5.12351261], [-0.02482621] J193413-012521
-# 2026-11-06 14:[bold][/bold]06:42,384 - tart2ms - INFO -     shapshot direction [5.1235878], [-0.02482639] J193414-012521
-# 2026-11-06 14:[bold][/bold]06:42,386 - tart2ms - INFO -     shapshot direction [5.12366248], [-0.02482657] J193415-012521
-# 2026-11-06 14:[bold][/bold]06:42,387 - tart2ms - INFO -     shapshot direction [5.12373695], [-0.02482675] J193416-012521
-# 2026-11-06 14:[bold][/bold]06:42,390 - tart2ms - INFO -     shapshot direction [5.12381214], [-0.02482693] J193417-012521
-# 2026-11-06 14:[bold][/bold]06:42,392 - tart2ms - INFO -     shapshot direction [5.12388657], [-0.02482711] J193418-012521
-# 2026-11-06 14:[bold][/bold]06:42,394 - tart2ms - INFO -     shapshot direction [5.12396101], [-0.02482729] J193420-012521
-# 2026-11-06 14:[bold][/bold]06:42,395 - tart2ms - INFO -     shapshot direction [5.12403612], [-0.02482747] J193421-012521
-# 2026-11-06 14:[bold][/bold]06:42,397 - tart2ms - INFO -     shapshot direction [5.12411053], [-0.02482765] J193422-012521
-# 2026-11-06 14:[bold][/bold]06:42,398 - tart2ms - INFO -     shapshot direction [5.12418576], [-0.02482783] J193423-012521
-# 2026-11-06 14:[bold][/bold]06:42,400 - tart2ms - INFO -     shapshot direction [5.12426025], [-0.02482801] J193424-012521
-# 2026-11-06 14:[bold][/bold]06:42,402 - tart2ms - INFO -     shapshot direction [5.12433474], [-0.02482819] J193425-012521
-# 2026-11-06 14:[bold][/bold]06:42,404 - tart2ms - INFO -     shapshot direction [5.12440983], [-0.02482837] J193426-012521
-# 2026-11-06 14:[bold][/bold]06:42,406 - tart2ms - INFO -     shapshot direction [5.12448438], [-0.02482855] J193427-012521
-# 2026-11-06 14:[bold][/bold]06:42,407 - tart2ms - INFO -     shapshot direction [5.12455885], [-0.02482873] J193428-012521
-# 2026-11-06 14:[bold][/bold]06:42,409 - tart2ms - INFO -     shapshot direction [5.12463401], [-0.02482891] J193429-012521
-# 2026-11-06 14:[bold][/bold]06:42,410 - tart2ms - INFO -     shapshot direction [5.12470853], [-0.02482909] J193430-012521
-# 2026-11-06 14:[bold][/bold]06:42,412 - tart2ms - INFO -     shapshot direction [5.12478321], [-0.02482928] J193431-012521
-# 2026-11-06 14:[bold][/bold]06:42,413 - tart2ms - INFO -     shapshot direction [5.12485846], [-0.02482946] J193432-012521
-# 2026-11-06 14:[bold][/bold]06:42,415 - tart2ms - INFO -     shapshot direction [5.12493291], [-0.02482964] J193433-012521
-# 2026-11-06 14:[bold][/bold]06:42,417 - tart2ms - INFO -     shapshot direction [5.12500732], [-0.02482982] J193434-012522
-# 2026-11-06 14:[bold][/bold]06:42,418 - tart2ms - INFO -     shapshot direction [5.1250818], [-0.02483] J193435-012522
-# 2026-11-06 14:[bold][/bold]06:42,420 - tart2ms - INFO -     shapshot direction [5.12515659], [-0.02483018] J193436-012522
-# 2026-11-06 14:[bold][/bold]06:42,421 - tart2ms - INFO -     shapshot direction [5.12523172], [-0.02483036] J193437-012522
-# 2026-11-06 14:[bold][/bold]06:42,423 - tart2ms - INFO -     shapshot direction [5.12530614], [-0.02483054] J193438-012522
-# 2026-11-06 14:[bold][/bold]06:42,426 - tart2ms - INFO -     shapshot direction [5.12538134], [-0.02483072] J193439-012522
-# 2026-11-06 14:[bold][/bold]06:42,427 - tart2ms - INFO -     shapshot direction [5.12545596], [-0.0248309] J193440-012522
-# 2026-11-06 14:[bold][/bold]06:42,429 - tart2ms - INFO -     shapshot direction [5.12553059], [-0.02483108] J193441-012522
-# 2026-11-06 14:[bold][/bold]06:42,430 - tart2ms - INFO -     shapshot direction [5.12560579], [-0.02483126] J193442-012522
-# 2026-11-06 14:[bold][/bold]06:42,432 - tart2ms - INFO -     shapshot direction [5.12568027], [-0.02483144] J193443-012522
-# 2026-11-06 14:[bold][/bold]06:42,434 - tart2ms - INFO -     shapshot direction [5.12575543], [-0.02483162] J193444-012522
-# 2026-11-06 14:[bold][/bold]06:42,435 - tart2ms - INFO -     shapshot direction [5.12582927], [-0.0248318] J193445-012522
-# 2026-11-06 14:[bold][/bold]06:42,437 - tart2ms - INFO -     shapshot direction [5.12590412], [-0.02483198] J193446-012522
-# 2026-11-06 14:[bold][/bold]06:42,438 - tart2ms - INFO -     shapshot direction [5.1259793], [-0.02483216] J193447-012522
-# 2026-11-06 14:[bold][/bold]06:42,440 - tart2ms - INFO -     shapshot direction [5.12605378], [-0.02483234] J193448-012522
-# 2026-11-06 14:[bold][/bold]06:42,442 - tart2ms - INFO -     shapshot direction [5.12612901], [-0.02483252] J193449-012522
-# 2026-11-06 14:[bold][/bold]06:42,443 - tart2ms - INFO -     shapshot direction [5.12620356], [-0.0248327] J193450-012522
-# 2026-11-06 14:[bold][/bold]06:42,446 - tart2ms - INFO -     shapshot direction [5.1262783], [-0.02483288] J193451-012522
-# 2026-11-06 14:[bold][/bold]06:42,447 - tart2ms - INFO -     shapshot direction [5.12635278], [-0.02483306] J193452-012522
-# 2026-11-06 14:[bold][/bold]06:42,450 - tart2ms - INFO -     shapshot direction [5.12642725], [-0.02483324] J193453-012522
-# 2026-11-06 14:[bold][/bold]06:42,451 - tart2ms - INFO -     shapshot direction [5.12650249], [-0.02483343] J193454-012522
-# 2026-11-06 14:[bold][/bold]06:42,453 - tart2ms - INFO -     shapshot direction [5.12657711], [-0.02483361] J193455-012522
-# 2026-11-06 14:[bold][/bold]06:42,455 - tart2ms - INFO -     shapshot direction [5.12665186], [-0.02483379] J193457-012522
-# 2026-11-06 14:[bold][/bold]06:42,457 - tart2ms - INFO -     shapshot direction [5.12672704], [-0.02483397] J193458-012522
-# 2026-11-06 14:[bold][/bold]06:42,459 - tart2ms - INFO -     shapshot direction [5.1268008], [-0.02483415] J193459-012522
-# 2026-11-06 14:[bold][/bold]06:42,461 - tart2ms - INFO -     shapshot direction [5.12687611], [-0.02483433] J193460-012522
-# 2026-11-06 14:[bold][/bold]06:42,462 - tart2ms - INFO -     shapshot direction [5.12695068], [-0.02483451] J193501-012522
-# 2026-11-06 14:[bold][/bold]06:42,465 - tart2ms - INFO -     shapshot direction [5.12702582], [-0.02483469] J193502-012523
-# 2026-11-06 14:[bold][/bold]06:42,466 - tart2ms - INFO -     shapshot direction [5.12710043], [-0.02483487] J193503-012523
-# 2026-11-06 14:[bold][/bold]06:42,468 - tart2ms - INFO -     shapshot direction [5.12717486], [-0.02483505] J193504-012523
-# 2026-11-06 14:[bold][/bold]06:42,469 - tart2ms - INFO -     shapshot direction [5.12725001], [-0.02483523] J193505-012523
-# 2026-11-06 14:[bold][/bold]06:42,471 - tart2ms - INFO -     shapshot direction [5.12732449], [-0.02483541] J193506-012523
-# 2026-11-06 14:[bold][/bold]06:42,474 - tart2ms - INFO -     shapshot direction [5.12739927], [-0.02483559] J193507-012523
-# 2026-11-06 14:[bold][/bold]06:42,476 - tart2ms - INFO -     shapshot direction [5.12747384], [-0.02483577] J193508-012523
-# 2026-11-06 14:[bold][/bold]06:42,477 - tart2ms - INFO -     shapshot direction [5.1275483], [-0.02483595] J193509-012523
-# 2026-11-06 14:[bold][/bold]06:42,479 - tart2ms - INFO -     shapshot direction [5.12762349], [-0.02483613] J193510-012523
-# 2026-11-06 14:[bold][/bold]06:42,480 - tart2ms - INFO -     shapshot direction [5.12769802], [-0.02483631] J193511-012523
-# 2026-11-06 14:[bold][/bold]06:42,482 - tart2ms - INFO -     shapshot direction [5.12777336], [-0.02483649] J193512-012523
-# 2026-11-06 14:[bold][/bold]06:42,483 - tart2ms - INFO -     shapshot direction [5.12784757], [-0.02483667] J193513-012523
-# 2026-11-06 14:[bold][/bold]06:42,485 - tart2ms - INFO -     shapshot direction [5.12792202], [-0.02483685] J193514-012523
-# 2026-11-06 14:[bold][/bold]06:42,487 - tart2ms - INFO -     shapshot direction [5.12799722], [-0.02483703] J193515-012523
-# 2026-11-06 14:[bold][/bold]06:42,488 - tart2ms - INFO -     shapshot direction [5.12807178], [-0.02483721] J193516-012523
-# 2026-11-06 14:[bold][/bold]06:42,490 - tart2ms - INFO -     shapshot direction [5.12814712], [-0.02483739] J193517-012523
-# 2026-11-06 14:[bold][/bold]06:42,492 - tart2ms - INFO -     shapshot direction [5.12822176], [-0.02483757] J193518-012523
-# 2026-11-06 14:[bold][/bold]06:42,494 - tart2ms - INFO -     shapshot direction [5.12829617], [-0.02483775] J193519-012523
-# 2026-11-06 14:[bold][/bold]06:42,495 - tart2ms - INFO -     shapshot direction [5.12837064], [-0.02483793] J193520-012523
-# 2026-11-06 14:[bold][/bold]06:42,497 - tart2ms - INFO -     shapshot direction [5.12844518], [-0.02483811] J193521-012523
-# 2026-11-06 14:[bold][/bold]06:42,499 - tart2ms - INFO -     shapshot direction [5.12852046], [-0.02483829] J193522-012523
-# 2026-11-06 14:[bold][/bold]06:42,500 - tart2ms - INFO -     shapshot direction [5.12859519], [-0.02483847] J193523-012523
-# 2026-11-06 14:[bold][/bold]06:42,502 - tart2ms - INFO -     shapshot direction [5.12866966], [-0.02483865] J193524-012523
-# 2026-11-06 14:[bold][/bold]06:42,504 - tart2ms - INFO -     shapshot direction [5.1287441], [-0.02483883] J193525-012523
-# 2026-11-06 14:[bold][/bold]06:42,506 - tart2ms - INFO -     shapshot direction [5.12881932], [-0.02483901] J193526-012523
-# 2026-11-06 14:[bold][/bold]06:42,507 - tart2ms - INFO -     shapshot direction [5.12889377], [-0.02483919] J193527-012523
-# 2026-11-06 14:[bold][/bold]06:42,509 - tart2ms - INFO -     shapshot direction [5.12896829], [-0.02483937] J193528-012523
-# 2026-11-06 14:[bold][/bold]06:42,510 - tart2ms - INFO -     shapshot direction [5.12904353], [-0.02483955] J193529-012524
-# 2026-11-06 14:[bold][/bold]06:42,512 - tart2ms - INFO -     shapshot direction [5.12911803], [-0.02483973] J193530-012524
-# 2026-11-06 14:[bold][/bold]06:42,514 - tart2ms - INFO -     shapshot direction [5.12919255], [-0.02483991] J193531-012524
-# 2026-11-06 14:[bold][/bold]06:42,515 - tart2ms - INFO -     shapshot direction [5.12926779], [-0.02484009] J193532-012524
-# 2026-11-06 14:[bold][/bold]06:42,517 - tart2ms - INFO -     shapshot direction [5.12934248], [-0.02484027] J193534-012524
-# 2026-11-06 14:[bold][/bold]06:42,519 - tart2ms - INFO -     shapshot direction [5.129417], [-0.02484045] J193535-012524
-# 2026-11-06 14:[bold][/bold]06:42,521 - tart2ms - INFO -     shapshot direction [5.1294915], [-0.02484063] J193536-012524
-# 2026-11-06 14:[bold][/bold]06:42,523 - tart2ms - INFO -     shapshot direction [5.12956674], [-0.02484081] J193537-012524
-# 2026-11-06 14:[bold][/bold]06:42,524 - tart2ms - INFO -     shapshot direction [5.12964122], [-0.02484099] J193538-012524
-# 2026-11-06 14:[bold][/bold]06:42,526 - tart2ms - INFO -     shapshot direction [5.12971586], [-0.02484117] J193539-012524
-# 2026-11-06 14:[bold][/bold]06:42,528 - tart2ms - INFO -     shapshot direction [5.129791], [-0.02484136] J193540-012524
-# 2026-11-06 14:[bold][/bold]06:42,529 - tart2ms - INFO -     shapshot direction [5.12986548], [-0.02484153] J193541-012524
-# 2026-11-06 14:[bold][/bold]06:42,531 - tart2ms - INFO -     shapshot direction [5.12993997], [-0.02484171] J193542-012524
-# 2026-11-06 14:[bold][/bold]06:42,532 - tart2ms - INFO -     shapshot direction [5.13001518], [-0.0248419] J193543-012524
-# 2026-11-06 14:[bold][/bold]06:42,534 - tart2ms - INFO -     shapshot direction [5.13008985], [-0.02484208] J193544-012524
-# 2026-11-06 14:[bold][/bold]06:42,536 - tart2ms - INFO -     shapshot direction [5.13016434], [-0.02484225] J193545-012524
-# 2026-11-06 14:[bold][/bold]06:42,537 - tart2ms - INFO -     shapshot direction [5.13023888], [-0.02484243] J193546-012524
-# 2026-11-06 14:[bold][/bold]06:42,539 - tart2ms - INFO -     shapshot direction [5.1303142], [-0.02484262] J193547-012524
-# 2026-11-06 14:[bold][/bold]06:42,540 - tart2ms - INFO -     shapshot direction [5.13038866], [-0.0248428] J193548-012524
-# 2026-11-06 14:[bold][/bold]06:42,542 - tart2ms - INFO -     shapshot direction [5.13046332], [-0.02484297] J193549-012524
-# 2026-11-06 14:[bold][/bold]06:42,543 - tart2ms - INFO -     shapshot direction [5.13053856], [-0.02484316] J193550-012524
-# 2026-11-06 14:[bold][/bold]06:42,546 - tart2ms - INFO -     shapshot direction [5.13061302], [-0.02484334] J193551-012524
-# 2026-11-06 14:[bold][/bold]06:42,549 - tart2ms - INFO -     shapshot direction [5.13068759], [-0.02484352] J193552-012524
-# 2026-11-06 14:[bold][/bold]06:42,550 - tart2ms - INFO -     shapshot direction [5.13076204], [-0.02484369] J193553-012524
-# 2026-11-06 14:[bold][/bold]06:42,552 - tart2ms - INFO -     shapshot direction [5.13083743], [-0.02484388] J193554-012524
-# 2026-11-06 14:[bold][/bold]06:42,554 - tart2ms - INFO -     shapshot direction [5.13091184], [-0.02484406] J193555-012524
-# 2026-11-06 14:[bold][/bold]06:42,555 - tart2ms - INFO -     shapshot direction [5.13098637], [-0.02484423] J193556-012524
-# 2026-11-06 14:[bold][/bold]06:42,557 - tart2ms - INFO -     shapshot direction [5.13106168], [-0.02484442] J193557-012525
-# 2026-11-06 14:[bold][/bold]06:42,558 - tart2ms - INFO -     shapshot direction [5.13113615], [-0.0248446] J193558-012525
-# 2026-11-06 14:[bold][/bold]06:42,560 - tart2ms - INFO -     shapshot direction [5.13121081], [-0.02484478] J193559-012525
-# 2026-11-06 14:[bold][/bold]06:42,562 - tart2ms - INFO -     shapshot direction [5.13128524], [-0.02484495] J193600-012525
-# 2026-11-06 14:[bold][/bold]06:42,563 - tart2ms - INFO -     shapshot direction [5.13136048], [-0.02484514] J193601-012525
-# 2026-11-06 14:[bold][/bold]06:42,565 - tart2ms - INFO -     shapshot direction [5.13143512], [-0.02484532] J193602-012525
-# 2026-11-06 14:[bold][/bold]06:42,569 - tart2ms - INFO -     shapshot direction [5.13150962], [-0.02484549] J193603-012525
-# 2026-11-06 14:[bold][/bold]06:42,570 - tart2ms - INFO -     shapshot direction [5.13158506], [-0.02484568] J193604-012525
-# 2026-11-06 14:[bold][/bold]06:42,572 - tart2ms - INFO -     shapshot direction [5.13165947], [-0.02484586] J193605-012525
-# 2026-11-06 14:[bold][/bold]06:42,574 - tart2ms - INFO -     shapshot direction [5.13173393], [-0.02484603] J193606-012525
-# 2026-11-06 14:[bold][/bold]06:42,575 - tart2ms - INFO -     shapshot direction [5.1318085], [-0.02484621] J193607-012525
-# 2026-11-06 14:[bold][/bold]06:42,577 - tart2ms - INFO -     shapshot direction [5.1318837], [-0.0248464] J193608-012525
-# 2026-11-06 14:[bold][/bold]06:42,578 - tart2ms - INFO -     shapshot direction [5.13195834], [-0.02484658] J193609-012525
-# 2026-11-06 14:[bold][/bold]06:42,580 - tart2ms - INFO -     shapshot direction [5.13203352], [-0.02484676] J193611-012525
-# 2026-11-06 14:[bold][/bold]06:42,582 - tart2ms - INFO -     shapshot direction [5.1321073], [-0.02484693] J193612-012525
-# 2026-11-06 14:[bold][/bold]06:42,583 - tart2ms - INFO -     shapshot direction [5.13218254], [-0.02484711] J193613-012525
-# 2026-11-06 14:[bold][/bold]06:42,585 - tart2ms - INFO -     shapshot direction [5.13225702], [-0.02484729] J193614-012525
-# 2026-11-06 14:[bold][/bold]06:42,587 - tart2ms - INFO -     shapshot direction [5.13233174], [-0.02484747] J193615-012525
-# 2026-11-06 14:[bold][/bold]06:42,589 - tart2ms - INFO -     shapshot direction [5.13240704], [-0.02484766] J193616-012525
-# 2026-11-06 14:[bold][/bold]06:42,591 - tart2ms - INFO -     shapshot direction [5.13248156], [-0.02484783] J193617-012525
-# 2026-11-06 14:[bold][/bold]06:42,593 - tart2ms - INFO -     shapshot direction [5.13255605], [-0.02484801] J193618-012525
-# 2026-11-06 14:[bold][/bold]06:42,595 - tart2ms - INFO -     shapshot direction [5.13263125], [-0.02484819] J193619-012525
-# 2026-11-06 14:[bold][/bold]06:42,596 - tart2ms - INFO -     shapshot direction [5.13270587], [-0.02484837] J193620-012525
-# 2026-11-06 14:[bold][/bold]06:42,598 - tart2ms - INFO -     shapshot direction [5.13278039], [-0.02484855] J193621-012525
-# 2026-11-06 14:[bold][/bold]06:42,600 - tart2ms - INFO -     shapshot direction [5.13285491], [-0.02484873] J193622-012525
-# 2026-11-06 14:[bold][/bold]06:42,601 - tart2ms - INFO -     shapshot direction [5.1329294], [-0.02484891] J193623-012525
-# 2026-11-06 14:[bold][/bold]06:42,605 - tart2ms - INFO -     shapshot direction [5.13300455], [-0.02484909] J193624-012525
-# 2026-11-06 14:[bold][/bold]06:42,608 - tart2ms - INFO -     shapshot direction [5.1330792], [-0.02484927] J193625-012526
-# 2026-11-06 14:[bold][/bold]06:42,610 - tart2ms - INFO -     shapshot direction [5.13315366], [-0.02484945] J193626-012526
-# 2026-11-06 14:[bold][/bold]06:42,612 - tart2ms - INFO -     shapshot direction [5.13322886], [-0.02484963] J193627-012526
-# 2026-11-06 14:[bold][/bold]06:42,613 - tart2ms - INFO -     shapshot direction [5.13330328], [-0.02484981] J193628-012526
-# 2026-11-06 14:[bold][/bold]06:42,615 - tart2ms - INFO -     shapshot direction [5.13337846], [-0.02484999] J193629-012526
-# 2026-11-06 14:[bold][/bold]06:42,617 - tart2ms - INFO -     shapshot direction [5.13345311], [-0.02485017] J193630-012526
-# 2026-11-06 14:[bold][/bold]06:42,618 - tart2ms - INFO -     shapshot direction [5.13352754], [-0.02485035] J193631-012526
-# 2026-11-06 14:[bold][/bold]06:42,620 - tart2ms - INFO -     shapshot direction [5.1336028], [-0.02485053] J193632-012526
-# 2026-11-06 14:[bold][/bold]06:42,622 - tart2ms - INFO -     shapshot direction [5.1336774], [-0.02485071] J193633-012526
-# 2026-11-06 14:[bold][/bold]06:42,624 - tart2ms - INFO -     shapshot direction [5.13375189], [-0.02485089] J193634-012526
-# 2026-11-06 14:[bold][/bold]06:42,625 - tart2ms - INFO -     shapshot direction [5.13382687], [-0.02485107] J193635-012526
-# 2026-11-06 14:[bold][/bold]06:42,627 - tart2ms - INFO -     shapshot direction [5.13390135], [-0.02485125] J193636-012526
-# 2026-11-06 14:[bold][/bold]06:42,629 - tart2ms - INFO -     shapshot direction [5.13397591], [-0.02485143] J193637-012526
-# 2026-11-06 14:[bold][/bold]06:42,630 - tart2ms - INFO -     shapshot direction [5.1340511], [-0.02485161] J193638-012526
-# 2026-11-06 14:[bold][/bold]06:42,632 - tart2ms - INFO -     shapshot direction [5.13412552], [-0.02485179] J193639-012526
-# 2026-11-06 14:[bold][/bold]06:42,633 - tart2ms - INFO -     shapshot direction [5.1342003], [-0.02485197] J193640-012526
-# 2026-11-06 14:[bold][/bold]06:42,636 - tart2ms - INFO -     shapshot direction [5.13427545], [-0.02485215] J193641-012526
-# 2026-11-06 14:[bold][/bold]06:42,638 - tart2ms - INFO -     shapshot direction [5.13435], [-0.02485233] J193642-012526
-# 2026-11-06 14:[bold][/bold]06:42,639 - tart2ms - INFO -     shapshot direction [5.13442439], [-0.02485251] J193643-012526
-# 2026-11-06 14:[bold][/bold]06:42,641 - tart2ms - INFO -     shapshot direction [5.13449958], [-0.02485269] J193644-012526
-# 2026-11-06 14:[bold][/bold]06:42,643 - tart2ms - INFO -     shapshot direction [5.13457422], [-0.02485287] J193645-012526
-# 2026-11-06 14:[bold][/bold]06:42,644 - tart2ms - INFO -     shapshot direction [5.13464873], [-0.02485305] J193646-012526
-# 2026-11-06 14:[bold][/bold]06:42,646 - tart2ms - INFO -     shapshot direction [5.13472325], [-0.02485323] J193648-012526
-# 2026-11-06 14:[bold][/bold]06:42,647 - tart2ms - INFO -     shapshot direction [5.13479856], [-0.02485341] J193649-012526
-# 2026-11-06 14:[bold][/bold]06:42,649 - tart2ms - INFO -     shapshot direction [5.13487299], [-0.02485359] J193650-012526
-# 2026-11-06 14:[bold][/bold]06:42,651 - tart2ms - INFO -     shapshot direction [5.13494791], [-0.02485377] J193651-012526
-# 2026-11-06 14:[bold][/bold]06:42,652 - tart2ms - INFO -     shapshot direction [5.13502234], [-0.02485395] J193652-012526
-# 2026-11-06 14:[bold][/bold]06:42,654 - tart2ms - INFO -     shapshot direction [5.1350976], [-0.02485413] J193653-012527
-# 2026-11-06 14:[bold][/bold]06:42,655 - tart2ms - INFO -     shapshot direction [5.13517201], [-0.02485431] J193654-012527
-# 2026-11-06 14:[bold][/bold]06:42,657 - tart2ms - INFO -     shapshot direction [5.13524649], [-0.02485449] J193655-012527
-# 2026-11-06 14:[bold][/bold]06:42,659 - tart2ms - INFO -     shapshot direction [5.13532194], [-0.02485467] J193656-012527
-# 2026-11-06 14:[bold][/bold]06:42,662 - tart2ms - INFO -     shapshot direction [5.13539637], [-0.02485485] J193657-012527
-# 2026-11-06 14:[bold][/bold]06:42,665 - tart2ms - INFO -     shapshot direction [5.13547087], [-0.02485502] J193658-012527
-# 2026-11-06 14:[bold][/bold]06:42,666 - tart2ms - INFO -     shapshot direction [5.13554537], [-0.0248552] J193659-012527
-# 2026-11-06 14:[bold][/bold]06:42,668 - tart2ms - INFO -     shapshot direction [5.13562052], [-0.02485538] J193660-012527
-# 2026-11-06 14:[bold][/bold]06:42,670 - tart2ms - INFO -     shapshot direction [5.13569517], [-0.02485556] J193701-012527
-# 2026-11-06 14:[bold][/bold]06:42,671 - tart2ms - INFO -     shapshot direction [5.13576968], [-0.02485574] J193702-012527
-# 2026-11-06 14:[bold][/bold]06:42,673 - tart2ms - INFO -     shapshot direction [5.135845], [-0.02485592] J193703-012527
-# 2026-11-06 14:[bold][/bold]06:42,674 - tart2ms - INFO -     shapshot direction [5.13591949], [-0.0248561] J193704-012527
-# 2026-11-06 14:[bold][/bold]06:42,676 - tart2ms - INFO -     shapshot direction [5.13599391], [-0.02485628] J193705-012527
-# 2026-11-06 14:[bold][/bold]06:42,678 - tart2ms - INFO -     shapshot direction [5.13606862], [-0.02485646] J193706-012527
-# 2026-11-06 14:[bold][/bold]06:42,679 - tart2ms - INFO -     shapshot direction [5.13614384], [-0.02485664] J193707-012527
-# 2026-11-06 14:[bold][/bold]06:42,681 - tart2ms - INFO -     shapshot direction [5.13621852], [-0.02485682] J193708-012527
-# 2026-11-06 14:[bold][/bold]06:42,683 - tart2ms - INFO -     shapshot direction [5.13629298], [-0.024857] J193709-012527
-# 2026-11-06 14:[bold][/bold]06:42,685 - tart2ms - INFO -     shapshot direction [5.13636813], [-0.02485718] J193710-012527
-# 2026-11-06 14:[bold][/bold]06:42,687 - tart2ms - INFO -     shapshot direction [5.13644281], [-0.02485736] J193711-012527
-# 2026-11-06 14:[bold][/bold]06:42,689 - tart2ms - INFO -     shapshot direction [5.1365173], [-0.02485754] J193712-012527
-# 2026-11-06 14:[bold][/bold]06:42,691 - tart2ms - INFO -     shapshot direction [5.13659182], [-0.02485772] J193713-012527
-# 2026-11-06 14:[bold][/bold]06:42,692 - tart2ms - INFO -     shapshot direction [5.13666697], [-0.0248579] J193714-012527
-# 2026-11-06 14:[bold][/bold]06:42,694 - tart2ms - INFO -     shapshot direction [5.13674142], [-0.02485808] J193715-012527
-# 2026-11-06 14:[bold][/bold]06:42,696 - tart2ms - INFO -     shapshot direction [5.13681605], [-0.02485826] J193716-012527
-# 2026-11-06 14:[bold][/bold]06:42,697 - tart2ms - INFO -     shapshot direction [5.1368913], [-0.02485844] J193717-012527
-# 2026-11-06 14:[bold][/bold]06:42,699 - tart2ms - INFO -     shapshot direction [5.13696584], [-0.02485862] J193718-012527
-# 2026-11-06 14:[bold][/bold]06:42,700 - tart2ms - INFO -     shapshot direction [5.13704101], [-0.0248588] J193719-012527
-# 2026-11-06 14:[bold][/bold]06:42,702 - tart2ms - INFO -     shapshot direction [5.13711472], [-0.02485897] J193720-012528
-# 2026-11-06 14:[bold][/bold]06:42,712 - tart2ms - INFO -     shapshot direction [5.13719018], [-0.02485916] J193721-012528
-# 2026-11-06 14:[bold][/bold]06:42,716 - tart2ms - INFO -     shapshot direction [5.13726464], [-0.02485933] J193722-012528
-# 2026-11-06 14:[bold][/bold]06:42,720 - tart2ms - INFO -     shapshot direction [5.13733913], [-0.02485951] J193723-012528
-# 2026-11-06 14:[bold][/bold]06:42,728 - tart2ms - INFO -     shapshot direction [5.13741434], [-0.02485969] J193725-012528
-# 2026-11-06 14:[bold][/bold]06:42,733 - tart2ms - INFO -     shapshot direction [5.13748881], [-0.02485987] J193726-012528
-# 2026-11-06 14:[bold][/bold]06:42,739 - tart2ms - INFO -     shapshot direction [5.13756349], [-0.02486005] J193727-012528
-# 2026-11-06 14:[bold][/bold]06:42,742 - tart2ms - INFO -     shapshot direction [5.13763794], [-0.02486023] J193728-012528
-# 2026-11-06 14:[bold][/bold]06:42,744 - tart2ms - INFO -     shapshot direction [5.13771316], [-0.02486041] J193729-012528
-# 2026-11-06 14:[bold][/bold]06:42,746 - tart2ms - INFO -     shapshot direction [5.13778763], [-0.02486059] J193730-012528
-# 2026-11-06 14:[bold][/bold]06:42,747 - tart2ms - INFO -     shapshot direction [5.13786282], [-0.02486077] J193731-012528
-# 2026-11-06 14:[bold][/bold]06:42,749 - tart2ms - INFO -     shapshot direction [5.13793752], [-0.02486095] J193732-012528
-# 2026-11-06 14:[bold][/bold]06:42,750 - tart2ms - INFO -     shapshot direction [5.13801202], [-0.02486113] J193733-012528
-# 2026-11-06 14:[bold][/bold]06:42,752 - tart2ms - INFO -     shapshot direction [5.13808728], [-0.02486131] J193734-012528
-# 2026-11-06 14:[bold][/bold]06:42,754 - tart2ms - INFO -     shapshot direction [5.13816171], [-0.02486149] J193735-012528
-# 2026-11-06 14:[bold][/bold]06:42,758 - tart2ms - INFO -     shapshot direction [5.13823626], [-0.02486167] J193736-012528
-# 2026-11-06 14:[bold][/bold]06:42,764 - tart2ms - INFO - Writing MS for telescope name 'TART'
-# 2026-11-06 14:[bold][/bold]06:55,418 - tart2ms - INFO - Appoximate unweighted instrument resolution: 260.7425 arcmin
-# 2026-11-06 14:[bold][/bold]06:55,421 - tart2ms - INFO - Data column size 1.26 MiB
-# 2026-11-06 14:[bold][/bold]06:56	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 61350.6 is outside the range of the IERS (Earth axis data) table.
-# 2026-11-06 14:[bold][/bold]06:56	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
-# 2026-11-06 14:[bold][/bold]06:56,063 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 0%
-# 2026-11-06 14:[bold][/bold]06:56,523 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 10%
-# 2026-11-06 14:[bold][/bold]06:56,880 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 20%
-# 2026-11-06 14:[bold][/bold]06:57,235 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 30%
-# 2026-11-06 14:[bold][/bold]06:57,605 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 40%
-# 2026-11-06 14:[bold][/bold]06:58,005 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 50%
-# 2026-11-06 14:[bold][/bold]06:58,429 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 60%
-# 2026-11-06 14:[bold][/bold]06:58,863 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 70%
-# 2026-11-06 14:[bold][/bold]06:59,207 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 80%
-# 2026-11-06 14:[bold][/bold]06:59,598 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 90%
-# 2026-11-06 14:[bold][/bold]06:59,987 - tart2ms - INFO - <Done>
-# 2026-11-06 14:[bold][/bold]06:59,991 - tart2ms - INFO - Predicting GNSS positions for 600 timestamps
-# 2026-11-06 14:[bold][/bold]07:05,035 - tart2ms - INFO - Writing catalogs as 'msdir/model_sources_*.txt'
-# 2026-11-06 14:[bold][/bold]07:08,282 - tart2ms - INFO - Per user request: Rephase all data to 19h32m28.53s -1d25m16.97s
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - TART2MS parameters:
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	json                : None
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	hdf                 : ['rawdata/vis_2026-11-12_10_36_10.525169.hdf', 'rawdata/vis_2026-11-12_10_37_12.024187.hdf', 'rawdata/vis_2026-11-12_10_38_13.528918.hdf', 'rawdata/vis_2026-11-12_10_39_15.024934.hdf', 'rawdata/vis_2026-11-12_10_40_16.528229.hdf', 'rawdata/vis_2026-11-12_10_41_18.026551.hdf', 'rawdata/vis_2026-11-12_10_42_19.528289.hdf', 'rawdata/vis_2026-11-12_10_43_21.033456.hdf', 'rawdata/vis_2026-11-12_10_44_22.529314.hdf', 'rawdata/vis_2026-11-12_10_45_24.025977.hdf']
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	archive_search      : None
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	ms                  : msdir/za-rhodes.ms
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	api                 : https://api.elec.ac.nz/tart/mu-udm/
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	catalog             : https://tart.elec.ac.nz/catalog
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	vis                 : None
+# 2026-11-12 10:[bold][/bold]46:38,817 - tart2ms - INFO - 	pol2                : False
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	clobber             : True
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	rephase             : obs-midpoint
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	debug               : False
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	single_field        : True
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	override_telescope_name: TART
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	uncalibrated        : False
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	addmodel            : True
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	writemodelcatalog   : True
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	no_fetch_sources    : False
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	no_celestial_sources: True
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	sources_recache     : False
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	timerange_start_utc : None
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	timerange_end_utc   : None
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	chunks              : 100000
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	override_ant_pos    : None
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - 	model_catalog_name_prefix: msdir/model_sources_
+# 2026-11-12 10:[bold][/bold]46:38,818 - tart2ms - INFO - Getting Data from file: ['rawdata/vis_2026-11-12_10_36_10.525169.hdf', 'rawdata/vis_2026-11-12_10_37_12.024187.hdf', 'rawdata/vis_2026-11-12_10_38_13.528918.hdf', 'rawdata/vis_2026-11-12_10_39_15.024934.hdf', 'rawdata/vis_2026-11-12_10_40_16.528229.hdf', 'rawdata/vis_2026-11-12_10_41_18.026551.hdf', 'rawdata/vis_2026-11-12_10_42_19.528289.hdf', 'rawdata/vis_2026-11-12_10_43_21.033456.hdf', 'rawdata/vis_2026-11-12_10_44_22.529314.hdf', 'rawdata/vis_2026-11-12_10_45_24.025977.hdf']
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - Writing measurement set 'msdir/za-rhodes.ms'...
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - Will process HDF5 file:
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_36_10.525169.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_37_12.024187.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_38_13.528918.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_39_15.024934.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_40_16.528229.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_41_18.026551.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_42_19.528289.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_43_21.033456.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_44_22.529314.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,819 - tart2ms - INFO - 	 'rawdata/vis_2026-11-12_10_45_24.025977.hdf'
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - Observatory parameters:
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	L0_frequency             : 1571328000.0
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	bandwidth                : 2500000.0
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	baseband_frequency       : 4092000.0
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	operating_frequency      : 1575420000.0
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	name                     : Rhodes University, Grahamstown
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	num_antenna              : 24
+# 2026-11-12 10:[bold][/bold]46:38,840 - tart2ms - INFO - 	sampling_frequency       : 16368000.0
+# 2026-11-12 10:[bold][/bold]46:38,843 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_36_10.525169.hdf' -- flagging all baselines involving these antennas
+# Fetching ephemerides for 2026-11-12T10:[bold][/bold]00:00+00:00
+# 2026-11-12 10:[bold][/bold]46:40,703 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:40,704 - tart2ms - INFO - 	 Processing HDF database progress: 0%
+# 2026-11-12 10:[bold][/bold]46:40,707 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_37_12.024187.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:40,867 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:40,868 - tart2ms - INFO - 	 Processing HDF database progress: 10%
+# 2026-11-12 10:[bold][/bold]46:40,871 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_38_13.528918.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,033 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,033 - tart2ms - INFO - 	 Processing HDF database progress: 20%
+# 2026-11-12 10:[bold][/bold]46:41,037 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_39_15.024934.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,212 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,212 - tart2ms - INFO - 	 Processing HDF database progress: 30%
+# 2026-11-12 10:[bold][/bold]46:41,215 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_40_16.528229.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,405 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,405 - tart2ms - INFO - 	 Processing HDF database progress: 40%
+# 2026-11-12 10:[bold][/bold]46:41,409 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_41_18.026551.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,572 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,572 - tart2ms - INFO - 	 Processing HDF database progress: 50%
+# 2026-11-12 10:[bold][/bold]46:41,575 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_42_19.528289.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,780 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,781 - tart2ms - INFO - 	 Processing HDF database progress: 60%
+# 2026-11-12 10:[bold][/bold]46:41,784 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_43_21.033456.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:41,993 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:41,994 - tart2ms - INFO - 	 Processing HDF database progress: 70%
+# 2026-11-12 10:[bold][/bold]46:42,001 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_44_22.529314.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:42,216 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:42,216 - tart2ms - INFO - 	 Processing HDF database progress: 80%
+# 2026-11-12 10:[bold][/bold]46:42,219 - tart2ms - WARNING - Zero or non-finite gains for antenna(s) [3, 4, 7, 10, 14, 20] in 'rawdata/vis_2026-11-12_10_45_24.025977.hdf' -- flagging all baselines involving these antennas
+# 2026-11-12 10:[bold][/bold]46:42,404 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps via tart-catalogue-client (single TLE fetch + local SGP4, celestial positions)
+# 2026-11-12 10:[bold][/bold]46:42,404 - tart2ms - INFO - 	 Processing HDF database progress: 90%
+# 2026-11-12 10:[bold][/bold]46:42,474 - tart2ms - INFO - Telescope position (WGS84):
+# 2026-11-12 10:[bold][/bold]46:42,474 - tart2ms - INFO - 	Lat -33.319413
+# 2026-11-12 10:[bold][/bold]46:42,474 - tart2ms - INFO - 	Lon 26.507688
+# 2026-11-12 10:[bold][/bold]46:42,474 - tart2ms - INFO - 	Alt 642.26
+# 2026-11-12 10:[bold][/bold]46:42,520 - tart2ms - INFO - Min time: 2026-11-12 10:[bold][/bold]35:10.058200+00:00 -- 5301196510.0582
+# 2026-11-12 10:[bold][/bold]46:42,521 - tart2ms - INFO - Max time: 2026-11-12 10:[bold][/bold]45:24.025977+00:00 -- 5301197124.025977
+# 2026-11-12 10:[bold][/bold]46:42,670 - tart2ms - INFO - Pol Feeds ['RR']
+# 2026-11-12 10:[bold][/bold]46:42,704 - tart2ms - INFO - Setting phase center per rephase-obs-midpoint
+# 2026-11-12 10:[bold][/bold]46:42,707 - tart2ms - INFO -     shapshot direction [4.12690703], [-0.58007862] J154549-331410
+# 2026-11-12 10:[bold][/bold]46:42,708 - tart2ms - INFO -     shapshot direction [4.12698144], [-0.58007878] J154550-331410
+# 2026-11-12 10:[bold][/bold]46:42,710 - tart2ms - INFO -     shapshot direction [4.12705584], [-0.58007894] J154551-331410
+# 2026-11-12 10:[bold][/bold]46:42,711 - tart2ms - INFO -     shapshot direction [4.12713027], [-0.5800791] J154552-331410
+# 2026-11-12 10:[bold][/bold]46:42,713 - tart2ms - INFO -     shapshot direction [4.12720534], [-0.58007925] J154553-331410
+# 2026-11-12 10:[bold][/bold]46:42,714 - tart2ms - INFO -     shapshot direction [4.12727995], [-0.58007941] J154554-331410
+# 2026-11-12 10:[bold][/bold]46:42,716 - tart2ms - INFO -     shapshot direction [4.1273546], [-0.58007957] J154555-331410
+# 2026-11-12 10:[bold][/bold]46:42,717 - tart2ms - INFO -     shapshot direction [4.12742907], [-0.58007973] J154556-331410
+# 2026-11-12 10:[bold][/bold]46:42,719 - tart2ms - INFO -     shapshot direction [4.12750428], [-0.58007989] J154557-331410
+# 2026-11-12 10:[bold][/bold]46:42,721 - tart2ms - INFO -     shapshot direction [4.12757849], [-0.58008005] J154558-331410
+# 2026-11-12 10:[bold][/bold]46:42,723 - tart2ms - INFO -     shapshot direction [4.12765321], [-0.58008021] J154559-331410
+# 2026-11-12 10:[bold][/bold]46:42,725 - tart2ms - INFO -     shapshot direction [4.12772799], [-0.58008036] J154600-331410
+# 2026-11-12 10:[bold][/bold]46:42,728 - tart2ms - INFO -     shapshot direction [4.1278023], [-0.58008052] J154601-331410
+# 2026-11-12 10:[bold][/bold]46:42,729 - tart2ms - INFO -     shapshot direction [4.12787739], [-0.58008068] J154602-331410
+# 2026-11-12 10:[bold][/bold]46:42,731 - tart2ms - INFO -     shapshot direction [4.1279522], [-0.58008084] J154603-331410
+# 2026-11-12 10:[bold][/bold]46:42,733 - tart2ms - INFO -     shapshot direction [4.12802657], [-0.580081] J154604-331410
+# 2026-11-12 10:[bold][/bold]46:42,734 - tart2ms - INFO -     shapshot direction [4.12810169], [-0.58008116] J154605-331410
+# 2026-11-12 10:[bold][/bold]46:42,736 - tart2ms - INFO -     shapshot direction [4.12817571], [-0.58008132] J154606-331410
+# 2026-11-12 10:[bold][/bold]46:42,737 - tart2ms - INFO -     shapshot direction [4.12825078], [-0.58008147] J154608-331410
+# 2026-11-12 10:[bold][/bold]46:42,739 - tart2ms - INFO -     shapshot direction [4.12832523], [-0.58008163] J154609-331410
+# 2026-11-12 10:[bold][/bold]46:42,740 - tart2ms - INFO -     shapshot direction [4.12840006], [-0.58008179] J154610-331410
+# 2026-11-12 10:[bold][/bold]46:42,742 - tart2ms - INFO -     shapshot direction [4.12847463], [-0.58008195] J154611-331410
+# 2026-11-12 10:[bold][/bold]46:42,743 - tart2ms - INFO -     shapshot direction [4.1285499], [-0.58008211] J154612-331411
+# 2026-11-12 10:[bold][/bold]46:42,744 - tart2ms - INFO -     shapshot direction [4.12862427], [-0.58008227] J154613-331411
+# 2026-11-12 10:[bold][/bold]46:42,746 - tart2ms - INFO -     shapshot direction [4.12869843], [-0.58008243] J154614-331411
+# 2026-11-12 10:[bold][/bold]46:42,748 - tart2ms - INFO -     shapshot direction [4.12877353], [-0.58008259] J154615-331411
+# 2026-11-12 10:[bold][/bold]46:42,749 - tart2ms - INFO -     shapshot direction [4.12884798], [-0.58008274] J154616-331411
+# 2026-11-12 10:[bold][/bold]46:42,750 - tart2ms - INFO -     shapshot direction [4.12892238], [-0.5800829] J154617-331411
+# 2026-11-12 10:[bold][/bold]46:42,752 - tart2ms - INFO -     shapshot direction [4.12899763], [-0.58008306] J154618-331411
+# 2026-11-12 10:[bold][/bold]46:42,753 - tart2ms - INFO -     shapshot direction [4.12907195], [-0.58008322] J154619-331411
+# 2026-11-12 10:[bold][/bold]46:42,755 - tart2ms - INFO -     shapshot direction [4.12914723], [-0.58008338] J154620-331411
+# 2026-11-12 10:[bold][/bold]46:42,756 - tart2ms - INFO -     shapshot direction [4.12922113], [-0.58008354] J154621-331411
+# 2026-11-12 10:[bold][/bold]46:42,757 - tart2ms - INFO -     shapshot direction [4.12929576], [-0.5800837] J154622-331411
+# 2026-11-12 10:[bold][/bold]46:42,759 - tart2ms - INFO -     shapshot direction [4.12937086], [-0.58008385] J154623-331411
+# 2026-11-12 10:[bold][/bold]46:42,760 - tart2ms - INFO -     shapshot direction [4.1294454], [-0.58008401] J154624-331411
+# 2026-11-12 10:[bold][/bold]46:42,761 - tart2ms - INFO -     shapshot direction [4.12951987], [-0.58008417] J154625-331411
+# 2026-11-12 10:[bold][/bold]46:42,763 - tart2ms - INFO -     shapshot direction [4.12959428], [-0.58008433] J154626-331411
+# 2026-11-12 10:[bold][/bold]46:42,764 - tart2ms - INFO -     shapshot direction [4.12966937], [-0.58008449] J154627-331411
+# 2026-11-12 10:[bold][/bold]46:42,766 - tart2ms - INFO -     shapshot direction [4.12974446], [-0.58008465] J154628-331411
+# 2026-11-12 10:[bold][/bold]46:42,767 - tart2ms - INFO -     shapshot direction [4.1298186], [-0.58008481] J154629-331411
+# 2026-11-12 10:[bold][/bold]46:42,768 - tart2ms - INFO -     shapshot direction [4.12989392], [-0.58008497] J154630-331411
+# 2026-11-12 10:[bold][/bold]46:42,770 - tart2ms - INFO -     shapshot direction [4.12996829], [-0.58008513] J154631-331411
+# 2026-11-12 10:[bold][/bold]46:42,771 - tart2ms - INFO -     shapshot direction [4.13004293], [-0.58008528] J154632-331411
+# 2026-11-12 10:[bold][/bold]46:42,774 - tart2ms - INFO -     shapshot direction [4.13011732], [-0.58008544] J154633-331411
+# 2026-11-12 10:[bold][/bold]46:42,778 - tart2ms - INFO -     shapshot direction [4.13019232], [-0.5800856] J154634-331411
+# 2026-11-12 10:[bold][/bold]46:42,780 - tart2ms - INFO -     shapshot direction [4.1302669], [-0.58008576] J154635-331411
+# 2026-11-12 10:[bold][/bold]46:42,784 - tart2ms - INFO -     shapshot direction [4.13034173], [-0.58008592] J154636-331411
+# 2026-11-12 10:[bold][/bold]46:42,788 - tart2ms - INFO -     shapshot direction [4.13041578], [-0.58008608] J154637-331411
+# 2026-11-12 10:[bold][/bold]46:42,792 - tart2ms - INFO -     shapshot direction [4.13049105], [-0.58008624] J154638-331411
+# 2026-11-12 10:[bold][/bold]46:42,795 - tart2ms - INFO -     shapshot direction [4.13056522], [-0.5800864] J154639-331411
+# 2026-11-12 10:[bold][/bold]46:42,801 - tart2ms - INFO -     shapshot direction [4.13063973], [-0.58008655] J154640-331411
+# 2026-11-12 10:[bold][/bold]46:42,802 - tart2ms - INFO -     shapshot direction [4.13071497], [-0.58008671] J154641-331411
+# 2026-11-12 10:[bold][/bold]46:42,806 - tart2ms - INFO -     shapshot direction [4.13078935], [-0.58008687] J154642-331412
+# 2026-11-12 10:[bold][/bold]46:42,809 - tart2ms - INFO -     shapshot direction [4.13086388], [-0.58008703] J154643-331412
+# 2026-11-12 10:[bold][/bold]46:42,813 - tart2ms - INFO -     shapshot direction [4.130939], [-0.58008719] J154644-331412
+# 2026-11-12 10:[bold][/bold]46:42,817 - tart2ms - INFO -     shapshot direction [4.1310136], [-0.58008735] J154646-331412
+# 2026-11-12 10:[bold][/bold]46:42,819 - tart2ms - INFO -     shapshot direction [4.13108816], [-0.58008751] J154647-331412
+# 2026-11-12 10:[bold][/bold]46:42,822 - tart2ms - INFO -     shapshot direction [4.13116277], [-0.58008767] J154648-331412
+# 2026-11-12 10:[bold][/bold]46:42,824 - tart2ms - INFO -     shapshot direction [4.13123728], [-0.58008783] J154649-331412
+# 2026-11-12 10:[bold][/bold]46:42,826 - tart2ms - INFO -     shapshot direction [4.13131206], [-0.58008798] J154650-331412
+# 2026-11-12 10:[bold][/bold]46:42,828 - tart2ms - INFO -     shapshot direction [4.1313872], [-0.58008814] J154651-331412
+# 2026-11-12 10:[bold][/bold]46:42,831 - tart2ms - INFO -     shapshot direction [4.13146181], [-0.5800883] J154652-331412
+# 2026-11-12 10:[bold][/bold]46:42,833 - tart2ms - INFO -     shapshot direction [4.1315363], [-0.58008846] J154653-331412
+# 2026-11-12 10:[bold][/bold]46:42,836 - tart2ms - INFO -     shapshot direction [4.13161084], [-0.58008862] J154654-331412
+# 2026-11-12 10:[bold][/bold]46:42,839 - tart2ms - INFO -     shapshot direction [4.1316862], [-0.58008878] J154655-331412
+# 2026-11-12 10:[bold][/bold]46:42,841 - tart2ms - INFO -     shapshot direction [4.13176013], [-0.58008894] J154656-331412
+# 2026-11-12 10:[bold][/bold]46:42,845 - tart2ms - INFO -     shapshot direction [4.13183462], [-0.5800891] J154657-331412
+# 2026-11-12 10:[bold][/bold]46:42,847 - tart2ms - INFO -     shapshot direction [4.13190976], [-0.58008926] J154658-331412
+# 2026-11-12 10:[bold][/bold]46:42,848 - tart2ms - INFO -     shapshot direction [4.13198419], [-0.58008942] J154659-331412
+# 2026-11-12 10:[bold][/bold]46:42,853 - tart2ms - INFO -     shapshot direction [4.13205926], [-0.58008958] J154660-331412
+# 2026-11-12 10:[bold][/bold]46:42,856 - tart2ms - INFO -     shapshot direction [4.13213387], [-0.58008973] J154701-331412
+# 2026-11-12 10:[bold][/bold]46:42,858 - tart2ms - INFO -     shapshot direction [4.13220822], [-0.58008989] J154702-331412
+# 2026-11-12 10:[bold][/bold]46:42,860 - tart2ms - INFO -     shapshot direction [4.13228288], [-0.58009005] J154703-331412
+# 2026-11-12 10:[bold][/bold]46:42,864 - tart2ms - INFO -     shapshot direction [4.13235734], [-0.58009021] J154704-331412
+# 2026-11-12 10:[bold][/bold]46:42,867 - tart2ms - INFO -     shapshot direction [4.13243199], [-0.58009037] J154705-331412
+# 2026-11-12 10:[bold][/bold]46:42,873 - tart2ms - INFO -     shapshot direction [4.13250737], [-0.58009053] J154706-331412
+# 2026-11-12 10:[bold][/bold]46:42,875 - tart2ms - INFO -     shapshot direction [4.13258157], [-0.58009069] J154707-331412
+# 2026-11-12 10:[bold][/bold]46:42,876 - tart2ms - INFO -     shapshot direction [4.13265604], [-0.58009085] J154708-331412
+# 2026-11-12 10:[bold][/bold]46:42,878 - tart2ms - INFO -     shapshot direction [4.13273117], [-0.58009101] J154709-331412
+# 2026-11-12 10:[bold][/bold]46:42,880 - tart2ms - INFO -     shapshot direction [4.13280606], [-0.58009117] J154710-331412
+# 2026-11-12 10:[bold][/bold]46:42,881 - tart2ms - INFO -     shapshot direction [4.1328804], [-0.58009133] J154711-331412
+# 2026-11-12 10:[bold][/bold]46:42,883 - tart2ms - INFO -     shapshot direction [4.13295475], [-0.58009148] J154712-331412
+# 2026-11-12 10:[bold][/bold]46:42,885 - tart2ms - INFO -     shapshot direction [4.13302991], [-0.58009164] J154713-331412
+# 2026-11-12 10:[bold][/bold]46:42,886 - tart2ms - INFO -     shapshot direction [4.13310437], [-0.5800918] J154714-331413
+# 2026-11-12 10:[bold][/bold]46:42,888 - tart2ms - INFO -     shapshot direction [4.1331791], [-0.58009196] J154715-331413
+# 2026-11-12 10:[bold][/bold]46:42,889 - tart2ms - INFO -     shapshot direction [4.13325369], [-0.58009212] J154716-331413
+# 2026-11-12 10:[bold][/bold]46:42,891 - tart2ms - INFO -     shapshot direction [4.13332813], [-0.58009228] J154717-331413
+# 2026-11-12 10:[bold][/bold]46:42,892 - tart2ms - INFO -     shapshot direction [4.13340347], [-0.58009244] J154718-331413
+# 2026-11-12 10:[bold][/bold]46:42,894 - tart2ms - INFO -     shapshot direction [4.13347799], [-0.5800926] J154719-331413
+# 2026-11-12 10:[bold][/bold]46:42,895 - tart2ms - INFO -     shapshot direction [4.13355336], [-0.58009276] J154720-331413
+# 2026-11-12 10:[bold][/bold]46:42,896 - tart2ms - INFO -     shapshot direction [4.13362736], [-0.58009292] J154721-331413
+# 2026-11-12 10:[bold][/bold]46:42,898 - tart2ms - INFO -     shapshot direction [4.13370199], [-0.58009308] J154722-331413
+# 2026-11-12 10:[bold][/bold]46:42,900 - tart2ms - INFO -     shapshot direction [4.13377641], [-0.58009324] J154724-331413
+# 2026-11-12 10:[bold][/bold]46:42,902 - tart2ms - INFO -     shapshot direction [4.13385147], [-0.5800934] J154725-331413
+# 2026-11-12 10:[bold][/bold]46:42,904 - tart2ms - INFO -     shapshot direction [4.13392588], [-0.58009355] J154726-331413
+# 2026-11-12 10:[bold][/bold]46:42,905 - tart2ms - INFO -     shapshot direction [4.13400073], [-0.58009371] J154727-331413
+# 2026-11-12 10:[bold][/bold]46:42,907 - tart2ms - INFO -     shapshot direction [4.1340754], [-0.58009387] J154728-331413
+# 2026-11-12 10:[bold][/bold]46:42,908 - tart2ms - INFO -     shapshot direction [4.1341498], [-0.58009403] J154729-331413
+# 2026-11-12 10:[bold][/bold]46:42,910 - tart2ms - INFO -     shapshot direction [4.13422466], [-0.58009419] J154730-331413
+# 2026-11-12 10:[bold][/bold]46:42,912 - tart2ms - INFO -     shapshot direction [4.1342987], [-0.58009435] J154731-331413
+# 2026-11-12 10:[bold][/bold]46:42,914 - tart2ms - INFO -     shapshot direction [4.13437353], [-0.58009451] J154732-331413
+# 2026-11-12 10:[bold][/bold]46:42,915 - tart2ms - INFO -     shapshot direction [4.1344483], [-0.58009467] J154733-331413
+# 2026-11-12 10:[bold][/bold]46:42,917 - tart2ms - INFO -     shapshot direction [4.13452282], [-0.58009483] J154734-331413
+# 2026-11-12 10:[bold][/bold]46:42,919 - tart2ms - INFO -     shapshot direction [4.13459754], [-0.58009499] J154735-331413
+# 2026-11-12 10:[bold][/bold]46:42,920 - tart2ms - INFO -     shapshot direction [4.13467242], [-0.58009515] J154736-331413
+# 2026-11-12 10:[bold][/bold]46:42,922 - tart2ms - INFO -     shapshot direction [4.13474672], [-0.58009531] J154737-331413
+# 2026-11-12 10:[bold][/bold]46:42,923 - tart2ms - INFO -     shapshot direction [4.13482213], [-0.58009547] J154738-331413
+# 2026-11-12 10:[bold][/bold]46:42,925 - tart2ms - INFO -     shapshot direction [4.13489598], [-0.58009562] J154739-331413
+# 2026-11-12 10:[bold][/bold]46:42,926 - tart2ms - INFO -     shapshot direction [4.13497145], [-0.58009578] J154740-331413
+# 2026-11-12 10:[bold][/bold]46:42,928 - tart2ms - INFO -     shapshot direction [4.13504557], [-0.58009594] J154741-331413
+# 2026-11-12 10:[bold][/bold]46:42,929 - tart2ms - INFO -     shapshot direction [4.13512007], [-0.5800961] J154742-331413
+# 2026-11-12 10:[bold][/bold]46:42,931 - tart2ms - INFO -     shapshot direction [4.13519501], [-0.58009626] J154743-331413
+# 2026-11-12 10:[bold][/bold]46:42,932 - tart2ms - INFO -     shapshot direction [4.1352694], [-0.58009642] J154744-331413
+# 2026-11-12 10:[bold][/bold]46:42,934 - tart2ms - INFO -     shapshot direction [4.13534466], [-0.58009658] J154745-331414
+# 2026-11-12 10:[bold][/bold]46:42,936 - tart2ms - INFO -     shapshot direction [4.13541922], [-0.58009674] J154746-331414
+# 2026-11-12 10:[bold][/bold]46:42,937 - tart2ms - INFO -     shapshot direction [4.13549408], [-0.5800969] J154747-331414
+# 2026-11-12 10:[bold][/bold]46:42,939 - tart2ms - INFO -     shapshot direction [4.13556858], [-0.58009706] J154748-331414
+# 2026-11-12 10:[bold][/bold]46:42,940 - tart2ms - INFO -     shapshot direction [4.13564308], [-0.58009722] J154749-331414
+# 2026-11-12 10:[bold][/bold]46:42,942 - tart2ms - INFO -     shapshot direction [4.13571783], [-0.58009738] J154750-331414
+# 2026-11-12 10:[bold][/bold]46:42,943 - tart2ms - INFO -     shapshot direction [4.13579229], [-0.58009754] J154751-331414
+# 2026-11-12 10:[bold][/bold]46:42,945 - tart2ms - INFO -     shapshot direction [4.13586739], [-0.5800977] J154752-331414
+# 2026-11-12 10:[bold][/bold]46:42,946 - tart2ms - INFO -     shapshot direction [4.13594194], [-0.58009786] J154753-331414
+# 2026-11-12 10:[bold][/bold]46:42,948 - tart2ms - INFO -     shapshot direction [4.13601672], [-0.58009802] J154754-331414
+# 2026-11-12 10:[bold][/bold]46:42,949 - tart2ms - INFO -     shapshot direction [4.1360915], [-0.58009818] J154755-331414
+# 2026-11-12 10:[bold][/bold]46:42,951 - tart2ms - INFO -     shapshot direction [4.13616599], [-0.58009834] J154756-331414
+# 2026-11-12 10:[bold][/bold]46:42,952 - tart2ms - INFO -     shapshot direction [4.13624078], [-0.5800985] J154757-331414
+# 2026-11-12 10:[bold][/bold]46:42,954 - tart2ms - INFO -     shapshot direction [4.13631506], [-0.58009865] J154758-331414
+# 2026-11-12 10:[bold][/bold]46:42,956 - tart2ms - INFO -     shapshot direction [4.13638992], [-0.58009881] J154759-331414
+# 2026-11-12 10:[bold][/bold]46:42,957 - tart2ms - INFO -     shapshot direction [4.13646463], [-0.58009897] J154800-331414
+# 2026-11-12 10:[bold][/bold]46:42,959 - tart2ms - INFO -     shapshot direction [4.13653922], [-0.58009913] J154801-331414
+# 2026-11-12 10:[bold][/bold]46:42,961 - tart2ms - INFO -     shapshot direction [4.13661413], [-0.58009929] J154803-331414
+# 2026-11-12 10:[bold][/bold]46:42,962 - tart2ms - INFO -     shapshot direction [4.13668884], [-0.58009945] J154804-331414
+# 2026-11-12 10:[bold][/bold]46:42,964 - tart2ms - INFO -     shapshot direction [4.1367634], [-0.58009961] J154805-331414
+# 2026-11-12 10:[bold][/bold]46:42,965 - tart2ms - INFO -     shapshot direction [4.13683785], [-0.58009977] J154806-331414
+# 2026-11-12 10:[bold][/bold]46:42,967 - tart2ms - INFO -     shapshot direction [4.13691216], [-0.58009993] J154807-331414
+# 2026-11-12 10:[bold][/bold]46:42,969 - tart2ms - INFO -     shapshot direction [4.13698698], [-0.58010009] J154808-331414
+# 2026-11-12 10:[bold][/bold]46:42,970 - tart2ms - INFO -     shapshot direction [4.13706202], [-0.58010025] J154809-331414
+# 2026-11-12 10:[bold][/bold]46:42,972 - tart2ms - INFO -     shapshot direction [4.13713644], [-0.58010041] J154810-331414
+# 2026-11-12 10:[bold][/bold]46:42,973 - tart2ms - INFO -     shapshot direction [4.13721113], [-0.58010057] J154811-331414
+# 2026-11-12 10:[bold][/bold]46:42,975 - tart2ms - INFO -     shapshot direction [4.13728571], [-0.58010073] J154812-331414
+# 2026-11-12 10:[bold][/bold]46:42,976 - tart2ms - INFO -     shapshot direction [4.13736061], [-0.58010089] J154813-331414
+# 2026-11-12 10:[bold][/bold]46:42,978 - tart2ms - INFO -     shapshot direction [4.13743516], [-0.58010105] J154814-331414
+# 2026-11-12 10:[bold][/bold]46:42,979 - tart2ms - INFO -     shapshot direction [4.1375104], [-0.58010121] J154815-331414
+# 2026-11-12 10:[bold][/bold]46:42,981 - tart2ms - INFO -     shapshot direction [4.13758441], [-0.58010137] J154816-331414
+# 2026-11-12 10:[bold][/bold]46:42,982 - tart2ms - INFO -     shapshot direction [4.13765921], [-0.58010153] J154817-331415
+# 2026-11-12 10:[bold][/bold]46:42,984 - tart2ms - INFO -     shapshot direction [4.13773382], [-0.58010169] J154818-331415
+# 2026-11-12 10:[bold][/bold]46:42,985 - tart2ms - INFO -     shapshot direction [4.13780851], [-0.58010185] J154819-331415
+# 2026-11-12 10:[bold][/bold]46:42,987 - tart2ms - INFO -     shapshot direction [4.13788379], [-0.58010201] J154820-331415
+# 2026-11-12 10:[bold][/bold]46:42,988 - tart2ms - INFO -     shapshot direction [4.13795838], [-0.58010217] J154821-331415
+# 2026-11-12 10:[bold][/bold]46:42,990 - tart2ms - INFO -     shapshot direction [4.13803283], [-0.58010233] J154822-331415
+# 2026-11-12 10:[bold][/bold]46:42,991 - tart2ms - INFO -     shapshot direction [4.13810742], [-0.58010249] J154823-331415
+# 2026-11-12 10:[bold][/bold]46:42,993 - tart2ms - INFO -     shapshot direction [4.13818208], [-0.58010264] J154824-331415
+# 2026-11-12 10:[bold][/bold]46:42,994 - tart2ms - INFO -     shapshot direction [4.13825663], [-0.5801028] J154825-331415
+# 2026-11-12 10:[bold][/bold]46:42,996 - tart2ms - INFO -     shapshot direction [4.13833123], [-0.58010296] J154826-331415
+# 2026-11-12 10:[bold][/bold]46:42,998 - tart2ms - INFO -     shapshot direction [4.13840601], [-0.58010312] J154827-331415
+# 2026-11-12 10:[bold][/bold]46:43,000 - tart2ms - INFO -     shapshot direction [4.13848087], [-0.58010328] J154828-331415
+# 2026-11-12 10:[bold][/bold]46:43,001 - tart2ms - INFO -     shapshot direction [4.13855538], [-0.58010344] J154829-331415
+# 2026-11-12 10:[bold][/bold]46:43,003 - tart2ms - INFO -     shapshot direction [4.13862988], [-0.5801036] J154830-331415
+# 2026-11-12 10:[bold][/bold]46:43,004 - tart2ms - INFO -     shapshot direction [4.1387043], [-0.58010376] J154831-331415
+# 2026-11-12 10:[bold][/bold]46:43,006 - tart2ms - INFO -     shapshot direction [4.13877964], [-0.58010392] J154832-331415
+# 2026-11-12 10:[bold][/bold]46:43,008 - tart2ms - INFO -     shapshot direction [4.1388544], [-0.58010408] J154833-331415
+# 2026-11-12 10:[bold][/bold]46:43,010 - tart2ms - INFO -     shapshot direction [4.13892881], [-0.58010424] J154834-331415
+# 2026-11-12 10:[bold][/bold]46:43,015 - tart2ms - INFO -     shapshot direction [4.13900332], [-0.5801044] J154835-331415
+# 2026-11-12 10:[bold][/bold]46:43,017 - tart2ms - INFO -     shapshot direction [4.13907794], [-0.58010456] J154836-331415
+# 2026-11-12 10:[bold][/bold]46:43,019 - tart2ms - INFO -     shapshot direction [4.13915246], [-0.58010472] J154837-331415
+# 2026-11-12 10:[bold][/bold]46:43,021 - tart2ms - INFO -     shapshot direction [4.1392273], [-0.58010488] J154838-331415
+# 2026-11-12 10:[bold][/bold]46:43,022 - tart2ms - INFO -     shapshot direction [4.1393018], [-0.58010504] J154839-331415
+# 2026-11-12 10:[bold][/bold]46:43,024 - tart2ms - INFO -     shapshot direction [4.13937663], [-0.5801052] J154841-331415
+# 2026-11-12 10:[bold][/bold]46:43,025 - tart2ms - INFO -     shapshot direction [4.13945181], [-0.58010536] J154842-331415
+# 2026-11-12 10:[bold][/bold]46:43,027 - tart2ms - INFO -     shapshot direction [4.13952618], [-0.58010552] J154843-331415
+# 2026-11-12 10:[bold][/bold]46:43,028 - tart2ms - INFO -     shapshot direction [4.13960029], [-0.58010568] J154844-331415
+# 2026-11-12 10:[bold][/bold]46:43,030 - tart2ms - INFO -     shapshot direction [4.13967556], [-0.58010584] J154845-331415
+# 2026-11-12 10:[bold][/bold]46:43,032 - tart2ms - INFO -     shapshot direction [4.13975012], [-0.580106] J154846-331415
+# 2026-11-12 10:[bold][/bold]46:43,033 - tart2ms - INFO -     shapshot direction [4.13982484], [-0.58010616] J154847-331415
+# 2026-11-12 10:[bold][/bold]46:43,035 - tart2ms - INFO -     shapshot direction [4.13989937], [-0.58010632] J154848-331416
+# 2026-11-12 10:[bold][/bold]46:43,037 - tart2ms - INFO -     shapshot direction [4.13997418], [-0.58010648] J154849-331416
+# 2026-11-12 10:[bold][/bold]46:43,038 - tart2ms - INFO -     shapshot direction [4.14004857], [-0.58010664] J154850-331416
+# 2026-11-12 10:[bold][/bold]46:43,040 - tart2ms - INFO -     shapshot direction [4.14012369], [-0.5801068] J154851-331416
+# 2026-11-12 10:[bold][/bold]46:43,041 - tart2ms - INFO -     shapshot direction [4.14019842], [-0.58010696] J154852-331416
+# 2026-11-12 10:[bold][/bold]46:43,043 - tart2ms - INFO -     shapshot direction [4.14027297], [-0.58010712] J154853-331416
+# 2026-11-12 10:[bold][/bold]46:43,045 - tart2ms - INFO -     shapshot direction [4.14034732], [-0.58010728] J154854-331416
+# 2026-11-12 10:[bold][/bold]46:43,047 - tart2ms - INFO -     shapshot direction [4.14042198], [-0.58010744] J154855-331416
+# 2026-11-12 10:[bold][/bold]46:43,048 - tart2ms - INFO -     shapshot direction [4.14049648], [-0.5801076] J154856-331416
+# 2026-11-12 10:[bold][/bold]46:43,050 - tart2ms - INFO -     shapshot direction [4.14057177], [-0.58010776] J154857-331416
+# 2026-11-12 10:[bold][/bold]46:43,051 - tart2ms - INFO -     shapshot direction [4.1406463], [-0.58010792] J154858-331416
+# 2026-11-12 10:[bold][/bold]46:43,053 - tart2ms - INFO -     shapshot direction [4.14072127], [-0.58010808] J154859-331416
+# 2026-11-12 10:[bold][/bold]46:43,054 - tart2ms - INFO -     shapshot direction [4.14079602], [-0.58010824] J154900-331416
+# 2026-11-12 10:[bold][/bold]46:43,056 - tart2ms - INFO -     shapshot direction [4.14087048], [-0.5801084] J154901-331416
+# 2026-11-12 10:[bold][/bold]46:43,058 - tart2ms - INFO -     shapshot direction [4.14094516], [-0.58010856] J154902-331416
+# 2026-11-12 10:[bold][/bold]46:43,059 - tart2ms - INFO -     shapshot direction [4.14101968], [-0.58010872] J154903-331416
+# 2026-11-12 10:[bold][/bold]46:43,061 - tart2ms - INFO -     shapshot direction [4.14109412], [-0.58010888] J154904-331416
+# 2026-11-12 10:[bold][/bold]46:43,063 - tart2ms - INFO -     shapshot direction [4.14116867], [-0.58010904] J154905-331416
+# 2026-11-12 10:[bold][/bold]46:43,064 - tart2ms - INFO -     shapshot direction [4.14124392], [-0.5801092] J154906-331416
+# 2026-11-12 10:[bold][/bold]46:43,066 - tart2ms - INFO -     shapshot direction [4.14131805], [-0.58010936] J154907-331416
+# 2026-11-12 10:[bold][/bold]46:43,067 - tart2ms - INFO -     shapshot direction [4.14139339], [-0.58010952] J154908-331416
+# 2026-11-12 10:[bold][/bold]46:43,069 - tart2ms - INFO -     shapshot direction [4.14146792], [-0.58010968] J154909-331416
+# 2026-11-12 10:[bold][/bold]46:43,070 - tart2ms - INFO -     shapshot direction [4.14154211], [-0.58010984] J154910-331416
+# 2026-11-12 10:[bold][/bold]46:43,072 - tart2ms - INFO -     shapshot direction [4.14161675], [-0.58011] J154911-331416
+# 2026-11-12 10:[bold][/bold]46:43,074 - tart2ms - INFO -     shapshot direction [4.14169212], [-0.58011016] J154912-331416
+# 2026-11-12 10:[bold][/bold]46:43,075 - tart2ms - INFO -     shapshot direction [4.1417663], [-0.58011032] J154913-331416
+# 2026-11-12 10:[bold][/bold]46:43,078 - tart2ms - INFO -     shapshot direction [4.14184088], [-0.58011048] J154914-331416
+# 2026-11-12 10:[bold][/bold]46:43,080 - tart2ms - INFO -     shapshot direction [4.14191564], [-0.58011064] J154915-331416
+# 2026-11-12 10:[bold][/bold]46:43,082 - tart2ms - INFO -     shapshot direction [4.14199046], [-0.5801108] J154916-331416
+# 2026-11-12 10:[bold][/bold]46:43,084 - tart2ms - INFO -     shapshot direction [4.14206514], [-0.58011096] J154917-331416
+# 2026-11-12 10:[bold][/bold]46:43,086 - tart2ms - INFO -     shapshot direction [4.14213945], [-0.58011112] J154919-331417
+# 2026-11-12 10:[bold][/bold]46:43,087 - tart2ms - INFO -     shapshot direction [4.14221459], [-0.58011128] J154920-331417
+# 2026-11-12 10:[bold][/bold]46:43,089 - tart2ms - INFO -     shapshot direction [4.14228919], [-0.58011144] J154921-331417
+# 2026-11-12 10:[bold][/bold]46:43,090 - tart2ms - INFO -     shapshot direction [4.1423637], [-0.5801116] J154922-331417
+# 2026-11-12 10:[bold][/bold]46:43,092 - tart2ms - INFO -     shapshot direction [4.14243851], [-0.58011176] J154923-331417
+# 2026-11-12 10:[bold][/bold]46:43,094 - tart2ms - INFO -     shapshot direction [4.14251265], [-0.58011192] J154924-331417
+# 2026-11-12 10:[bold][/bold]46:43,096 - tart2ms - INFO -     shapshot direction [4.1425878], [-0.58011208] J154925-331417
+# 2026-11-12 10:[bold][/bold]46:43,097 - tart2ms - INFO -     shapshot direction [4.14266239], [-0.58011224] J154926-331417
+# 2026-11-12 10:[bold][/bold]46:43,099 - tart2ms - INFO -     shapshot direction [4.14273678], [-0.5801124] J154927-331417
+# 2026-11-12 10:[bold][/bold]46:43,101 - tart2ms - INFO -     shapshot direction [4.1428114], [-0.58011256] J154928-331417
+# 2026-11-12 10:[bold][/bold]46:43,102 - tart2ms - INFO -     shapshot direction [4.14288663], [-0.58011272] J154929-331417
+# 2026-11-12 10:[bold][/bold]46:43,104 - tart2ms - INFO -     shapshot direction [4.14296144], [-0.58011288] J154930-331417
+# 2026-11-12 10:[bold][/bold]46:43,108 - tart2ms - INFO -     shapshot direction [4.14303541], [-0.58011304] J154931-331417
+# 2026-11-12 10:[bold][/bold]46:43,109 - tart2ms - INFO -     shapshot direction [4.14311053], [-0.5801132] J154932-331417
+# 2026-11-12 10:[bold][/bold]46:43,113 - tart2ms - INFO -     shapshot direction [4.14318499], [-0.58011336] J154933-331417
+# 2026-11-12 10:[bold][/bold]46:43,116 - tart2ms - INFO -     shapshot direction [4.14325959], [-0.58011352] J154934-331417
+# 2026-11-12 10:[bold][/bold]46:43,121 - tart2ms - INFO -     shapshot direction [4.1433341], [-0.58011368] J154935-331417
+# 2026-11-12 10:[bold][/bold]46:43,123 - tart2ms - INFO -     shapshot direction [4.14340924], [-0.58011384] J154936-331417
+# 2026-11-12 10:[bold][/bold]46:43,125 - tart2ms - INFO -     shapshot direction [4.14348391], [-0.58011401] J154937-331417
+# 2026-11-12 10:[bold][/bold]46:43,128 - tart2ms - INFO -     shapshot direction [4.14355842], [-0.58011417] J154938-331417
+# 2026-11-12 10:[bold][/bold]46:43,130 - tart2ms - INFO -     shapshot direction [4.14363319], [-0.58011433] J154939-331417
+# 2026-11-12 10:[bold][/bold]46:43,131 - tart2ms - INFO -     shapshot direction [4.14370794], [-0.58011449] J154940-331417
+# 2026-11-12 10:[bold][/bold]46:43,133 - tart2ms - INFO -     shapshot direction [4.14378254], [-0.58011465] J154941-331417
+# 2026-11-12 10:[bold][/bold]46:43,134 - tart2ms - INFO -     shapshot direction [4.14385694], [-0.58011481] J154942-331417
+# 2026-11-12 10:[bold][/bold]46:43,136 - tart2ms - INFO -     shapshot direction [4.14393215], [-0.58011497] J154943-331417
+# 2026-11-12 10:[bold][/bold]46:43,138 - tart2ms - INFO -     shapshot direction [4.14400693], [-0.58011513] J154944-331417
+# 2026-11-12 10:[bold][/bold]46:43,139 - tart2ms - INFO -     shapshot direction [4.1440815], [-0.58011529] J154945-331417
+# 2026-11-12 10:[bold][/bold]46:43,140 - tart2ms - INFO -     shapshot direction [4.14415597], [-0.58011545] J154946-331417
+# 2026-11-12 10:[bold][/bold]46:43,142 - tart2ms - INFO -     shapshot direction [4.14423056], [-0.58011561] J154947-331417
+# 2026-11-12 10:[bold][/bold]46:43,144 - tart2ms - INFO -     shapshot direction [4.14430513], [-0.58011577] J154948-331417
+# 2026-11-12 10:[bold][/bold]46:43,145 - tart2ms - INFO -     shapshot direction [4.14437967], [-0.58011593] J154949-331417
+# 2026-11-12 10:[bold][/bold]46:43,147 - tart2ms - INFO -     shapshot direction [4.14445418], [-0.58011609] J154950-331418
+# 2026-11-12 10:[bold][/bold]46:43,151 - tart2ms - INFO -     shapshot direction [4.1445294], [-0.58011625] J154951-331418
+# 2026-11-12 10:[bold][/bold]46:43,153 - tart2ms - INFO -     shapshot direction [4.14460376], [-0.58011641] J154952-331418
+# 2026-11-12 10:[bold][/bold]46:43,154 - tart2ms - INFO -     shapshot direction [4.14467825], [-0.58011657] J154953-331418
+# 2026-11-12 10:[bold][/bold]46:43,156 - tart2ms - INFO -     shapshot direction [4.14475304], [-0.58011673] J154954-331418
+# 2026-11-12 10:[bold][/bold]46:43,157 - tart2ms - INFO -     shapshot direction [4.14482788], [-0.58011689] J154955-331418
+# 2026-11-12 10:[bold][/bold]46:43,159 - tart2ms - INFO -     shapshot direction [4.14490222], [-0.58011705] J154956-331418
+# 2026-11-12 10:[bold][/bold]46:43,161 - tart2ms - INFO -     shapshot direction [4.14497732], [-0.58011721] J154958-331418
+# 2026-11-12 10:[bold][/bold]46:43,162 - tart2ms - INFO -     shapshot direction [4.14505182], [-0.58011737] J154959-331418
+# 2026-11-12 10:[bold][/bold]46:43,164 - tart2ms - INFO -     shapshot direction [4.14512625], [-0.58011753] J154960-331418
+# 2026-11-12 10:[bold][/bold]46:43,165 - tart2ms - INFO -     shapshot direction [4.14520158], [-0.58011769] J155001-331418
+# 2026-11-12 10:[bold][/bold]46:43,167 - tart2ms - INFO -     shapshot direction [4.14527612], [-0.58011785] J155002-331418
+# 2026-11-12 10:[bold][/bold]46:43,168 - tart2ms - INFO -     shapshot direction [4.14535062], [-0.58011801] J155003-331418
+# 2026-11-12 10:[bold][/bold]46:43,170 - tart2ms - INFO -     shapshot direction [4.14542575], [-0.58011818] J155004-331418
+# 2026-11-12 10:[bold][/bold]46:43,171 - tart2ms - INFO -     shapshot direction [4.14550009], [-0.58011834] J155005-331418
+# 2026-11-12 10:[bold][/bold]46:43,174 - tart2ms - INFO -     shapshot direction [4.14557487], [-0.5801185] J155006-331418
+# 2026-11-12 10:[bold][/bold]46:43,175 - tart2ms - INFO -     shapshot direction [4.14564957], [-0.58011866] J155007-331418
+# 2026-11-12 10:[bold][/bold]46:43,177 - tart2ms - INFO -     shapshot direction [4.14572419], [-0.58011882] J155008-331418
+# 2026-11-12 10:[bold][/bold]46:43,178 - tart2ms - INFO -     shapshot direction [4.1457991], [-0.58011898] J155009-331418
+# 2026-11-12 10:[bold][/bold]46:43,180 - tart2ms - INFO -     shapshot direction [4.14587328], [-0.58011914] J155010-331418
+# 2026-11-12 10:[bold][/bold]46:43,181 - tart2ms - INFO -     shapshot direction [4.14594781], [-0.5801193] J155011-331418
+# 2026-11-12 10:[bold][/bold]46:43,183 - tart2ms - INFO -     shapshot direction [4.14602267], [-0.58011946] J155012-331418
+# 2026-11-12 10:[bold][/bold]46:43,185 - tart2ms - INFO -     shapshot direction [4.14609716], [-0.58011962] J155013-331418
+# 2026-11-12 10:[bold][/bold]46:43,187 - tart2ms - INFO -     shapshot direction [4.14617227], [-0.58011978] J155014-331418
+# 2026-11-12 10:[bold][/bold]46:43,188 - tart2ms - INFO -     shapshot direction [4.14624666], [-0.58011994] J155015-331418
+# 2026-11-12 10:[bold][/bold]46:43,189 - tart2ms - INFO -     shapshot direction [4.14632186], [-0.5801201] J155016-331418
+# 2026-11-12 10:[bold][/bold]46:43,191 - tart2ms - INFO -     shapshot direction [4.14639624], [-0.58012026] J155017-331418
+# 2026-11-12 10:[bold][/bold]46:43,193 - tart2ms - INFO -     shapshot direction [4.14647077], [-0.58012042] J155018-331418
+# 2026-11-12 10:[bold][/bold]46:43,194 - tart2ms - INFO -     shapshot direction [4.14654531], [-0.58012058] J155019-331418
+# 2026-11-12 10:[bold][/bold]46:43,196 - tart2ms - INFO -     shapshot direction [4.14661987], [-0.58012074] J155020-331418
+# 2026-11-12 10:[bold][/bold]46:43,197 - tart2ms - INFO -     shapshot direction [4.14669516], [-0.58012091] J155021-331419
+# 2026-11-12 10:[bold][/bold]46:43,199 - tart2ms - INFO -     shapshot direction [4.14676993], [-0.58012107] J155022-331419
+# 2026-11-12 10:[bold][/bold]46:43,201 - tart2ms - INFO -     shapshot direction [4.14684437], [-0.58012123] J155023-331419
+# 2026-11-12 10:[bold][/bold]46:43,202 - tart2ms - INFO -     shapshot direction [4.14691878], [-0.58012139] J155024-331419
+# 2026-11-12 10:[bold][/bold]46:43,204 - tart2ms - INFO -     shapshot direction [4.14699344], [-0.58012155] J155025-331419
+# 2026-11-12 10:[bold][/bold]46:43,205 - tart2ms - INFO -     shapshot direction [4.14706784], [-0.58012171] J155026-331419
+# 2026-11-12 10:[bold][/bold]46:43,207 - tart2ms - INFO -     shapshot direction [4.14714272], [-0.58012187] J155027-331419
+# 2026-11-12 10:[bold][/bold]46:43,210 - tart2ms - INFO -     shapshot direction [4.14721717], [-0.58012203] J155028-331419
+# 2026-11-12 10:[bold][/bold]46:43,211 - tart2ms - INFO -     shapshot direction [4.14729161], [-0.58012219] J155029-331419
+# 2026-11-12 10:[bold][/bold]46:43,214 - tart2ms - INFO -     shapshot direction [4.14736681], [-0.58012235] J155030-331419
+# 2026-11-12 10:[bold][/bold]46:43,216 - tart2ms - INFO -     shapshot direction [4.1474412], [-0.58012251] J155031-331419
+# 2026-11-12 10:[bold][/bold]46:43,220 - tart2ms - INFO -     shapshot direction [4.14751611], [-0.58012267] J155032-331419
+# 2026-11-12 10:[bold][/bold]46:43,221 - tart2ms - INFO -     shapshot direction [4.14759069], [-0.58012283] J155033-331419
+# 2026-11-12 10:[bold][/bold]46:43,223 - tart2ms - INFO -     shapshot direction [4.14766514], [-0.58012299] J155034-331419
+# 2026-11-12 10:[bold][/bold]46:43,224 - tart2ms - INFO -     shapshot direction [4.14774055], [-0.58012316] J155036-331419
+# 2026-11-12 10:[bold][/bold]46:43,226 - tart2ms - INFO -     shapshot direction [4.14781533], [-0.58012332] J155037-331419
+# 2026-11-12 10:[bold][/bold]46:43,227 - tart2ms - INFO -     shapshot direction [4.14788943], [-0.58012348] J155038-331419
+# 2026-11-12 10:[bold][/bold]46:43,231 - tart2ms - INFO -     shapshot direction [4.14796391], [-0.58012364] J155039-331419
+# 2026-11-12 10:[bold][/bold]46:43,233 - tart2ms - INFO -     shapshot direction [4.1480392], [-0.5801238] J155040-331419
+# 2026-11-12 10:[bold][/bold]46:43,235 - tart2ms - INFO -     shapshot direction [4.14811319], [-0.58012396] J155041-331419
+# 2026-11-12 10:[bold][/bold]46:43,237 - tart2ms - INFO -     shapshot direction [4.14818839], [-0.58012412] J155042-331419
+# 2026-11-12 10:[bold][/bold]46:43,238 - tart2ms - INFO -     shapshot direction [4.14826254], [-0.58012428] J155043-331419
+# 2026-11-12 10:[bold][/bold]46:43,240 - tart2ms - INFO -     shapshot direction [4.14833767], [-0.58012444] J155044-331419
+# 2026-11-12 10:[bold][/bold]46:43,241 - tart2ms - INFO -     shapshot direction [4.1484122], [-0.5801246] J155045-331419
+# 2026-11-12 10:[bold][/bold]46:43,244 - tart2ms - INFO -     shapshot direction [4.14848668], [-0.58012476] J155046-331419
+# 2026-11-12 10:[bold][/bold]46:43,249 - tart2ms - INFO -     shapshot direction [4.14856193], [-0.58012492] J155047-331419
+# 2026-11-12 10:[bold][/bold]46:43,250 - tart2ms - INFO -     shapshot direction [4.14863599], [-0.58012508] J155048-331419
+# 2026-11-12 10:[bold][/bold]46:43,252 - tart2ms - INFO -     shapshot direction [4.14871075], [-0.58012524] J155049-331419
+# 2026-11-12 10:[bold][/bold]46:43,255 - tart2ms - INFO -     shapshot direction [4.14878551], [-0.58012541] J155050-331419
+# 2026-11-12 10:[bold][/bold]46:43,258 - tart2ms - INFO -     shapshot direction [4.14886017], [-0.58012557] J155051-331419
+# 2026-11-12 10:[bold][/bold]46:43,260 - tart2ms - INFO -     shapshot direction [4.14893462], [-0.58012573] J155052-331420
+# 2026-11-12 10:[bold][/bold]46:43,266 - tart2ms - INFO -     shapshot direction [4.14900971], [-0.58012589] J155053-331420
+# 2026-11-12 10:[bold][/bold]46:43,272 - tart2ms - INFO -     shapshot direction [4.14908387], [-0.58012605] J155054-331420
+# 2026-11-12 10:[bold][/bold]46:43,275 - tart2ms - INFO -     shapshot direction [4.14915923], [-0.58012621] J155055-331420
+# 2026-11-12 10:[bold][/bold]46:43,277 - tart2ms - INFO -     shapshot direction [4.14923367], [-0.58012637] J155056-331420
+# 2026-11-12 10:[bold][/bold]46:43,284 - tart2ms - INFO -     shapshot direction [4.14930829], [-0.58012653] J155057-331420
+# 2026-11-12 10:[bold][/bold]46:43,287 - tart2ms - INFO -     shapshot direction [4.14938314], [-0.58012669] J155058-331420
+# 2026-11-12 10:[bold][/bold]46:43,291 - tart2ms - INFO -     shapshot direction [4.14945781], [-0.58012685] J155059-331420
+# 2026-11-12 10:[bold][/bold]46:43,293 - tart2ms - INFO -     shapshot direction [4.1495323], [-0.58012701] J155100-331420
+# 2026-11-12 10:[bold][/bold]46:43,299 - tart2ms - INFO -     shapshot direction [4.14960676], [-0.58012718] J155101-331420
+# 2026-11-12 10:[bold][/bold]46:43,300 - tart2ms - INFO -     shapshot direction [4.14968121], [-0.58012734] J155102-331420
+# 2026-11-12 10:[bold][/bold]46:43,304 - tart2ms - INFO -     shapshot direction [4.14975635], [-0.5801275] J155103-331420
+# 2026-11-12 10:[bold][/bold]46:43,306 - tart2ms - INFO -     shapshot direction [4.14983089], [-0.58012766] J155104-331420
+# 2026-11-12 10:[bold][/bold]46:43,312 - tart2ms - INFO -     shapshot direction [4.14990608], [-0.58012782] J155105-331420
+# 2026-11-12 10:[bold][/bold]46:43,314 - tart2ms - INFO -     shapshot direction [4.14998042], [-0.58012798] J155106-331420
+# 2026-11-12 10:[bold][/bold]46:43,320 - tart2ms - INFO -     shapshot direction [4.15005493], [-0.58012814] J155107-331420
+# 2026-11-12 10:[bold][/bold]46:43,323 - tart2ms - INFO -     shapshot direction [4.15012946], [-0.5801283] J155108-331420
+# 2026-11-12 10:[bold][/bold]46:43,326 - tart2ms - INFO -     shapshot direction [4.15020389], [-0.58012846] J155109-331420
+# 2026-11-12 10:[bold][/bold]46:43,327 - tart2ms - INFO -     shapshot direction [4.15027867], [-0.58012862] J155110-331420
+# 2026-11-12 10:[bold][/bold]46:43,329 - tart2ms - INFO -     shapshot direction [4.1503533], [-0.58012878] J155111-331420
+# 2026-11-12 10:[bold][/bold]46:43,333 - tart2ms - INFO -     shapshot direction [4.15042861], [-0.58012895] J155112-331420
+# 2026-11-12 10:[bold][/bold]46:43,334 - tart2ms - INFO -     shapshot direction [4.15050325], [-0.58012911] J155114-331420
+# 2026-11-12 10:[bold][/bold]46:43,336 - tart2ms - INFO -     shapshot direction [4.15057783], [-0.58012927] J155115-331420
+# 2026-11-12 10:[bold][/bold]46:43,339 - tart2ms - INFO -     shapshot direction [4.15065245], [-0.58012943] J155116-331420
+# 2026-11-12 10:[bold][/bold]46:43,342 - tart2ms - INFO -     shapshot direction [4.15072692], [-0.58012959] J155117-331420
+# 2026-11-12 10:[bold][/bold]46:43,344 - tart2ms - INFO -     shapshot direction [4.15080205], [-0.58012975] J155118-331420
+# 2026-11-12 10:[bold][/bold]46:43,346 - tart2ms - INFO -     shapshot direction [4.15087619], [-0.58012991] J155119-331420
+# 2026-11-12 10:[bold][/bold]46:43,348 - tart2ms - INFO -     shapshot direction [4.15095147], [-0.58013008] J155120-331420
+# 2026-11-12 10:[bold][/bold]46:43,350 - tart2ms - INFO -     shapshot direction [4.15102547], [-0.58013023] J155121-331420
+# 2026-11-12 10:[bold][/bold]46:43,353 - tart2ms - INFO -     shapshot direction [4.15110066], [-0.5801304] J155122-331420
+# 2026-11-12 10:[bold][/bold]46:43,355 - tart2ms - INFO -     shapshot direction [4.15117507], [-0.58013056] J155123-331421
+# 2026-11-12 10:[bold][/bold]46:43,356 - tart2ms - INFO -     shapshot direction [4.15124989], [-0.58013072] J155124-331421
+# 2026-11-12 10:[bold][/bold]46:43,360 - tart2ms - INFO -     shapshot direction [4.15132446], [-0.58013088] J155125-331421
+# 2026-11-12 10:[bold][/bold]46:43,364 - tart2ms - INFO -     shapshot direction [4.15139894], [-0.58013104] J155126-331421
+# 2026-11-12 10:[bold][/bold]46:43,366 - tart2ms - INFO -     shapshot direction [4.15147354], [-0.5801312] J155127-331421
+# 2026-11-12 10:[bold][/bold]46:43,368 - tart2ms - INFO -     shapshot direction [4.15154869], [-0.58013136] J155128-331421
+# 2026-11-12 10:[bold][/bold]46:43,370 - tart2ms - INFO -     shapshot direction [4.15162351], [-0.58013153] J155129-331421
+# 2026-11-12 10:[bold][/bold]46:43,373 - tart2ms - INFO -     shapshot direction [4.15169797], [-0.58013169] J155130-331421
+# 2026-11-12 10:[bold][/bold]46:43,376 - tart2ms - INFO -     shapshot direction [4.15177243], [-0.58013185] J155131-331421
+# 2026-11-12 10:[bold][/bold]46:43,378 - tart2ms - INFO -     shapshot direction [4.15184682], [-0.58013201] J155132-331421
+# 2026-11-12 10:[bold][/bold]46:43,380 - tart2ms - INFO -     shapshot direction [4.15192163], [-0.58013217] J155133-331421
+# 2026-11-12 10:[bold][/bold]46:43,382 - tart2ms - INFO -     shapshot direction [4.15199663], [-0.58013233] J155134-331421
+# 2026-11-12 10:[bold][/bold]46:43,384 - tart2ms - INFO -     shapshot direction [4.15207112], [-0.58013249] J155135-331421
+# 2026-11-12 10:[bold][/bold]46:43,387 - tart2ms - INFO -     shapshot direction [4.1521457], [-0.58013265] J155136-331421
+# 2026-11-12 10:[bold][/bold]46:43,390 - tart2ms - INFO -     shapshot direction [4.15222042], [-0.58013281] J155137-331421
+# 2026-11-12 10:[bold][/bold]46:43,392 - tart2ms - INFO -     shapshot direction [4.15229505], [-0.58013297] J155138-331421
+# 2026-11-12 10:[bold][/bold]46:43,394 - tart2ms - INFO -     shapshot direction [4.15236984], [-0.58013314] J155139-331421
+# 2026-11-12 10:[bold][/bold]46:43,396 - tart2ms - INFO -     shapshot direction [4.15244483], [-0.5801333] J155140-331421
+# 2026-11-12 10:[bold][/bold]46:43,398 - tart2ms - INFO -     shapshot direction [4.15251899], [-0.58013346] J155141-331421
+# 2026-11-12 10:[bold][/bold]46:43,400 - tart2ms - INFO -     shapshot direction [4.15259412], [-0.58013362] J155142-331421
+# 2026-11-12 10:[bold][/bold]46:43,402 - tart2ms - INFO -     shapshot direction [4.15266861], [-0.58013378] J155143-331421
+# 2026-11-12 10:[bold][/bold]46:43,404 - tart2ms - INFO -     shapshot direction [4.15274378], [-0.58013394] J155144-331421
+# 2026-11-12 10:[bold][/bold]46:43,406 - tart2ms - INFO -     shapshot direction [4.15281761], [-0.5801341] J155145-331421
+# 2026-11-12 10:[bold][/bold]46:43,408 - tart2ms - INFO -     shapshot direction [4.15289271], [-0.58013427] J155146-331421
+# 2026-11-12 10:[bold][/bold]46:43,409 - tart2ms - INFO -     shapshot direction [4.15296706], [-0.58013443] J155147-331421
+# 2026-11-12 10:[bold][/bold]46:43,414 - tart2ms - INFO -     shapshot direction [4.15304215], [-0.58013459] J155148-331421
+# 2026-11-12 10:[bold][/bold]46:43,418 - tart2ms - INFO -     shapshot direction [4.1531167], [-0.58013475] J155149-331421
+# 2026-11-12 10:[bold][/bold]46:43,420 - tart2ms - INFO -     shapshot direction [4.15319166], [-0.58013491] J155150-331421
+# 2026-11-12 10:[bold][/bold]46:43,422 - tart2ms - INFO -     shapshot direction [4.15326602], [-0.58013507] J155152-331421
+# 2026-11-12 10:[bold][/bold]46:43,425 - tart2ms - INFO -     shapshot direction [4.15334054], [-0.58013523] J155153-331421
+# 2026-11-12 10:[bold][/bold]46:43,430 - tart2ms - INFO -     shapshot direction [4.15341502], [-0.58013539] J155154-331422
+# 2026-11-12 10:[bold][/bold]46:43,432 - tart2ms - INFO -     shapshot direction [4.15349015], [-0.58013556] J155155-331422
+# 2026-11-12 10:[bold][/bold]46:43,433 - tart2ms - INFO -     shapshot direction [4.15356494], [-0.58013572] J155156-331422
+# 2026-11-12 10:[bold][/bold]46:43,436 - tart2ms - INFO -     shapshot direction [4.1536395], [-0.58013588] J155157-331422
+# 2026-11-12 10:[bold][/bold]46:43,440 - tart2ms - INFO -     shapshot direction [4.15371396], [-0.58013604] J155158-331422
+# 2026-11-12 10:[bold][/bold]46:43,442 - tart2ms - INFO -     shapshot direction [4.15378885], [-0.5801362] J155159-331422
+# 2026-11-12 10:[bold][/bold]46:43,449 - tart2ms - INFO -     shapshot direction [4.15386347], [-0.58013636] J155160-331422
+# 2026-11-12 10:[bold][/bold]46:43,451 - tart2ms - INFO -     shapshot direction [4.1539379], [-0.58013652] J155201-331422
+# 2026-11-12 10:[bold][/bold]46:43,453 - tart2ms - INFO -     shapshot direction [4.15401239], [-0.58013668] J155202-331422
+# 2026-11-12 10:[bold][/bold]46:43,454 - tart2ms - INFO -     shapshot direction [4.15408699], [-0.58013685] J155203-331422
+# 2026-11-12 10:[bold][/bold]46:43,456 - tart2ms - INFO -     shapshot direction [4.15416211], [-0.58013701] J155204-331422
+# 2026-11-12 10:[bold][/bold]46:43,458 - tart2ms - INFO -     shapshot direction [4.1542373], [-0.58013717] J155205-331422
+# 2026-11-12 10:[bold][/bold]46:43,459 - tart2ms - INFO -     shapshot direction [4.15431136], [-0.58013733] J155206-331422
+# 2026-11-12 10:[bold][/bold]46:43,461 - tart2ms - INFO -     shapshot direction [4.1543858], [-0.58013749] J155207-331422
+# 2026-11-12 10:[bold][/bold]46:43,464 - tart2ms - INFO -     shapshot direction [4.15446029], [-0.58013765] J155208-331422
+# 2026-11-12 10:[bold][/bold]46:43,465 - tart2ms - INFO -     shapshot direction [4.15453553], [-0.58013782] J155209-331422
+# 2026-11-12 10:[bold][/bold]46:43,467 - tart2ms - INFO -     shapshot direction [4.15461077], [-0.58013798] J155210-331422
+# 2026-11-12 10:[bold][/bold]46:43,468 - tart2ms - INFO -     shapshot direction [4.15468472], [-0.58013814] J155211-331422
+# 2026-11-12 10:[bold][/bold]46:43,470 - tart2ms - INFO -     shapshot direction [4.15475997], [-0.5801383] J155212-331422
+# 2026-11-12 10:[bold][/bold]46:43,472 - tart2ms - INFO -     shapshot direction [4.1548345], [-0.58013846] J155213-331422
+# 2026-11-12 10:[bold][/bold]46:43,474 - tart2ms - INFO -     shapshot direction [4.15490923], [-0.58013862] J155214-331422
+# 2026-11-12 10:[bold][/bold]46:43,476 - tart2ms - INFO -     shapshot direction [4.15498369], [-0.58013879] J155215-331422
+# 2026-11-12 10:[bold][/bold]46:43,478 - tart2ms - INFO -     shapshot direction [4.15505818], [-0.58013895] J155216-331422
+# 2026-11-12 10:[bold][/bold]46:43,479 - tart2ms - INFO -     shapshot direction [4.15513276], [-0.58013911] J155217-331422
+# 2026-11-12 10:[bold][/bold]46:43,480 - tart2ms - INFO -     shapshot direction [4.15520723], [-0.58013927] J155218-331422
+# 2026-11-12 10:[bold][/bold]46:43,482 - tart2ms - INFO -     shapshot direction [4.15528193], [-0.58013943] J155219-331422
+# 2026-11-12 10:[bold][/bold]46:43,484 - tart2ms - INFO -     shapshot direction [4.15535654], [-0.58013959] J155220-331422
+# 2026-11-12 10:[bold][/bold]46:43,485 - tart2ms - INFO -     shapshot direction [4.15543132], [-0.58013975] J155221-331422
+# 2026-11-12 10:[bold][/bold]46:43,487 - tart2ms - INFO -     shapshot direction [4.15550656], [-0.58013992] J155222-331422
+# 2026-11-12 10:[bold][/bold]46:43,489 - tart2ms - INFO -     shapshot direction [4.1555807], [-0.58014008] J155223-331422
+# 2026-11-12 10:[bold][/bold]46:43,491 - tart2ms - INFO -     shapshot direction [4.15565598], [-0.58014024] J155224-331423
+# 2026-11-12 10:[bold][/bold]46:43,492 - tart2ms - INFO -     shapshot direction [4.1557302], [-0.5801404] J155225-331423
+# 2026-11-12 10:[bold][/bold]46:43,494 - tart2ms - INFO -     shapshot direction [4.15580513], [-0.58014056] J155226-331423
+# 2026-11-12 10:[bold][/bold]46:43,495 - tart2ms - INFO -     shapshot direction [4.15587953], [-0.58014072] J155227-331423
+# 2026-11-12 10:[bold][/bold]46:43,499 - tart2ms - INFO -     shapshot direction [4.15595447], [-0.58014089] J155228-331423
+# 2026-11-12 10:[bold][/bold]46:43,503 - tart2ms - INFO -     shapshot direction [4.15602904], [-0.58014105] J155230-331423
+# 2026-11-12 10:[bold][/bold]46:43,506 - tart2ms - INFO -     shapshot direction [4.15610339], [-0.58014121] J155231-331423
+# 2026-11-12 10:[bold][/bold]46:43,509 - tart2ms - INFO -     shapshot direction [4.15617851], [-0.58014137] J155232-331423
+# 2026-11-12 10:[bold][/bold]46:43,511 - tart2ms - INFO -     shapshot direction [4.15625288], [-0.58014153] J155233-331423
+# 2026-11-12 10:[bold][/bold]46:43,512 - tart2ms - INFO -     shapshot direction [4.15632724], [-0.58014169] J155234-331423
+# 2026-11-12 10:[bold][/bold]46:43,514 - tart2ms - INFO -     shapshot direction [4.15640232], [-0.58014186] J155235-331423
+# 2026-11-12 10:[bold][/bold]46:43,517 - tart2ms - INFO -     shapshot direction [4.15647672], [-0.58014202] J155236-331423
+# 2026-11-12 10:[bold][/bold]46:43,519 - tart2ms - INFO -     shapshot direction [4.15655191], [-0.58014218] J155237-331423
+# 2026-11-12 10:[bold][/bold]46:43,521 - tart2ms - INFO -     shapshot direction [4.15662655], [-0.58014234] J155238-331423
+# 2026-11-12 10:[bold][/bold]46:43,523 - tart2ms - INFO -     shapshot direction [4.15670125], [-0.5801425] J155239-331423
+# 2026-11-12 10:[bold][/bold]46:43,524 - tart2ms - INFO -     shapshot direction [4.15677577], [-0.58014266] J155240-331423
+# 2026-11-12 10:[bold][/bold]46:43,526 - tart2ms - INFO -     shapshot direction [4.15685027], [-0.58014283] J155241-331423
+# 2026-11-12 10:[bold][/bold]46:43,527 - tart2ms - INFO -     shapshot direction [4.15692533], [-0.58014299] J155242-331423
+# 2026-11-12 10:[bold][/bold]46:43,529 - tart2ms - INFO -     shapshot direction [4.15699972], [-0.58014315] J155243-331423
+# 2026-11-12 10:[bold][/bold]46:43,531 - tart2ms - INFO -     shapshot direction [4.15707408], [-0.58014331] J155244-331423
+# 2026-11-12 10:[bold][/bold]46:43,533 - tart2ms - INFO -     shapshot direction [4.15714888], [-0.58014347] J155245-331423
+# 2026-11-12 10:[bold][/bold]46:43,535 - tart2ms - INFO -     shapshot direction [4.1572233], [-0.58014363] J155246-331423
+# 2026-11-12 10:[bold][/bold]46:43,537 - tart2ms - INFO -     shapshot direction [4.15729856], [-0.5801438] J155247-331423
+# 2026-11-12 10:[bold][/bold]46:43,539 - tart2ms - INFO -     shapshot direction [4.15737297], [-0.58014396] J155248-331423
+# 2026-11-12 10:[bold][/bold]46:43,541 - tart2ms - INFO -     shapshot direction [4.15744773], [-0.58014412] J155249-331423
+# 2026-11-12 10:[bold][/bold]46:43,542 - tart2ms - INFO -     shapshot direction [4.15752247], [-0.58014428] J155250-331423
+# 2026-11-12 10:[bold][/bold]46:43,544 - tart2ms - INFO -     shapshot direction [4.157597], [-0.58014444] J155251-331423
+# 2026-11-12 10:[bold][/bold]46:43,545 - tart2ms - INFO -     shapshot direction [4.15767192], [-0.5801446] J155252-331423
+# 2026-11-12 10:[bold][/bold]46:43,547 - tart2ms - INFO -     shapshot direction [4.15774636], [-0.58014477] J155253-331423
+# 2026-11-12 10:[bold][/bold]46:43,549 - tart2ms - INFO -     shapshot direction [4.15782089], [-0.58014493] J155254-331423
+# 2026-11-12 10:[bold][/bold]46:43,550 - tart2ms - INFO -     shapshot direction [4.15789556], [-0.58014509] J155255-331424
+# 2026-11-12 10:[bold][/bold]46:43,552 - tart2ms - INFO -     shapshot direction [4.15797079], [-0.58014525] J155256-331424
+# 2026-11-12 10:[bold][/bold]46:43,553 - tart2ms - INFO -     shapshot direction [4.15804498], [-0.58014541] J155257-331424
+# 2026-11-12 10:[bold][/bold]46:43,555 - tart2ms - INFO -     shapshot direction [4.1581201], [-0.58014558] J155258-331424
+# 2026-11-12 10:[bold][/bold]46:43,556 - tart2ms - INFO -     shapshot direction [4.15819453], [-0.58014574] J155259-331424
+# 2026-11-12 10:[bold][/bold]46:43,558 - tart2ms - INFO -     shapshot direction [4.15826884], [-0.5801459] J155300-331424
+# 2026-11-12 10:[bold][/bold]46:43,560 - tart2ms - INFO -     shapshot direction [4.15834394], [-0.58014606] J155301-331424
+# 2026-11-12 10:[bold][/bold]46:43,563 - tart2ms - INFO -     shapshot direction [4.15841874], [-0.58014622] J155302-331424
+# 2026-11-12 10:[bold][/bold]46:43,565 - tart2ms - INFO -     shapshot direction [4.15849327], [-0.58014639] J155303-331424
+# 2026-11-12 10:[bold][/bold]46:43,566 - tart2ms - INFO -     shapshot direction [4.15856767], [-0.58014655] J155304-331424
+# 2026-11-12 10:[bold][/bold]46:43,568 - tart2ms - INFO -     shapshot direction [4.1586422], [-0.58014671] J155305-331424
+# 2026-11-12 10:[bold][/bold]46:43,569 - tart2ms - INFO -     shapshot direction [4.15871708], [-0.58014687] J155306-331424
+# 2026-11-12 10:[bold][/bold]46:43,571 - tart2ms - INFO -     shapshot direction [4.158792], [-0.58014703] J155307-331424
+# 2026-11-12 10:[bold][/bold]46:43,572 - tart2ms - INFO -     shapshot direction [4.15886647], [-0.58014719] J155309-331424
+# 2026-11-12 10:[bold][/bold]46:43,574 - tart2ms - INFO -     shapshot direction [4.15894158], [-0.58014736] J155310-331424
+# 2026-11-12 10:[bold][/bold]46:43,576 - tart2ms - INFO -     shapshot direction [4.159016], [-0.58014752] J155311-331424
+# 2026-11-12 10:[bold][/bold]46:43,578 - tart2ms - INFO -     shapshot direction [4.15909069], [-0.58014768] J155312-331424
+# 2026-11-12 10:[bold][/bold]46:43,580 - tart2ms - INFO -     shapshot direction [4.15916506], [-0.58014784] J155313-331424
+# 2026-11-12 10:[bold][/bold]46:43,582 - tart2ms - INFO -     shapshot direction [4.15924034], [-0.58014801] J155314-331424
+# 2026-11-12 10:[bold][/bold]46:43,584 - tart2ms - INFO -     shapshot direction [4.15931491], [-0.58014817] J155315-331424
+# 2026-11-12 10:[bold][/bold]46:43,586 - tart2ms - INFO -     shapshot direction [4.15938928], [-0.58014833] J155316-331424
+# 2026-11-12 10:[bold][/bold]46:43,588 - tart2ms - INFO -     shapshot direction [4.15946375], [-0.58014849] J155317-331424
+# 2026-11-12 10:[bold][/bold]46:43,589 - tart2ms - INFO -     shapshot direction [4.15953888], [-0.58014865] J155318-331424
+# 2026-11-12 10:[bold][/bold]46:43,591 - tart2ms - INFO -     shapshot direction [4.15961324], [-0.58014881] J155319-331424
+# 2026-11-12 10:[bold][/bold]46:43,592 - tart2ms - INFO -     shapshot direction [4.15968799], [-0.58014898] J155320-331424
+# 2026-11-12 10:[bold][/bold]46:43,594 - tart2ms - INFO -     shapshot direction [4.15976262], [-0.58014914] J155321-331424
+# 2026-11-12 10:[bold][/bold]46:43,595 - tart2ms - INFO -     shapshot direction [4.15983737], [-0.5801493] J155322-331424
+# 2026-11-12 10:[bold][/bold]46:43,597 - tart2ms - INFO -     shapshot direction [4.15991193], [-0.58014946] J155323-331424
+# 2026-11-12 10:[bold][/bold]46:43,598 - tart2ms - INFO -     shapshot direction [4.15998643], [-0.58014962] J155324-331424
+# 2026-11-12 10:[bold][/bold]46:43,600 - tart2ms - INFO -     shapshot direction [4.16006123], [-0.58014979] J155325-331424
+# 2026-11-12 10:[bold][/bold]46:43,601 - tart2ms - INFO -     shapshot direction [4.16013588], [-0.58014995] J155326-331425
+# 2026-11-12 10:[bold][/bold]46:43,603 - tart2ms - INFO -     shapshot direction [4.16021105], [-0.58015011] J155327-331425
+# 2026-11-12 10:[bold][/bold]46:43,605 - tart2ms - INFO -     shapshot direction [4.16028498], [-0.58015027] J155328-331425
+# 2026-11-12 10:[bold][/bold]46:43,606 - tart2ms - INFO -     shapshot direction [4.16036008], [-0.58015043] J155329-331425
+# 2026-11-12 10:[bold][/bold]46:43,608 - tart2ms - INFO -     shapshot direction [4.16043446], [-0.5801506] J155330-331425
+# 2026-11-12 10:[bold][/bold]46:43,611 - tart2ms - INFO -     shapshot direction [4.16050965], [-0.58015076] J155331-331425
+# 2026-11-12 10:[bold][/bold]46:43,613 - tart2ms - INFO -     shapshot direction [4.16058432], [-0.58015092] J155332-331425
+# 2026-11-12 10:[bold][/bold]46:43,615 - tart2ms - INFO -     shapshot direction [4.16065912], [-0.58015108] J155333-331425
+# 2026-11-12 10:[bold][/bold]46:43,616 - tart2ms - INFO -     shapshot direction [4.1607337], [-0.58015125] J155334-331425
+# 2026-11-12 10:[bold][/bold]46:43,618 - tart2ms - INFO -     shapshot direction [4.16080781], [-0.58015141] J155335-331425
+# 2026-11-12 10:[bold][/bold]46:43,619 - tart2ms - INFO -     shapshot direction [4.16088304], [-0.58015157] J155336-331425
+# 2026-11-12 10:[bold][/bold]46:43,621 - tart2ms - INFO -     shapshot direction [4.16095764], [-0.58015173] J155337-331425
+# 2026-11-12 10:[bold][/bold]46:43,622 - tart2ms - INFO -     shapshot direction [4.16103189], [-0.58015189] J155338-331425
+# 2026-11-12 10:[bold][/bold]46:43,624 - tart2ms - INFO -     shapshot direction [4.16110718], [-0.58015206] J155339-331425
+# 2026-11-12 10:[bold][/bold]46:43,625 - tart2ms - INFO -     shapshot direction [4.16118156], [-0.58015222] J155340-331425
+# 2026-11-12 10:[bold][/bold]46:43,627 - tart2ms - INFO -     shapshot direction [4.16125597], [-0.58015238] J155341-331425
+# 2026-11-12 10:[bold][/bold]46:43,628 - tart2ms - INFO -     shapshot direction [4.16133137], [-0.58015254] J155342-331425
+# 2026-11-12 10:[bold][/bold]46:43,634 - tart2ms - INFO -     shapshot direction [4.1614052], [-0.5801527] J155343-331425
+# 2026-11-12 10:[bold][/bold]46:43,638 - tart2ms - INFO -     shapshot direction [4.16147977], [-0.58015287] J155344-331425
+# 2026-11-12 10:[bold][/bold]46:43,640 - tart2ms - INFO -     shapshot direction [4.16155488], [-0.58015303] J155345-331425
+# 2026-11-12 10:[bold][/bold]46:43,642 - tart2ms - INFO -     shapshot direction [4.16162927], [-0.58015319] J155347-331425
+# 2026-11-12 10:[bold][/bold]46:43,643 - tart2ms - INFO -     shapshot direction [4.16170383], [-0.58015335] J155348-331425
+# 2026-11-12 10:[bold][/bold]46:43,647 - tart2ms - INFO -     shapshot direction [4.16177872], [-0.58015352] J155349-331425
+# 2026-11-12 10:[bold][/bold]46:43,651 - tart2ms - INFO -     shapshot direction [4.16185401], [-0.58015368] J155350-331425
+# 2026-11-12 10:[bold][/bold]46:43,653 - tart2ms - INFO -     shapshot direction [4.16192796], [-0.58015384] J155351-331425
+# 2026-11-12 10:[bold][/bold]46:43,657 - tart2ms - INFO -     shapshot direction [4.16200317], [-0.580154] J155352-331425
+# 2026-11-12 10:[bold][/bold]46:43,659 - tart2ms - INFO -     shapshot direction [4.16207772], [-0.58015417] J155353-331425
+# 2026-11-12 10:[bold][/bold]46:43,661 - tart2ms - INFO -     shapshot direction [4.16215189], [-0.58015433] J155354-331425
+# 2026-11-12 10:[bold][/bold]46:43,664 - tart2ms - INFO -     shapshot direction [4.16222711], [-0.58015449] J155355-331425
+# 2026-11-12 10:[bold][/bold]46:43,666 - tart2ms - INFO -     shapshot direction [4.16230134], [-0.58015465] J155356-331425
+# 2026-11-12 10:[bold][/bold]46:43,669 - tart2ms - INFO -     shapshot direction [4.16237601], [-0.58015481] J155357-331426
+# 2026-11-12 10:[bold][/bold]46:43,671 - tart2ms - INFO -     shapshot direction [4.16245132], [-0.58015498] J155358-331426
+# 2026-11-12 10:[bold][/bold]46:43,672 - tart2ms - INFO -     shapshot direction [4.1625253], [-0.58015514] J155359-331426
+# 2026-11-12 10:[bold][/bold]46:43,675 - tart2ms - INFO -     shapshot direction [4.16260056], [-0.5801553] J155360-331426
+# 2026-11-12 10:[bold][/bold]46:43,678 - tart2ms - INFO -     shapshot direction [4.16267538], [-0.58015546] J155401-331426
+# 2026-11-12 10:[bold][/bold]46:43,681 - tart2ms - INFO -     shapshot direction [4.16274954], [-0.58015563] J155402-331426
+# 2026-11-12 10:[bold][/bold]46:43,685 - tart2ms - INFO -     shapshot direction [4.16282407], [-0.58015579] J155403-331426
+# 2026-11-12 10:[bold][/bold]46:43,686 - tart2ms - INFO -     shapshot direction [4.1628988], [-0.58015595] J155404-331426
+# 2026-11-12 10:[bold][/bold]46:43,688 - tart2ms - INFO -     shapshot direction [4.16297394], [-0.58015611] J155405-331426
+# 2026-11-12 10:[bold][/bold]46:43,689 - tart2ms - INFO -     shapshot direction [4.16304839], [-0.58015628] J155406-331426
+# 2026-11-12 10:[bold][/bold]46:43,691 - tart2ms - INFO -     shapshot direction [4.16312275], [-0.58015644] J155407-331426
+# 2026-11-12 10:[bold][/bold]46:43,692 - tart2ms - INFO -     shapshot direction [4.16319749], [-0.5801566] J155408-331426
+# 2026-11-12 10:[bold][/bold]46:43,694 - tart2ms - INFO -     shapshot direction [4.16327245], [-0.58015676] J155409-331426
+# 2026-11-12 10:[bold][/bold]46:43,695 - tart2ms - INFO -     shapshot direction [4.16334659], [-0.58015692] J155410-331426
+# 2026-11-12 10:[bold][/bold]46:43,697 - tart2ms - INFO -     shapshot direction [4.1634218], [-0.58015709] J155411-331426
+# 2026-11-12 10:[bold][/bold]46:43,699 - tart2ms - INFO -     shapshot direction [4.16349641], [-0.58015725] J155412-331426
+# 2026-11-12 10:[bold][/bold]46:43,700 - tart2ms - INFO -     shapshot direction [4.16357107], [-0.58015741] J155413-331426
+# 2026-11-12 10:[bold][/bold]46:43,702 - tart2ms - INFO -     shapshot direction [4.16364537], [-0.58015757] J155414-331426
+# 2026-11-12 10:[bold][/bold]46:43,703 - tart2ms - INFO -     shapshot direction [4.16372022], [-0.58015774] J155415-331426
+# 2026-11-12 10:[bold][/bold]46:43,705 - tart2ms - INFO -     shapshot direction [4.16379542], [-0.5801579] J155416-331426
+# 2026-11-12 10:[bold][/bold]46:43,706 - tart2ms - INFO -     shapshot direction [4.16386999], [-0.58015806] J155417-331426
+# 2026-11-12 10:[bold][/bold]46:43,708 - tart2ms - INFO -     shapshot direction [4.163944], [-0.58015822] J155418-331426
+# 2026-11-12 10:[bold][/bold]46:43,710 - tart2ms - INFO -     shapshot direction [4.16401927], [-0.58015839] J155419-331426
+# 2026-11-12 10:[bold][/bold]46:43,712 - tart2ms - INFO -     shapshot direction [4.16409337], [-0.58015855] J155420-331426
+# 2026-11-12 10:[bold][/bold]46:43,716 - tart2ms - INFO -     shapshot direction [4.16416844], [-0.58015871] J155421-331426
+# 2026-11-12 10:[bold][/bold]46:43,717 - tart2ms - INFO -     shapshot direction [4.16424277], [-0.58015887] J155422-331426
+# 2026-11-12 10:[bold][/bold]46:43,719 - tart2ms - INFO -     shapshot direction [4.16431748], [-0.58015904] J155423-331426
+# 2026-11-12 10:[bold][/bold]46:43,720 - tart2ms - INFO -     shapshot direction [4.1643924], [-0.5801592] J155425-331426
+# 2026-11-12 10:[bold][/bold]46:43,722 - tart2ms - INFO -     shapshot direction [4.16446733], [-0.58015936] J155426-331426
+# 2026-11-12 10:[bold][/bold]46:43,723 - tart2ms - INFO -     shapshot direction [4.16454196], [-0.58015952] J155427-331426
+# 2026-11-12 10:[bold][/bold]46:43,725 - tart2ms - INFO -     shapshot direction [4.16461643], [-0.58015969] J155428-331427
+# 2026-11-12 10:[bold][/bold]46:43,726 - tart2ms - INFO -     shapshot direction [4.16469109], [-0.58015985] J155429-331427
+# 2026-11-12 10:[bold][/bold]46:43,728 - tart2ms - INFO -     shapshot direction [4.16476599], [-0.58016001] J155430-331427
+# 2026-11-12 10:[bold][/bold]46:43,732 - tart2ms - INFO -     shapshot direction [4.16484051], [-0.58016017] J155431-331427
+# 2026-11-12 10:[bold][/bold]46:43,734 - tart2ms - INFO -     shapshot direction [4.16491494], [-0.58016034] J155432-331427
+# 2026-11-12 10:[bold][/bold]46:43,738 - tart2ms - INFO -     shapshot direction [4.1649902], [-0.5801605] J155433-331427
+# 2026-11-12 10:[bold][/bold]46:43,740 - tart2ms - INFO -     shapshot direction [4.16506423], [-0.58016066] J155434-331427
+# 2026-11-12 10:[bold][/bold]46:43,741 - tart2ms - INFO -     shapshot direction [4.16513913], [-0.58016082] J155435-331427
+# 2026-11-12 10:[bold][/bold]46:43,743 - tart2ms - INFO -     shapshot direction [4.16521386], [-0.58016099] J155436-331427
+# 2026-11-12 10:[bold][/bold]46:43,744 - tart2ms - INFO -     shapshot direction [4.16528833], [-0.58016115] J155437-331427
+# 2026-11-12 10:[bold][/bold]46:43,747 - tart2ms - INFO -     shapshot direction [4.1653629], [-0.58016131] J155438-331427
+# 2026-11-12 10:[bold][/bold]46:43,749 - tart2ms - INFO -     shapshot direction [4.16543808], [-0.58016148] J155439-331427
+# 2026-11-12 10:[bold][/bold]46:43,752 - tart2ms - INFO -     shapshot direction [4.16551222], [-0.58016164] J155440-331427
+# 2026-11-12 10:[bold][/bold]46:43,754 - tart2ms - INFO -     shapshot direction [4.16558719], [-0.5801618] J155441-331427
+# 2026-11-12 10:[bold][/bold]46:43,757 - tart2ms - INFO -     shapshot direction [4.16566152], [-0.58016196] J155442-331427
+# 2026-11-12 10:[bold][/bold]46:43,758 - tart2ms - INFO -     shapshot direction [4.16573673], [-0.58016213] J155443-331427
+# 2026-11-12 10:[bold][/bold]46:43,760 - tart2ms - INFO -     shapshot direction [4.16581144], [-0.58016229] J155444-331427
+# 2026-11-12 10:[bold][/bold]46:43,762 - tart2ms - INFO -     shapshot direction [4.16588597], [-0.58016245] J155445-331427
+# 2026-11-12 10:[bold][/bold]46:43,763 - tart2ms - INFO -     shapshot direction [4.16596071], [-0.58016261] J155446-331427
+# 2026-11-12 10:[bold][/bold]46:43,765 - tart2ms - INFO -     shapshot direction [4.16603525], [-0.58016278] J155447-331427
+# 2026-11-12 10:[bold][/bold]46:43,768 - tart2ms - INFO -     shapshot direction [4.16610973], [-0.58016294] J155448-331427
+# 2026-11-12 10:[bold][/bold]46:43,770 - tart2ms - INFO -     shapshot direction [4.16618516], [-0.5801631] J155449-331427
+# 2026-11-12 10:[bold][/bold]46:43,771 - tart2ms - INFO -     shapshot direction [4.16626007], [-0.58016327] J155450-331427
+# 2026-11-12 10:[bold][/bold]46:43,773 - tart2ms - INFO -     shapshot direction [4.1663341], [-0.58016343] J155451-331427
+# 2026-11-12 10:[bold][/bold]46:43,774 - tart2ms - INFO -     shapshot direction [4.16640887], [-0.58016359] J155452-331427
+# 2026-11-12 10:[bold][/bold]46:43,776 - tart2ms - INFO -     shapshot direction [4.16648322], [-0.58016375] J155453-331427
+# 2026-11-12 10:[bold][/bold]46:43,777 - tart2ms - INFO -     shapshot direction [4.16655757], [-0.58016391] J155454-331427
+# 2026-11-12 10:[bold][/bold]46:43,781 - tart2ms - INFO -     shapshot direction [4.16663324], [-0.58016408] J155455-331427
+# 2026-11-12 10:[bold][/bold]46:43,783 - tart2ms - INFO -     shapshot direction [4.16670752], [-0.58016424] J155456-331427
+# 2026-11-12 10:[bold][/bold]46:43,785 - tart2ms - INFO -     shapshot direction [4.16678201], [-0.5801644] J155457-331427
+# 2026-11-12 10:[bold][/bold]46:43,786 - tart2ms - INFO -     shapshot direction [4.16685653], [-0.58016457] J155458-331428
+# 2026-11-12 10:[bold][/bold]46:43,788 - tart2ms - INFO -     shapshot direction [4.16693191], [-0.58016473] J155459-331428
+# 2026-11-12 10:[bold][/bold]46:43,790 - tart2ms - INFO -     shapshot direction [4.1670065], [-0.58016489] J155500-331428
+# 2026-11-12 10:[bold][/bold]46:43,793 - tart2ms - INFO -     shapshot direction [4.16708112], [-0.58016505] J155501-331428
+# 2026-11-12 10:[bold][/bold]46:43,797 - tart2ms - INFO -     shapshot direction [4.16715557], [-0.58016522] J155503-331428
+# 2026-11-12 10:[bold][/bold]46:43,799 - tart2ms - INFO -     shapshot direction [4.16723023], [-0.58016538] J155504-331428
+# 2026-11-12 10:[bold][/bold]46:43,800 - tart2ms - INFO -     shapshot direction [4.16730459], [-0.58016554] J155505-331428
+# 2026-11-12 10:[bold][/bold]46:43,802 - tart2ms - INFO -     shapshot direction [4.16737979], [-0.58016571] J155506-331428
+# 2026-11-12 10:[bold][/bold]46:43,804 - tart2ms - INFO -     shapshot direction [4.16745424], [-0.58016587] J155507-331428
+# 2026-11-12 10:[bold][/bold]46:43,805 - tart2ms - INFO -     shapshot direction [4.1675288], [-0.58016603] J155508-331428
+# 2026-11-12 10:[bold][/bold]46:43,807 - tart2ms - INFO -     shapshot direction [4.16760337], [-0.58016619] J155509-331428
+# 2026-11-12 10:[bold][/bold]46:43,808 - tart2ms - INFO -     shapshot direction [4.16767782], [-0.58016636] J155510-331428
+# 2026-11-12 10:[bold][/bold]46:43,810 - tart2ms - INFO -     shapshot direction [4.16775312], [-0.58016652] J155511-331428
+# 2026-11-12 10:[bold][/bold]46:43,811 - tart2ms - INFO -     shapshot direction [4.16782751], [-0.58016668] J155512-331428
+# 2026-11-12 10:[bold][/bold]46:43,813 - tart2ms - INFO -     shapshot direction [4.16790247], [-0.58016685] J155513-331428
+# 2026-11-12 10:[bold][/bold]46:43,814 - tart2ms - INFO -     shapshot direction [4.16797707], [-0.58016701] J155514-331428
+# 2026-11-12 10:[bold][/bold]46:43,816 - tart2ms - INFO -     shapshot direction [4.16805164], [-0.58016717] J155515-331428
+# 2026-11-12 10:[bold][/bold]46:43,817 - tart2ms - INFO -     shapshot direction [4.16812618], [-0.58016733] J155516-331428
+# 2026-11-12 10:[bold][/bold]46:43,819 - tart2ms - INFO -     shapshot direction [4.16820096], [-0.5801675] J155517-331428
+# 2026-11-12 10:[bold][/bold]46:43,823 - tart2ms - INFO -     shapshot direction [4.16827559], [-0.58016766] J155518-331428
+# 2026-11-12 10:[bold][/bold]46:43,826 - tart2ms - INFO -     shapshot direction [4.16835005], [-0.58016782] J155519-331428
+# 2026-11-12 10:[bold][/bold]46:43,828 - tart2ms - INFO -     shapshot direction [4.16842476], [-0.58016799] J155520-331428
+# 2026-11-12 10:[bold][/bold]46:43,829 - tart2ms - INFO -     shapshot direction [4.16849924], [-0.58016815] J155521-331428
+# 2026-11-12 10:[bold][/bold]46:43,831 - tart2ms - INFO -     shapshot direction [4.1685748], [-0.58016831] J155522-331428
+# 2026-11-12 10:[bold][/bold]46:43,833 - tart2ms - INFO -     shapshot direction [4.16864927], [-0.58016848] J155523-331428
+# 2026-11-12 10:[bold][/bold]46:43,834 - tart2ms - INFO -     shapshot direction [4.16872372], [-0.58016864] J155524-331428
+# 2026-11-12 10:[bold][/bold]46:43,836 - tart2ms - INFO -     shapshot direction [4.16879824], [-0.5801688] J155525-331428
+# 2026-11-12 10:[bold][/bold]46:43,837 - tart2ms - INFO -     shapshot direction [4.16887273], [-0.58016896] J155526-331428
+# 2026-11-12 10:[bold][/bold]46:43,839 - tart2ms - INFO -     shapshot direction [4.16894829], [-0.58016913] J155527-331428
+# 2026-11-12 10:[bold][/bold]46:43,840 - tart2ms - INFO -     shapshot direction [4.16902271], [-0.58016929] J155528-331429
+# 2026-11-12 10:[bold][/bold]46:43,842 - tart2ms - INFO -     shapshot direction [4.16909711], [-0.58016945] J155529-331429
+# 2026-11-12 10:[bold][/bold]46:43,843 - tart2ms - INFO -     shapshot direction [4.16917149], [-0.58016961] J155530-331429
+# 2026-11-12 10:[bold][/bold]46:43,845 - tart2ms - INFO -     shapshot direction [4.16924632], [-0.58016978] J155531-331429
+# 2026-11-12 10:[bold][/bold]46:43,848 - tart2ms - INFO -     shapshot direction [4.16932143], [-0.58016994] J155532-331429
+# 2026-11-12 10:[bold][/bold]46:43,850 - tart2ms - INFO -     shapshot direction [4.1693953], [-0.5801701] J155533-331429
+# 2026-11-12 10:[bold][/bold]46:43,854 - tart2ms - INFO -     shapshot direction [4.16947042], [-0.58017027] J155534-331429
+# 2026-11-12 10:[bold][/bold]46:43,857 - tart2ms - INFO -     shapshot direction [4.16954527], [-0.58017043] J155535-331429
+# 2026-11-12 10:[bold][/bold]46:43,861 - tart2ms - INFO -     shapshot direction [4.16962003], [-0.58017059] J155536-331429
+# 2026-11-12 10:[bold][/bold]46:43,864 - tart2ms - INFO -     shapshot direction [4.16969431], [-0.58017076] J155537-331429
+# 2026-11-12 10:[bold][/bold]46:43,871 - tart2ms - INFO -     shapshot direction [4.16976878], [-0.58017092] J155538-331429
+# 2026-11-12 10:[bold][/bold]46:43,874 - tart2ms - INFO -     shapshot direction [4.16984398], [-0.58017108] J155539-331429
+# 2026-11-12 10:[bold][/bold]46:43,875 - tart2ms - INFO -     shapshot direction [4.16991835], [-0.58017125] J155540-331429
+# 2026-11-12 10:[bold][/bold]46:43,877 - tart2ms - INFO -     shapshot direction [4.16999312], [-0.58017141] J155542-331429
+# 2026-11-12 10:[bold][/bold]46:43,878 - tart2ms - INFO -     shapshot direction [4.17006824], [-0.58017157] J155543-331429
+# 2026-11-12 10:[bold][/bold]46:43,880 - tart2ms - INFO -     shapshot direction [4.1701427], [-0.58017174] J155544-331429
+# 2026-11-12 10:[bold][/bold]46:43,881 - tart2ms - INFO -     shapshot direction [4.17021691], [-0.5801719] J155545-331429
+# 2026-11-12 10:[bold][/bold]46:43,883 - tart2ms - INFO -     shapshot direction [4.17029221], [-0.58017206] J155546-331429
+# 2026-11-12 10:[bold][/bold]46:43,884 - tart2ms - INFO -     shapshot direction [4.17036664], [-0.58017222] J155547-331429
+# 2026-11-12 10:[bold][/bold]46:43,886 - tart2ms - INFO -     shapshot direction [4.17044116], [-0.58017239] J155548-331429
+# 2026-11-12 10:[bold][/bold]46:43,887 - tart2ms - INFO -     shapshot direction [4.17051563], [-0.58017255] J155549-331429
+# 2026-11-12 10:[bold][/bold]46:43,889 - tart2ms - INFO -     shapshot direction [4.17059082], [-0.58017271] J155550-331429
+# 2026-11-12 10:[bold][/bold]46:43,890 - tart2ms - INFO -     shapshot direction [4.17066523], [-0.58017288] J155551-331429
+# 2026-11-12 10:[bold][/bold]46:43,894 - tart2ms - INFO -     shapshot direction [4.17073968], [-0.58017304] J155552-331429
+# 2026-11-12 10:[bold][/bold]46:43,898 - tart2ms - INFO -     shapshot direction [4.17081458], [-0.5801732] J155553-331429
+# 2026-11-12 10:[bold][/bold]46:43,900 - tart2ms - INFO -     shapshot direction [4.1708891], [-0.58017337] J155554-331429
+# 2026-11-12 10:[bold][/bold]46:43,902 - tart2ms - INFO -     shapshot direction [4.17096438], [-0.58017353] J155555-331429
+# 2026-11-12 10:[bold][/bold]46:43,903 - tart2ms - INFO -     shapshot direction [4.17103876], [-0.58017369] J155556-331429
+# 2026-11-12 10:[bold][/bold]46:43,905 - tart2ms - INFO -     shapshot direction [4.17111349], [-0.58017386] J155557-331429
+# 2026-11-12 10:[bold][/bold]46:43,906 - tart2ms - INFO -     shapshot direction [4.17118791], [-0.58017402] J155558-331429
+# 2026-11-12 10:[bold][/bold]46:43,908 - tart2ms - INFO -     shapshot direction [4.17126285], [-0.58017418] J155559-331430
+# 2026-11-12 10:[bold][/bold]46:43,909 - tart2ms - INFO -     shapshot direction [4.17133733], [-0.58017435] J155600-331430
+# 2026-11-12 10:[bold][/bold]46:43,911 - tart2ms - INFO -     shapshot direction [4.17141207], [-0.58017451] J155601-331430
+# 2026-11-12 10:[bold][/bold]46:43,912 - tart2ms - INFO -     shapshot direction [4.17148654], [-0.58017467] J155602-331430
+# 2026-11-12 10:[bold][/bold]46:43,914 - tart2ms - INFO -     shapshot direction [4.17156137], [-0.58017484] J155603-331430
+# 2026-11-12 10:[bold][/bold]46:43,915 - tart2ms - INFO -     shapshot direction [4.17163585], [-0.580175] J155604-331430
+# 2026-11-12 10:[bold][/bold]46:43,920 - tart2ms - INFO - Writing MS for telescope name 'TART'
+# 2026-11-12 10:[bold][/bold]46:56,512 - tart2ms - INFO - Appoximate unweighted instrument resolution: 182.9551 arcmin
+# 2026-11-12 10:[bold][/bold]46:56,513 - tart2ms - INFO - Data column size 1.26 MiB
+# 2026-11-12 10:[bold][/bold]46:57	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 61356.4 is outside the range of the IERS (Earth axis data) table.
+# 2026-11-12 10:[bold][/bold]46:57	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
+# 2026-11-12 10:[bold][/bold]46:57,079 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 0%
+# 2026-11-12 10:[bold][/bold]46:57,544 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 10%
+# 2026-11-12 10:[bold][/bold]46:57,904 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 20%
+# 2026-11-12 10:[bold][/bold]46:58,293 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 30%
+# 2026-11-12 10:[bold][/bold]46:58,763 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 40%
+# 2026-11-12 10:[bold][/bold]46:59,201 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 50%
+# 2026-11-12 10:[bold][/bold]46:59,584 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 60%
+# 2026-11-12 10:[bold][/bold]46:59,961 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 70%
+# 2026-11-12 10:[bold][/bold]47:00,222 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 80%
+# 2026-11-12 10:[bold][/bold]47:00,424 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 90%
+# 2026-11-12 10:[bold][/bold]47:00,598 - tart2ms - INFO - <Done>
+# 2026-11-12 10:[bold][/bold]47:00,602 - tart2ms - INFO - Predicting GNSS positions for 600 timestamps
+# 2026-11-12 10:[bold][/bold]47:04,975 - tart2ms - INFO - Writing catalogs as 'msdir/model_sources_*.txt'
+# 2026-11-12 10:[bold][/bold]47:07,637 - tart2ms - INFO - Per user request: Rephase all data to 15h50m57.08s -33d14m19.69s
 # Data type: 24, SORT_COLUMNSnot handled
 # Data type: 24, SORT_ORDERnot handled
-# 2026-11-06 14:[bold][/bold]07:08,525 - tart2ms - INFO - Synthesizing MS...
-# 2026-11-06 14:[bold][/bold]07:14,162 - tart2ms - INFO - Performing finalization of UVW coordinates if needed
-# 2026-11-06 14:[bold][/bold]07:14,216 - tart2ms - INFO - Computing UVW coordinates for output dataset... WAIT
-# 2026-11-06 14:[bold][/bold]07:14,229 - tart2ms - INFO - 	 Calculating UVW progress: 0%
-# 2026-11-06 14:[bold][/bold]07:14,311 - tart2ms - INFO - 	 Calculating UVW progress: 10%
-# 2026-11-06 14:[bold][/bold]07:14,390 - tart2ms - INFO - 	 Calculating UVW progress: 20%
-# 2026-11-06 14:[bold][/bold]07:14,462 - tart2ms - INFO - 	 Calculating UVW progress: 30%
-# 2026-11-06 14:[bold][/bold]07:14,548 - tart2ms - INFO - 	 Calculating UVW progress: 40%
-# 2026-11-06 14:[bold][/bold]07:14,620 - tart2ms - INFO - 	 Calculating UVW progress: 50%
-# 2026-11-06 14:[bold][/bold]07:14,702 - tart2ms - INFO - 	 Calculating UVW progress: 60%
-# 2026-11-06 14:[bold][/bold]07:14,786 - tart2ms - INFO - 	 Calculating UVW progress: 70%
-# 2026-11-06 14:[bold][/bold]07:14,861 - tart2ms - INFO - 	 Calculating UVW progress: 80%
-# 2026-11-06 14:[bold][/bold]07:14,942 - tart2ms - INFO - 	 Calculating UVW progress: 90%
-# 2026-11-06 14:[bold][/bold]07:15,045 - tart2ms - INFO - 	 1 / 1 field J193229-012517 [[ 5.11588946 -0.02480776]] completed
-# 2026-11-06 14:[bold][/bold]07:15,045 - tart2ms - INFO - Writing computed UVW coordinates to output dataset
-# 2026-11-06 14:[bold][/bold]07:15,056 - tart2ms - INFO - Measurement set writing complete. Took 0m33.68s
+# 2026-11-12 10:[bold][/bold]47:07,865 - tart2ms - INFO - Synthesizing MS...
+# 2026-11-12 10:[bold][/bold]47:13,131 - tart2ms - INFO - Performing finalization of UVW coordinates if needed
+# 2026-11-12 10:[bold][/bold]47:13,192 - tart2ms - INFO - Computing UVW coordinates for output dataset... WAIT
+# 2026-11-12 10:[bold][/bold]47:13,203 - tart2ms - INFO - 	 Calculating UVW progress: 0%
+# 2026-11-12 10:[bold][/bold]47:13,280 - tart2ms - INFO - 	 Calculating UVW progress: 10%
+# 2026-11-12 10:[bold][/bold]47:13,351 - tart2ms - INFO - 	 Calculating UVW progress: 20%
+# 2026-11-12 10:[bold][/bold]47:13,427 - tart2ms - INFO - 	 Calculating UVW progress: 30%
+# 2026-11-12 10:[bold][/bold]47:13,503 - tart2ms - INFO - 	 Calculating UVW progress: 40%
+# 2026-11-12 10:[bold][/bold]47:13,579 - tart2ms - INFO - 	 Calculating UVW progress: 50%
+# 2026-11-12 10:[bold][/bold]47:13,664 - tart2ms - INFO - 	 Calculating UVW progress: 60%
+# 2026-11-12 10:[bold][/bold]47:13,745 - tart2ms - INFO - 	 Calculating UVW progress: 70%
+# 2026-11-12 10:[bold][/bold]47:13,838 - tart2ms - INFO - 	 Calculating UVW progress: 80%
+# 2026-11-12 10:[bold][/bold]47:13,915 - tart2ms - INFO - 	 Calculating UVW progress: 90%
+# 2026-11-12 10:[bold][/bold]47:14,018 - tart2ms - INFO - 	 1 / 1 field J155057-331420 [[ 4.14930829 -0.58012653]] completed
+# 2026-11-12 10:[bold][/bold]47:14,018 - tart2ms - INFO - Writing computed UVW coordinates to output dataset
+# 2026-11-12 10:[bold][/bold]47:14,039 - tart2ms - INFO - Measurement set writing complete. Took 0m31.57s
 # <Done>
-2026-11-06 14:07:15 STIMELA.tart-image.create-ms INFO: tart2ms returns exit code 0 after 0:01:04
+2026-11-12 10:47:14 STIMELA.tart-image.create-ms INFO: tart2ms returns exit code 0 after 0:00:52

@@ -1,60 +1,60 @@
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: ### validated inputs
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: cab casatasks:
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   selectdata = True
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   docallib = False
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   gaintable = ['caltables/tart.G0a', 'caltables/tart.G0p']
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   flagbackup = True
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   ms = msdir/ke-kitui.ms
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO:   flagversions-table = msdir/ke-kitui.ms.flagversions
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmprpbb77ta
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: binding /dev/shm/tmprpbb77ta to /home/vscode/.casa as rw
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: binding /tmp/tmp4nbq93np to /tmp as rw
-2026-11-06 14:10:02 STIMELA.tart-image.applycal INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: ### validated inputs
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: cab casatasks:
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   selectdata = True
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   docallib = False
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   gaintable = ['caltables/tart.G0a', 'caltables/tart.G0p']
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   flagbackup = True
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   ms = msdir/za-rhodes.ms
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO:   flagversions-table = msdir/za-rhodes.ms.flagversions
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmphke_er8i
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: binding /dev/shm/tmphke_er8i to /home/vscode/.casa as rw
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: binding /tmp/tmpe898_edn to /tmp as rw
+2026-11-12 10:48:04 STIMELA.tart-image.applycal INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
 ### preparing function call:
 ###     casatasks.applycal(
-###         vis='msdir/ke-kitui.ms',
+###         vis='msdir/za-rhodes.ms',
 ###         selectdata=True,
 ###         docallib=False,
 ###         gaintable=['caltables/tart.G0a', 'caltables/tart.G0p'],
 ###         flagbackup=True)
-2026-11-06 14:10:03 STIMELA.tart-image.applycal INFO: ---INVOKING---
-2026-11-06 14:10:03 STIMELA.tart-image.applycal INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmprpbb77ta:/home/vscode/.casa:rw --bind /tmp/tmp4nbq93np:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
+2026-11-12 10:48:05 STIMELA.tart-image.applycal INFO: ---INVOKING---
+2026-11-12 10:48:05 STIMELA.tart-image.applycal INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmphke_er8i:/home/vscode/.casa:rw --bind /tmp/tmpe898_edn:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
 
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::::casa	##########################################
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::::casa	##### Begin Task: applycal           #####
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::::casa	applycal( vis='msdir/ke-kitui.ms', field='', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['caltables/tart.G0a', 'caltables/tart.G0p'], gainfield=[], interp=[], spwmap=[], calwt=[True], parang=False, applymode='', flagbackup=True )
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]calibrater::open	****Using NEW VI2-driven calibrater tool****
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]calibrater::open	Opening MS: msdir/ke-kitui.ms for calibration.
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]VisSetUtil::addScrCols	Start copying column keyword(s) of CORRECTED_DATA from DATA
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]Calibrater::	Initializing nominal selection to the whole MS.
-# 2026-11-06 14:[bold][/bold]10:10	INFO	applycal::[bold][/bold]AgentFlagger::open	Table type is Measurement Set
-# 2026-11-06 14:[bold][/bold]10:10	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
-# 2026-11-06 14:[bold][/bold]10:10	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
-# 2026-11-06 14:[bold][/bold]10:10	INFO	calibrater::reset	Reseting solve/apply state
-# 2026-11-06 14:[bold][/bold]10:10	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
-# 2026-11-06 14:[bold][/bold]10:10	INFO	Calibrater::selectvis	Selection did not drop any rows
-# 2026-11-06 14:[bold][/bold]10:10	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
-# 2026-11-06 14:[bold][/bold]10:10	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
-# 2026-11-06 14:[bold][/bold]10:10	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
-# 2026-11-06 14:[bold][/bold]10:10	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
-# 2026-11-06 14:[bold][/bold]10:11	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=caltables/tart.G0p select= interp=linear spwmap=[-1] calWt=true
-# 2026-11-06 14:[bold][/bold]10:11	INFO	calibrater::correct	Beginning correct---------------------------
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::correct2 (VI2/VB2)	The following calibration terms are arranged for apply:
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=caltables/tart.G0p select= interp=linear spwmap=[-1] calWt=true
-# 2026-11-06 14:[bold][/bold]10:11	INFO	Calibrater::correct2 (VI2/VB2)	Found valid WEIGHT_SPECTRUM, correcting it.
-# 2026-11-06 14:[bold][/bold]10:12	INFO	calibrater::correct	Finished correcting.
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	Calibration apply flagging statistics (among calibrateable spws):
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	  Total visibilities selected for correction (ncorr x nchan x nrow summed over spws) = 165600
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	  Flags:
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	   G Jones: In: 0 / 165600   (0.0%) --> Out: 0 / 165600   (0.0%) (caltables/tart.G0a)
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	   G Jones: In: 0 / 165600   (0.0%) --> Out: 0 / 165600   (0.0%) (caltables/tart.G0p)
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	Task applycal complete. Start time: 2026-11-06 14:[bold][/bold]10:09.757278 End time: 2026-11-06 14:[bold][/bold]10:11.674971
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	##### End Task: applycal             #####
-# 2026-11-06 14:[bold][/bold]10:12	INFO	applycal::::casa	##########################################
-2026-11-06 14:10:12 STIMELA.tart-image.applycal INFO: applycal returns exit code 0 after 0:00:09
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::::casa	##########################################
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::::casa	##### Begin Task: applycal           #####
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::::casa	applycal( vis='msdir/za-rhodes.ms', field='', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['caltables/tart.G0a', 'caltables/tart.G0p'], gainfield=[], interp=[], spwmap=[], calwt=[True], parang=False, applymode='', flagbackup=True )
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::[bold][/bold]calibrater::open	****Using NEW VI2-driven calibrater tool****
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::[bold][/bold]calibrater::open	Opening MS: msdir/za-rhodes.ms for calibration.
+# 2026-11-12 10:[bold][/bold]48:11	INFO	applycal::[bold][/bold]VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+# 2026-11-12 10:[bold][/bold]48:12	INFO	applycal::[bold][/bold]VisSetUtil::addScrCols	Start copying column keyword(s) of CORRECTED_DATA from DATA
+# 2026-11-12 10:[bold][/bold]48:12	INFO	applycal::[bold][/bold]Calibrater::	Initializing nominal selection to the whole MS.
+# 2026-11-12 10:[bold][/bold]48:12	INFO	applycal::[bold][/bold]AgentFlagger::open	Table type is Measurement Set
+# 2026-11-12 10:[bold][/bold]48:12	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::reset	Reseting solve/apply state
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::selectvis	Selection did not drop any rows
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=caltables/tart.G0p select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-12 10:[bold][/bold]48:12	INFO	calibrater::correct	Beginning correct---------------------------
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::correct2 (VI2/VB2)	The following calibration terms are arranged for apply:
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=caltables/tart.G0a select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=caltables/tart.G0p select= interp=linear spwmap=[-1] calWt=true
+# 2026-11-12 10:[bold][/bold]48:12	INFO	Calibrater::correct2 (VI2/VB2)	Found valid WEIGHT_SPECTRUM, correcting it.
+# 2026-11-12 10:[bold][/bold]48:13	INFO	calibrater::correct	Finished correcting.
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	Calibration apply flagging statistics (among calibrateable spws):
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	  Total visibilities selected for correction (ncorr x nchan x nrow summed over spws) = 165600
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	  Flags:
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	   G Jones: In: 73800 / 165600   (44.56521739130435%) --> Out: 73800 / 165600   (44.56521739130435%) (caltables/tart.G0a)
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	   G Jones: In: 73800 / 165600   (44.56521739130435%) --> Out: 73800 / 165600   (44.56521739130435%) (caltables/tart.G0p)
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	Task applycal complete. Start time: 2026-11-12 10:[bold][/bold]48:11.398270 End time: 2026-11-12 10:[bold][/bold]48:13.223754
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	##### End Task: applycal             #####
+# 2026-11-12 10:[bold][/bold]48:13	INFO	applycal::::casa	##########################################
+2026-11-12 10:48:13 STIMELA.tart-image.applycal INFO: applycal returns exit code 0 after 0:00:08

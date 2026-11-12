@@ -1,26 +1,26 @@
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: ### validated inputs
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: cab tart_download_data:
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   api = https://api.elec.ac.nz/tart/ke-kitui
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   n = 10
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   raw = False
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   vis = True
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   dir = rawdata
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO:   pw = False
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: singularity image /home/vscode/.singularity/ghcr.io-tart-telescope-tools:v1.2.3.simg exists
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: binding /tmp/tmpb6s04u8w to /tmp as rw
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: ---INVOKING---
-2026-11-06 14:04:58 STIMELA.tart-image.download-hdf INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /tmp/tmpb6s04u8w:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/ghcr.io-tart-telescope-tools:v1.2.3.simg tart_download_data --api https://api.elec.ac.nz/tart/ke-kitui --n 10 --vis --dir rawdata --pw False
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: ### validated inputs
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: cab tart_download_data:
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   api = https://api.elec.ac.nz/tart/za-rhodes
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   n = 10
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   raw = False
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   vis = True
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   dir = rawdata
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO:   pw = False
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: singularity image /home/vscode/.singularity/ghcr.io-tart-telescope-tools:v1.2.3.simg exists
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: binding /tmp/tmpf3tm57_o to /tmp as rw
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: ---INVOKING---
+2026-11-12 10:45:37 STIMELA.tart-image.download-hdf INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /tmp/tmpf3tm57_o:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/ghcr.io-tart-telescope-tools:v1.2.3.simg tart_download_data --api https://api.elec.ac.nz/tart/za-rhodes --n 10 --vis --dir rawdata --pw False
 
-# 2026-11-06 14:[bold][/bold]04:59,204 - root - INFO - Downloading Data from https://api.elec.ac.nz/tart/ke-kitui
-# 2026-11-06 14:[bold][/bold]05:01,054 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_14_04_27.647289.hdf, 444315a10f3ac72be041189fd877b91bbecb3de09bd668ae1c397f9c3ae9aec8) -> rawdata/vis_2026-11-06_14_04_27.647289.hdf
-# 2026-11-06 14:[bold][/bold]05:03,571 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_14_03_26.147071.hdf, 9d282949dd8724ed9872dfc1793b5445f97550be95f1ae3746f4ec4910ce9de6) -> rawdata/vis_2026-11-06_14_03_26.147071.hdf
-# 2026-11-06 14:[bold][/bold]05:05,906 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_14_02_24.650623.hdf, e754e5c4c517e73795b15bca2b6595600cb8389a299de2a9d3506c4e2ec93c3c) -> rawdata/vis_2026-11-06_14_02_24.650623.hdf
-# 2026-11-06 14:[bold][/bold]05:08,423 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_14_01_23.147533.hdf, 51fabd4ff5f1cc0fdca320644ffe33d0c59c266964053d69fa1ab4bbf45a83a0) -> rawdata/vis_2026-11-06_14_01_23.147533.hdf
-# 2026-11-06 14:[bold][/bold]05:11,200 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_14_00_21.645029.hdf, 9c23c83c243b422a3cf157a64b9c797df0411bb36c5e67ee17fdb1ed264028f8) -> rawdata/vis_2026-11-06_14_00_21.645029.hdf
-# 2026-11-06 14:[bold][/bold]05:13,512 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_13_59_20.154070.hdf, bb6e9cd6be34b8cd636c3605339973370ae62758e089c89cbf84e3cb3790f7ed) -> rawdata/vis_2026-11-06_13_59_20.154070.hdf
-# 2026-11-06 14:[bold][/bold]05:16,056 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_13_58_18.657884.hdf, ef15466041dc5daa60c721cf24464537ec48d815be7b5c7c12fb213b5e6627c5) -> rawdata/vis_2026-11-06_13_58_18.657884.hdf
-# 2026-11-06 14:[bold][/bold]05:18,658 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_13_57_17.146845.hdf, c1c79547588a9c05cc8001d6d3483a5575030d66be15c763dba772cf6177c417) -> rawdata/vis_2026-11-06_13_57_17.146845.hdf
-# 2026-11-06 14:[bold][/bold]05:21,041 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_13_56_15.648158.hdf, a43479d1b1d860169e09f129b3af19720fdb5a3896b3cc827ef5286995d07ed3) -> rawdata/vis_2026-11-06_13_56_15.648158.hdf
-# 2026-11-06 14:[bold][/bold]05:23,191 - root - INFO - Download_file(https://api.elec.ac.nz/tart/ke-kitui/vis/vis_2026-11-06_13_55_14.149574.hdf, d118487a632da424ed70cdd4753866f56fbaf18c58f97e3ee8757f4633354b31) -> rawdata/vis_2026-11-06_13_55_14.149574.hdf
-2026-11-06 14:05:25 STIMELA.tart-image.download-hdf INFO: tart_download_data returns exit code 0 after 0:00:27
+# 2026-11-12 10:[bold][/bold]45:42,816 - root - INFO - Downloading Data from https://api.elec.ac.nz/tart/za-rhodes
+# 2026-11-12 10:[bold][/bold]45:44,189 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_45_24.025977.hdf, 0186cbe1bf5a5fdbb4bff768234313d88a0c7df7ebdcc3077d292e8aa7e09422) -> rawdata/vis_2026-11-12_10_45_24.025977.hdf
+# 2026-11-12 10:[bold][/bold]45:47,074 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_44_22.529314.hdf, 49537889c268497de15305f1e2a67c82a5e403ca135bd07b60295f563b33ddd1) -> rawdata/vis_2026-11-12_10_44_22.529314.hdf
+# 2026-11-12 10:[bold][/bold]45:49,932 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_43_21.033456.hdf, 986b18b03279a4a5e3c2d8113712b15641c8dba7abb13468b5542ceccba7ae08) -> rawdata/vis_2026-11-12_10_43_21.033456.hdf
+# 2026-11-12 10:[bold][/bold]45:52,790 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_42_19.528289.hdf, 23c3cfb587103ac17bdee6952190006c8bf8f5d354179e0c819447cc24902187) -> rawdata/vis_2026-11-12_10_42_19.528289.hdf
+# 2026-11-12 10:[bold][/bold]45:55,676 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_41_18.026551.hdf, dae8bcdaed5b16512b5962e7f481efdb43cf3877c5e48ae244a3a8de79fa210c) -> rawdata/vis_2026-11-12_10_41_18.026551.hdf
+# 2026-11-12 10:[bold][/bold]45:58,537 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_40_16.528229.hdf, 64c5b6e9cd5d1b7d6382e91d433590545fe531b20ce6c12e3d5fb8462084403c) -> rawdata/vis_2026-11-12_10_40_16.528229.hdf
+# 2026-11-12 10:[bold][/bold]46:01,408 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_39_15.024934.hdf, 22182dec3b9ee56ca144e8ad2c93c92b907015c69c4b8574981fea855b6b3e6c) -> rawdata/vis_2026-11-12_10_39_15.024934.hdf
+# 2026-11-12 10:[bold][/bold]46:04,287 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_38_13.528918.hdf, 75a91e2c37ef98a232016ca8cdc2d55af8fbce59575d0341e37e1bae6e4c4441) -> rawdata/vis_2026-11-12_10_38_13.528918.hdf
+# 2026-11-12 10:[bold][/bold]46:07,149 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_37_12.024187.hdf, 599840cba8da2431f52bf3cb64931d7d8ffa2e76d42d6ffe9e59a2da1db95618) -> rawdata/vis_2026-11-12_10_37_12.024187.hdf
+# 2026-11-12 10:[bold][/bold]46:10,009 - root - INFO - Download_file(https://api.elec.ac.nz/tart/za-rhodes/vis/vis_2026-11-12_10_36_10.525169.hdf, a1540a768c2c45243b94536de289bb14ea08b40ff528cd072e8883fb5e0ac191) -> rawdata/vis_2026-11-12_10_36_10.525169.hdf
+2026-11-12 10:46:12 STIMELA.tart-image.download-hdf INFO: tart_download_data returns exit code 0 after 0:00:34

@@ -1,28 +1,28 @@
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: ### validated inputs
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: cab casa:
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO:   mode = save
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO:   versionname = ORIGINAL
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO:   ms = msdir/ke-kitui.ms
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO:   flagversions-table = msdir/ke-kitui.ms.flagversions
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmp31yh5ozk
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: binding /dev/shm/tmp31yh5ozk to /home/vscode/.casa as rw
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: binding /tmp/tmpduz6day8 to /tmp as rw
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: ### validated inputs
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: cab casa:
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO:   mode = save
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO:   versionname = ORIGINAL
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO:   ms = msdir/za-rhodes.ms
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO:   flagversions-table = msdir/za-rhodes.ms.flagversions
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: singularity image /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg exists
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: bind_dirs.dot-casa: using temporary directory /dev/shm/tmp22cpb_bq
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: binding /dev/shm/tmp22cpb_bq to /home/vscode/.casa as rw
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: binding /tmp/tmp16804v7i to /tmp as rw
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: binding /workspaces/tart-solar-l1-monitor/casa as rw
 ### preparing python code invocation with arguments:
-###     vis='msdir/ke-kitui.ms'
+###     vis='msdir/za-rhodes.ms'
 ###     mode='save'
 ###     versionname='ORIGINAL'
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: ---INVOKING---
-2026-11-06 14:07:39 STIMELA.tart-image.flagsave INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmp31yh5ozk:/home/vscode/.casa:rw --bind /tmp/tmpduz6day8:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: ---INVOKING---
+2026-11-12 10:47:28 STIMELA.tart-image.flagsave INFO: /usr/bin/singularity exec --pwd /workspaces/tart-solar-l1-monitor/casa --contain --bind /dev/shm/tmp22cpb_bq:/home/vscode/.casa:rw --bind /tmp/tmp16804v7i:/tmp:rw --bind /workspaces/tart-solar-l1-monitor/casa:/workspaces/tart-solar-l1-monitor/casa:rw /home/vscode/.singularity/quay.io-stimela2-casa6:cc0.2.1.simg python3.10 -u -c ...
 
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	##########################################
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	##### Begin Task: flagmanager        #####
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	flagmanager( vis='msdir/ke-kitui.ms', mode='save', versionname='ORIGINAL', oldname='', comment='', merge='replace' )
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::[bold][/bold]AgentFlagger::open	Table type is Measurement Set
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	Save current flagversions to ORIGINAL
-# 2026-11-06 14:[bold][/bold]07:53	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called ORIGINAL
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	Task flagmanager complete. Start time: 2026-11-06 14:[bold][/bold]07:53.035883 End time: 2026-11-06 14:[bold][/bold]07:53.219989
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	##### End Task: flagmanager          #####
-# 2026-11-06 14:[bold][/bold]07:53	INFO	flagmanager::::casa	##########################################
-2026-11-06 14:07:53 STIMELA.tart-image.flagsave INFO: [python] returns exit code 0 after 0:00:14
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	##########################################
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	##### Begin Task: flagmanager        #####
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	flagmanager( vis='msdir/za-rhodes.ms', mode='save', versionname='ORIGINAL', oldname='', comment='', merge='replace' )
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::[bold][/bold]AgentFlagger::open	Table type is Measurement Set
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	Save current flagversions to ORIGINAL
+# 2026-11-12 10:[bold][/bold]47:40	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called ORIGINAL
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	Task flagmanager complete. Start time: 2026-11-12 10:[bold][/bold]47:40.140303 End time: 2026-11-12 10:[bold][/bold]47:40.402878
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	##### End Task: flagmanager          #####
+# 2026-11-12 10:[bold][/bold]47:40	INFO	flagmanager::::casa	##########################################
+2026-11-12 10:47:40 STIMELA.tart-image.flagsave INFO: [python] returns exit code 0 after 0:00:12
